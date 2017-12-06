@@ -1,0 +1,27 @@
+/* Colors */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+a {
+  text-decoration: none;
+  transition: 0.3s; }
+  a:hover {
+    text-decoration: none;
+    opacity: 0.5; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    list-style: none; }
+
+.brand {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: flex; }
+  .brand img {
+    margin-right: 10px; }

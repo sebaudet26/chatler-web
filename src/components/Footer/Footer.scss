@@ -1,0 +1,59 @@
+@import '../../lib/styles/variables.scss';
+
+footer {
+  padding: 50px 0;
+  background: $main-color;
+  color: $white;
+  font-size: 16px;
+
+  .footer-list {
+
+    li {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    &-title {
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      opacity: 0.5;
+      margin-bottom: 15px !important;
+    }
+  }
+
+  .brand {
+    margin-bottom: 25px;
+  }
+
+  a {
+    color: $white;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  .divider {
+    width: 100%;
+    background: $white;
+    opacity: 0.1;
+    height: 1px;
+    margin: 25px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .brand, .footer-list {
+    margin-bottom: 25px !important;
+  }
+}
