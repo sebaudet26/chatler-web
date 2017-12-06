@@ -8,8 +8,6 @@ footer {
     margin-bottom: 5px;
     display: flex;
     align-items: center; }
-    footer .footer-list li img {
-      margin-right: 10px; }
   footer .footer-list-title {
     font-size: 14px;
     text-transform: uppercase;
@@ -32,5 +30,5 @@ footer {
     margin: 25px 0; }
 
 @media (max-width: 767px) {
-  .brand, .footer-list {
+  footer .brand, footer .footer-list {
     margin-bottom: 25px !important; } }

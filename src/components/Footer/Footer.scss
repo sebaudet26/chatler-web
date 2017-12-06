@@ -12,10 +12,6 @@ footer {
       margin-bottom: 5px;
       display: flex;
       align-items: center;
-
-      img {
-        margin-right: 10px;
-      }
     }
 
     &-title {
@@ -53,7 +49,9 @@ footer {
 }
 
 @media (max-width: 767px) {
-  .brand, .footer-list {
-    margin-bottom: 25px !important;
+  footer {
+    .brand, .footer-list {
+      margin-bottom: 25px !important;
+    }
   }
 }

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import "./Footer.css";
 import Logo from '../../lib/img/logo.svg';
-import FacebookIcon from '../../lib/icons/facebook-icon.svg';
-import LinkedinIcon from '../../lib/icons/linkedin-icon.svg';
 
 class Footer extends Component {
   render() {
@@ -13,8 +11,10 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
-                  <img src={Logo} alt="" />
-                  Foodi
+                  <a href="/">
+                    <img src={Logo} alt="" />
+                    Foodi
+                  </a>
                 </div>
                 <ul className="footer-list">
                   <li>contact@jeeves.com</li>
@@ -35,13 +35,11 @@ class Footer extends Component {
                   <li className="footer-list-title">SOCIAL</li>
                   <li>
                     <a href="/partners">
-                      <img src={FacebookIcon} alt="" />
                       Facebook
                     </a>
                   </li>
                   <li>
                     <a href="/partners">
-                      <img src={LinkedinIcon} alt="" />
                       LinkedIn
                     </a>
                   </li>
