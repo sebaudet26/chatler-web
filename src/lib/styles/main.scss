@@ -24,6 +24,10 @@ a {
   }
 }
 
+.flex {
+  display: flex;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -31,6 +35,10 @@ ul {
   li {
     list-style: none;
   }
+}
+
+.white {
+  color: $white;
 }
 
 .brand {
@@ -68,12 +76,10 @@ ul {
   }
 }
 
+
+
 section {
   padding: 50px 0;
-}
-
-.row {
-  display: flex;
 }
 
 .bubble {
@@ -83,6 +89,14 @@ section {
   position: absolute;
   z-index: -1;
   width: 97%;
+
+  &.blue {
+    background: $main-color;
+
+    .title, p {
+      color: $white;
+    }
+  }
 
   &.left {
     border-radius: 0 100px 100px 0;
@@ -98,10 +112,10 @@ section {
 .bubble-container {
 
   &.left {
-    padding: 50px 50px 50px 0;
+    padding: 75px 75px 75px 0;
   }
   &.right {
-    padding: 50px 0px 50px 50px;
+    padding: 75px 0px 75px 75px;
   }
 }
 
@@ -113,6 +127,14 @@ section {
   align-items: center;
   display: flex;
   animation: pulse 2s infinite;
+
+  &.blue {
+    background: $main-color;
+  }
+
+  &.white {
+    background: $white;
+  }
 
   img {
     margin: auto;
@@ -170,36 +192,36 @@ section {
 
 @media (min-width: 768px) {
   .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 768px))/2));
+    width: calc(100% - 15px + ((1*(100vw - 750px))/2));
   }
   .bubble.left {
-    left: calc((-1*(100vw - 720px))/2);
+    left: calc((-1*(100vw - 750px))/2);
   }
   .bubble.right {
-    right: calc((-1*(100vw - 720px))/2);
+    right: calc((-1*(100vw - 750px))/2);
   }
 }
 
 @media (min-width: 992px) {
   .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 992px))/2));
+    width: calc(100% - 15px + ((1*(100vw - 970px))/2));
   }
   .bubble.left {
-    left: calc((-1*(100vw - 960px))/2);
+    left: calc((-1*(100vw - 970px))/2);
   }
   .bubble.right {
-    right: calc((-1*(100vw - 960px))/2);
+    right: calc((-1*(100vw - 970px))/2);
   }
 }
 
 @media (min-width: 1200px) {
   .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 1140px))/2));
+    width: calc(100% - 15px + ((1*(100vw - 1170px))/2));
   }
   .bubble.left {
-    left: calc((-1*(100vw - 1140px))/2);
+    left: calc((-1*(100vw - 1170px))/2);
   }
   .bubble.right {
-    right: calc((-1*(100vw - 1140px))/2);
+    right: calc((-1*(100vw - 1170px))/2);
   }
 }
