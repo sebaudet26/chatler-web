@@ -10,3 +10,8 @@
     top: -45px; }
   .intro p {
     color: #ffffff; }
+
+.steps {
+  text-align: center; }
+  .steps .img-icon {
+    margin: 0 auto 25px auto; }
