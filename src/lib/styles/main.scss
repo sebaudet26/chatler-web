@@ -47,8 +47,25 @@ ul {
   font-weight: bold;
   display: flex;
 
+  a {
+    display: flex;
+    align-items: center;
+  }
+
   img {
     margin-right: 10px;
+  }
+}
+
+.intro {
+  background: $main-color;
+  color: $white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+
+  p {
+    color: $white;
   }
 }
 

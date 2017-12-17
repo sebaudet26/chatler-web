@@ -1,19 +1,11 @@
 @import '../../lib/styles/variables.scss';
 
 .intro {
-  background: $main-color;
-  color: $white;
   height: calc(100vh - 90px);
-  display: flex;
-  align-items: center;
 
   .row {
     position: relative;
     top:-45px;
-  }
-
-  p {
-    color: $white;
   }
 }
 

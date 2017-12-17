@@ -1,15 +1,9 @@
 /* Colors */
 .intro {
-  background: #3D5AFE;
-  color: #ffffff;
-  height: calc(100vh - 90px);
-  display: flex;
-  align-items: center; }
+  height: calc(100vh - 90px); }
   .intro .row {
     position: relative;
     top: -45px; }
-  .intro p {
-    color: #ffffff; }
 
 .steps {
   text-align: center; }

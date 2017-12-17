@@ -15,7 +15,7 @@ class Home extends Component {
         <section className="intro">
           <div className="container">
             <div className="row">
-              <div className="col-sm-9">
+              <div className="col-sm-6">
                 <div className="intro-block">
                   <div className="title">A chatbot that puts venues and their customers in the same conversation</div>
                   <p>Scan a code, tell Foodi what you want to order, and let him take care of the rest!</p>
@@ -69,22 +69,22 @@ class Home extends Component {
           <section className="steps">
             <div className="row flex">
               <div className="col-sm-4">
-                <div class="img-icon blue">
-                  <img src={ScanIcon}/>
+                <div className="img-icon blue">
+                  <img src={ScanIcon} alt="" />
                 </div>
                 <div className="subtitle">Scan</div>
                 <p>Open your messenger app and scan a code to initiate a conversation with Foodi.</p>
               </div>
               <div className="col-sm-4">
-                <div class="img-icon blue">
-                  <img src={ChatIcon}/>
+                <div className="img-icon blue">
+                  <img src={ChatIcon} alt="" />
                 </div>
                 <div className="subtitle">Chat</div>
                 <p>Converse with our chatbot, decide what you want to eat and pay all in one place</p>
               </div>
               <div className="col-sm-4">
-                <div class="img-icon blue">
-                  <img src={PayIcon}/>
+                <div className="img-icon blue">
+                  <img src={PayIcon} alt=""/>
                 </div>
                 <div className="subtitle">Pay</div>
                 <p>It’s as simple as that. Foodi handles everything! :)</p>

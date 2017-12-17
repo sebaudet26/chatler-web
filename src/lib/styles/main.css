@@ -35,8 +35,20 @@ ul {
   letter-spacing: 1px;
   font-weight: bold;
   display: flex; }
+  .brand a {
+    display: flex;
+    align-items: center; }
   .brand img {
     margin-right: 10px; }
+
+.intro {
+  background: #3D5AFE;
+  color: #ffffff;
+  height: 200px;
+  display: flex;
+  align-items: center; }
+  .intro p {
+    color: #ffffff; }
 
 .title {
   font-size: 32px; }
