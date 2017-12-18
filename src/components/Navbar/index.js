@@ -19,7 +19,6 @@ class Navbar extends Component {
               <div className="menu">
                 <a className="menu-link" href="/">Partners</a>
                 <a className="menu-link" href="/about">About</a>
-                <a className="menu-link" href="/">Contact</a>
                 <a className="menu-link" href="/">Demo</a>
               </div>
               <div className="mobile-menu">

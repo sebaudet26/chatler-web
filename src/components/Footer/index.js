@@ -26,7 +26,6 @@ class Footer extends Component {
                   <li className="footer-list-title">Pages</li>
                   <li><a href="/partners">Partners</a></li>
                   <li><a href="/about">About Us</a></li>
-                  <li><a href="/contact">Contact</a></li>
                   <li><a href="/demo">Demo</a></li>
                 </ul>
               </div>

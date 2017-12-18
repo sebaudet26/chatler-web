@@ -29,6 +29,10 @@ class About extends Component {
               </div>
             </div>
           </section>
+          <section>
+            <div className="title">Want to work with us? Send us a message!</div>
+            <a className="btn" href="/contact">Send message</a>
+          </section>
         </div>
       </div>
     );
