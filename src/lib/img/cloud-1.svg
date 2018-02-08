@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="76px" viewBox="0 0 71 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.5307717,75.9988669 C54.8381213,43.4925031 72.1380283,24.9315901 70.4304925,20.3161278 C65.5018573,6.99404644 40.971708,-6.33080044 21.0176643,4.04058726 C16.4116373,7.00777742 2.32427597,15.192122 1.00066341,33.9872826 C0.704961775,38.1862151 2.83153824,44.991429 7.3803928,54.4029242 L2.32427597,68.6819075 L18.5307717,75.9988669 Z" id="path-1"></path>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1085.000000, -179.000000)">
+            <g id="cloud-1" transform="translate(1084.000000, 179.000000)">
+                <g id="Group-14">
+                    <g id="Path-26">
+                        <g id="Path-25">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#E2E7EC" xlink:href="#path-1"></use>
+                            <polygon fill="#434E5D" opacity="0.08" mask="url(#mask-2)" points="2.060827 68.6925523 18.4619484 76.1245021 25.2024855 61.491877 7.48502104 54.261953"></polygon>
+                        </g>
+                    </g>
+                    <path d="M18.9780058,76 C25.2486265,71.6998514 36.12773,65.394048 51.6153163,57.0825897 C56.9676931,54.2102211 75.0179519,40.8371362 71.564339,22.3631874 C68.1107262,3.88923874 36.0846181,6.72807883 25.6492118,19.4818729 C14.0076398,33.7098011 14.0076398,47.72011 25.6492118,61.5127994 L18.9780058,76 Z" id="Path-24" fill="#FFFFFF"></path>
+                </g>
+                <g id="Group-3" transform="translate(30.000000, 26.000000)" fill="#E2E7EC">
+                    <ellipse id="Oval-2" cx="2.87037037" cy="14.625" rx="2.87037037" ry="3.375"></ellipse>
+                    <ellipse id="Oval-2" cx="15.5" cy="9" rx="2.87037037" ry="3.375"></ellipse>
+                    <ellipse id="Oval-2" cx="28.1296296" cy="3.375" rx="2.87037037" ry="3.375"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

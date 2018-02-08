@@ -5,6 +5,7 @@ import Logo from '../../lib/img/logo.svg';
 
 class Navbar extends Component {
   render() {
+
     return (
       <div>
         <nav>
@@ -13,21 +14,20 @@ class Navbar extends Component {
               <div className="brand">
                 <a href="/">
                   <img src={Logo} alt="" />
-                  Foodi
+                  Chatler
                 </a>
               </div>
               <div className="menu">
-                <a className="menu-link" href="/">Partners</a>
-                <a className="menu-link" href="/about">About</a>
-                <a className="menu-link" href="/">Demo</a>
+                <a className='menu-link' href="/">Home</a>
+                <a className="menu-link" href="/product">Product</a>
+                <a className="menu-link" href="/about">Company</a>
               </div>
               <div className="mobile-menu">
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />
                 <ul className="mobile-menu-links">
-                  <li><a href="/" onClick={this.burgerToggle}>Partners</a></li>
-                  <li><a href="/about" onClick={this.burgerToggle}>About Us</a></li>
-                  <li><a href="/" onClick={this.burgerToggle}>Contact</a></li>
-                  <li><a href="/" onClick={this.burgerToggle}>Demo</a></li>
+                  <li><a href="/" onClick={this.burgerToggle}>Home</a></li>
+                  <li><a href="/about" onClick={this.burgerToggle}>Product</a></li>
+                  <li><a href="/" onClick={this.burgerToggle}>Company</a></li>
                 </ul>
               </div>
             </div>

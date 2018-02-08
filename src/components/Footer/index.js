@@ -13,7 +13,7 @@ class Footer extends Component {
                 <div className="brand">
                   <a href="/">
                     <img src={Logo} alt="" />
-                    Foodi
+                    Chatler
                   </a>
                 </div>
                 <ul className="footer-list">
@@ -24,8 +24,9 @@ class Footer extends Component {
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">Pages</li>
-                  <li><a href="/partners">Partners</a></li>
                   <li><a href="/about">About Us</a></li>
+                  <li><a href="/partners">Partners</a></li>
+                  <li><a href="/contact">Contact</a></li>
                   <li><a href="/demo">Demo</a></li>
                 </ul>
               </div>
@@ -55,7 +56,7 @@ class Footer extends Component {
             <div className="divider"></div>
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright">&copy; Foodi</div>
+                <div className="copyright">&copy; Chatler</div>
               </div>
             </div>
           </div>

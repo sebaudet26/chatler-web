@@ -3,9 +3,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
 }
 
 p {
@@ -45,23 +50,21 @@ ul {
 .brand {
   font-size: 20px;
   letter-spacing: 1px;
-  font-weight: bold;
-  display: flex;
-
-  a {
-    display: flex;
-    align-items: center;
-  }
+  font-weight: 700;
 
   img {
     margin-right: 10px;
+    margin-top: -5px;
+    height: 22px;
   }
 }
 
 .intro {
-  background: $main-color;
+  background: $gradient;
+  position: relative;
+  top: -90px;
+  padding-top: 90px;
   color: $white;
-  height: 200px;
   display: flex;
   align-items: center;
 
@@ -71,7 +74,8 @@ ul {
 }
 
 .title {
-  font-size: 32px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .subtitle {
@@ -80,20 +84,28 @@ ul {
 
 .btn {
   font-size: 16px;
-  text-transform: uppercase;
   font-weight: bold;
   color: $white;
   background: $alt-color;
   display: inline-flex;
   box-shadow: $shadow;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 99px;
   position: relative;
+
+  &-link {
+    margin-left: 15px;
+    color: $white;
+    font-size: 16px;
+
+    &:hover {
+      color: $white;
+    }
+  }
 
   &:hover {
     color: $white;
     opacity: 1;
-    top: -1px;
     box-shadow: $shadow-2;
   }
 }
@@ -245,5 +257,11 @@ section {
   }
   .bubble.right {
     right: calc((-1*(100vw - 1170px))/2);
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1300px;
   }
 }

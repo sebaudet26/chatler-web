@@ -21,9 +21,9 @@ class About extends Component {
             <div className="row flex">
               <div className="col-sm-12">
                 <div className="bubble-container left">
-                  <div className="title">Why use Foodi?</div>
+                  <div className="title">Our Vision</div>
                   <p>The app market is over saturated. Everyone is building apps whether it's movie theatre, a stadium a train station or an airport. Companies are investing enormous sums of money for an app that not many people use. Users end up with irregular and arduous user experiences and apps that take up space on their phone.</p>
-                  <p>At Jeeves, we make it our mission to make feel you connected to the world and there is nothing more intuitive than a conversational interface. Our product is one that ressembles the most with how we interact with the world around us.</p>
+                  <p>At Chatler, we make it our mission to make feel you connected to the world and there is nothing more intuitive than a conversational interface. Our product is one that ressembles the most with how we interact with the world around us.</p>
                   <div className="bubble left"></div>
                 </div>
               </div>

@@ -7,6 +7,9 @@ import ChatIcon from '../../lib/icons/chat-icon.svg';
 import PayIcon from '../../lib/icons/pay-icon.svg';
 import RobotImg from '../../lib/img/robot.svg';
 import VenueImg from '../../lib/img/venue-ill.svg';
+import StadiumImg from '../../lib/img/stadium.svg';
+import Cloud1Img from '../../lib/img/cloud-1.svg';
+import Cloud2Img from '../../lib/img/cloud-2.svg';
 
 class Home extends Component {
   render() {
@@ -17,14 +20,22 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-6">
                 <div className="intro-block">
-                  <div className="title">A chatbot that puts venues and their customers in the same conversation</div>
-                  <p>Scan a code, tell Foodi what you want to order, and let him take care of the rest!</p>
-                  <a className="btn" href="/demo">Try Demo</a>
+                  <h1>In-seat delivery through chat.</h1>
+                  <p>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</p>
+                  <a className="btn" href="/demo">Request Demo</a>
+                  <a className="btn-link" href="/">or learn more</a>
                 </div>
               </div>
-              <div className="col-sm-3">
+              <div className="col-sm-6">
+                <img className="cloud-1" src={Cloud1Img} />
+                <img className="cloud-2" src={Cloud2Img} />
+                <img src={StadiumImg} />
               </div>
             </div>
+            <span className="mouse">
+        			<span>
+        			</span>
+        		</span>
           </div>
         </section>
         <div className="container">

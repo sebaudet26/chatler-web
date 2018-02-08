@@ -1,7 +1,9 @@
 /* Colors */
 nav {
-  background: #3D5AFE;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 99;
+  position: relative; }
   nav .nav-wrapper {
     height: 90px;
     display: flex;
@@ -17,7 +19,24 @@ nav {
   flex-grow: 1;
   justify-content: flex-end; }
   .menu-link {
-    margin: 0 1.5rem; }
+    margin: 0 3rem;
+    position: relative; }
+    .menu-link:last-child {
+      margin-right: 0; }
+    .menu-link:after {
+      content: '';
+      transition: 0.3s;
+      opacity: 0;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 100%;
+      background: #ffffff; }
+    .menu-link:hover {
+      opacity: 1; }
+      .menu-link:hover:after {
+        opacity: 1; }
 
 .mobile-menu {
   flex-basis: auto;
