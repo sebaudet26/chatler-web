@@ -16,8 +16,8 @@ class Home extends Component {
                 <div className="intro-block">
                   <h1>In-seat delivery through chat.</h1>
                   <p>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</p>
-                  <a className="btn" href="/demo">Request Demo</a>
-                  <a className="btn-link" href="/">or learn more</a>
+                  <a className="btn" href="/contact">Request Demo</a>
+                  <a className="btn-link" href="/features">or learn more</a>
                 </div>
               </div>
               <div className="col-sm-6 hidden-xs">
@@ -45,7 +45,7 @@ class Home extends Component {
             <div className="row flex">
               <div className="col-sm-7">
                 <div className="bubble-container left">
-                  <div className="img-icon green">
+                  <div className="img-icon blue">
                   </div>
                   <h2>Seamless experience for fans</h2>
                   <p>Fans can effortlessly order with our chatbot. There are no apps to download, no accounts to create and no location to enter. The only thing the fan has to think about is what to eat. Just scan, chat and pay!</p>
@@ -66,7 +66,7 @@ class Home extends Component {
               </div>
               <div className="col-sm-7">
                 <div className="bubble-container right">
-                  <div className="img-icon green">
+                  <div className="img-icon blue">
                   </div>
                   <h2>Increased productivity and efficiency for venues</h2>
                   <p>Venues lose on potential sales because fans don't want to miss any of the action. And during breaks, customers don't want to wait in line either. We help venues have a steady demand all along the event and help them reach their sales potential.</p>
@@ -79,10 +79,10 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="center-section">
-                  <div className="img-icon green">
+                  <div className="img-icon blue">
                   </div>
                   <h2>More insights on your customers</h2>
-                  <p>Get to know your fans better. The person attending the event is very often not the one who purchase the ticket. Chatler provides data on who attends your event.</p>
+                  <p>Get to know your fans better. The person attending the event is very often not the one who purchased the ticket. Chatler helps venues understand their customers.</p>
                 </div>
               </div>
             </div>

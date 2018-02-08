@@ -118,17 +118,17 @@ section {
     .bubble.blue .title, .bubble.blue p {
       color: #ffffff; }
   .bubble.left {
-    border-radius: 0 100px 100px 0;
+    border-radius: 0 75px 75px 0;
     left: 0px; }
   .bubble.right {
-    border-radius: 50px 0 0 75px;
+    border-radius: 75px 0 0 75px;
     right: 0px; }
 
 .bubble-container.left {
-  padding: 75px 75px 75px 0; }
+  padding: 50px 75px 50px 0; }
 
 .bubble-container.right {
-  padding: 75px 0px 75px 75px; }
+  padding: 50px 0px 50px 75px; }
 
 .img-icon {
   margin-bottom: 25px;

@@ -161,12 +161,12 @@ section {
   }
 
   &.left {
-    border-radius: 0 100px 100px 0;
+    border-radius: 0 75px 75px 0;
     left: 0px;
   }
 
   &.right {
-    border-radius: 50px 0 0 75px;
+    border-radius: 75px 0 0 75px;
     right: 0px;
   }
 }
@@ -174,10 +174,10 @@ section {
 .bubble-container {
 
   &.left {
-    padding: 75px 75px 75px 0;
+    padding: 50px 75px 50px 0;
   }
   &.right {
-    padding: 75px 0px 75px 75px;
+    padding: 50px 0px 50px 75px;
   }
 }
 
