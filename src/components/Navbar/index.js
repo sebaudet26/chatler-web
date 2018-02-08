@@ -19,8 +19,9 @@ class Navbar extends Component {
               </div>
               <div className="menu">
                 <a className='menu-link' href="/">Home</a>
-                <a className="menu-link" href="/product">Product</a>
-                <a className="menu-link" href="/about">Company</a>
+                <a className="menu-link" href="/features">Features</a>
+                <a className="menu-link" href="/company">Company</a>
+                <a className="menu-link" href="/contact">Contact Us</a>
               </div>
               <div className="mobile-menu">
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />

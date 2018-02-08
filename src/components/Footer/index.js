@@ -24,10 +24,10 @@ class Footer extends Component {
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">Pages</li>
-                  <li><a href="/about">About Us</a></li>
-                  <li><a href="/partners">Partners</a></li>
-                  <li><a href="/contact">Contact</a></li>
-                  <li><a href="/demo">Demo</a></li>
+                  <li><a href="/about">Home</a></li>
+                  <li><a href="/partners">Features</a></li>
+                  <li><a href="/contact">Company</a></li>
+                  <li><a href="/demo">Contact Us</a></li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">
@@ -56,7 +56,7 @@ class Footer extends Component {
             <div className="divider"></div>
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright">&copy; Chatler</div>
+                <div className="copyright">&copy; Chatler 2018</div>
               </div>
             </div>
           </div>

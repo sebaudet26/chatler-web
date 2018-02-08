@@ -1,17 +1,17 @@
 @import '../../lib/styles/variables.scss';
 
 .intro {
-  height: calc(100vh - 90px);
+  height: 800px;
 
   .row {
     position: relative;
-    top:-45px;
+    top: -30px;
   }
 
   .cloud-1 {
     position: absolute;
     top: 25px;
-    right: 250px;
+    left: 350px;
     animation: bounce 1s linear;
     animation-delay: 1s;
     animation-duration: 1s;
@@ -35,7 +35,7 @@
   	display: block;
   	width: 35px;
   	height: 55px;
-  	margin: 0 auto 20px;
+    bottom: 50px;
   	-webkit-box-sizing: border-box;
   	-moz-box-sizing: border-box;
   	box-sizing: border-box;
@@ -52,19 +52,14 @@
     	margin: -3px 0 0 -3px;
     	background: white;
     	border-radius: 50%;
-    	-webkit-animation: ani-mouse 2.5s linear infinite;
-    	-moz-animation: ani-mouse 2.5s linear infinite;
-    	animation: ani-mouse 2.5s linear infinite;
+    	-webkit-animation: mouse 2.5s linear infinite;
+    	-moz-animation: mouse 2.5s linear infinite;
+    	animation: mouse 2.5s linear infinite;
     }
   }
 }
 
-.steps {
-  text-align: center;
-  .img-icon {
-    margin: 0 auto 25px auto;
-  }
-}
+
 
 @-webkit-keyframes bounce {
   from,
@@ -99,7 +94,7 @@
   }
 }
 
-@-webkit-keyframes ani-mouse {
+@-webkit-keyframes mouse {
 	0% {
 	opacity: 1;
 	top: 29%;

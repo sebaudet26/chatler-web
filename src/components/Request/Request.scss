@@ -1,0 +1,24 @@
+@import '../../lib/styles/variables.scss';
+
+
+.request {
+  background: $dark-purple;
+  color: $white;
+
+  h2 {
+    color: $white;
+  }
+}
+
+@media (min-width: 576px) {
+  .request {
+    .row  {
+      display: flex;
+      align-items: center;
+
+      .btn {
+        float: right;
+      }
+    }
+  }
+}

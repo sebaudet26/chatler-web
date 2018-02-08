@@ -13,11 +13,21 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: $dark-purple;
+}
+
+.accent {
+  font-weight: 700;
+}
+
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: $grey-2;
-  line-height: 32px;
+  color: $grey-1;
+  line-height: 36px;
 }
 
 a {
@@ -73,11 +83,6 @@ ul {
   }
 }
 
-.title {
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .subtitle {
   font-size: 24px;
 }
@@ -97,6 +102,7 @@ ul {
     margin-left: 15px;
     color: $white;
     font-size: 16px;
+    font-weight: 700;
 
     &:hover {
       color: $white;
@@ -110,10 +116,32 @@ ul {
   }
 }
 
-
-
 section {
   padding: 50px 0;
+}
+
+.center-section {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+
+  .img-icon {
+    margin: auto;
+  }
+
+  &.content-header {
+    p {
+      margin-bottom: 0px;
+    }
+    h2 {
+      margin-top: 0px;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  top: -45px;
 }
 
 .bubble {
@@ -138,7 +166,7 @@ section {
   }
 
   &.right {
-    border-radius: 100px 0 0 100px;
+    border-radius: 50px 0 0 75px;
     right: 0px;
   }
 }
@@ -160,10 +188,14 @@ section {
   border-radius: 99px;
   align-items: center;
   display: flex;
-  animation: pulse 2s infinite;
+  //animation: pulse 2s infinite;
 
   &.blue {
     background: $main-color;
+  }
+
+  &.green {
+    background: $alt-color;
   }
 
   &.white {
@@ -257,11 +289,5 @@ section {
   }
   .bubble.right {
     right: calc((-1*(100vw - 1170px))/2);
-  }
-}
-
-@media (min-width: 1400px) {
-  .container {
-    width: 1300px;
   }
 }

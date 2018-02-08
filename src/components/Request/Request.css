@@ -1,0 +1,13 @@
+/* Colors */
+.request {
+  background: #3752ea;
+  color: #ffffff; }
+  .request h2 {
+    color: #ffffff; }
+
+@media (min-width: 576px) {
+  .request .row {
+    display: flex;
+    align-items: center; }
+    .request .row .btn {
+      float: right; } }

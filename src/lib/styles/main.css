@@ -10,11 +10,19 @@ h1 {
   font-size: 48px;
   font-weight: 700; }
 
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #3752ea; }
+
+.accent {
+  font-weight: 700; }
+
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: #6F7785;
-  line-height: 32px; }
+  color: #434E5D;
+  line-height: 36px; }
 
 a {
   text-decoration: none;
@@ -55,10 +63,6 @@ ul {
   .intro p {
     color: #ffffff; }
 
-.title {
-  font-size: 30px;
-  font-weight: 700; }
-
 .subtitle {
   font-size: 24px; }
 
@@ -75,7 +79,8 @@ ul {
   .btn-link {
     margin-left: 15px;
     color: #ffffff;
-    font-size: 16px; }
+    font-size: 16px;
+    font-weight: 700; }
     .btn-link:hover {
       color: #ffffff; }
   .btn:hover {
@@ -85,6 +90,21 @@ ul {
 
 section {
   padding: 50px 0; }
+
+.center-section {
+  margin: auto;
+  max-width: 800px;
+  text-align: center; }
+  .center-section .img-icon {
+    margin: auto; }
+  .center-section.content-header p {
+    margin-bottom: 0px; }
+  .center-section.content-header h2 {
+    margin-top: 0px; }
+
+.content {
+  position: relative;
+  top: -45px; }
 
 .bubble {
   background: #F6F9FC;
@@ -101,7 +121,7 @@ section {
     border-radius: 0 100px 100px 0;
     left: 0px; }
   .bubble.right {
-    border-radius: 100px 0 0 100px;
+    border-radius: 50px 0 0 75px;
     right: 0px; }
 
 .bubble-container.left {
@@ -116,10 +136,11 @@ section {
   width: 60px;
   border-radius: 99px;
   align-items: center;
-  display: flex;
-  animation: pulse 2s infinite; }
+  display: flex; }
   .img-icon.blue {
     background: #3D5AFE; }
+  .img-icon.green {
+    background: #66CFB0; }
   .img-icon.white {
     background: #ffffff; }
   .img-icon img {
@@ -180,7 +201,3 @@ section {
     left: calc((-1*(100vw - 1170px))/2); }
   .bubble.right {
     right: calc((-1*(100vw - 1170px))/2); } }
-
-@media (min-width: 1400px) {
-  .container {
-    width: 1300px; } }
