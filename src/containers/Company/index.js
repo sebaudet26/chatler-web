@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Request from '../../components/Request/';
+import './Company.css';
 
 class About extends Component {
   render() {
     return (
       <div>
-        <section className="intro">
+        <section className="intro light">
           <div className="container">
             <div className="row">
               <div className="col-sm-6">
@@ -16,7 +17,7 @@ class About extends Component {
             </div>
           </div>
         </section>
-        <div className="container content">
+        <div className="container">
           <section>
             <div className="row">
               <div className="col-sm-6">

@@ -21,8 +21,8 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-6 hidden-xs">
-                <img className="cloud-1" src={Cloud1Img} />
-                <img className="cloud-2" src={Cloud2Img} />
+                <img className="cloud-1" src={Cloud1Img} alt=""/>
+                <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
               </div>
             </div>
@@ -32,7 +32,7 @@ class Home extends Component {
         		</span>
           </div>
         </section>
-        <div className="container content">
+        <div className="container">
           <div className="row">
             <div className="col-sm-12">
               <div className="center-section content-header">

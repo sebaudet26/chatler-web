@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./Footer.css";
-import Logo from '../../lib/img/logo.svg';
+import Logo from '../../lib/img/Logo.js';
 
 class Footer extends Component {
   render() {
@@ -12,7 +12,7 @@ class Footer extends Component {
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
                   <a href="/">
-                    <img src={Logo} alt="" />
+                    <Logo />
                     Chatler
                   </a>
                 </div>

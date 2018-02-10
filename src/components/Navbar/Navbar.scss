@@ -4,7 +4,8 @@ nav {
   font-size: 18px;
   font-weight: 600;
   z-index: 99;
-  position: relative;
+  position: absolute;
+  width: 100%;
 
   .nav-wrapper {
     height: 90px;

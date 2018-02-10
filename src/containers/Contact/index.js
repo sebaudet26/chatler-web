@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Request from '../../components/Request/';
 
 class About extends Component {
   render() {

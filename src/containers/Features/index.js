@@ -16,7 +16,7 @@ class About extends Component {
             </div>
           </div>
         </section>
-        <div className="container content">
+        <div className="container">
           <section>
             <div className="row">
               <div className="col-sm-12">
@@ -24,6 +24,7 @@ class About extends Component {
             </div>
           </section>
         </div>
+        <Request />
       </div>
     );
   }

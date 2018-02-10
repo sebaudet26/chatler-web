@@ -62,9 +62,15 @@ ul {
   letter-spacing: 1px;
   font-weight: 700;
 
-  img {
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-top: -6px;
     margin-right: 10px;
-    margin-top: -5px;
     height: 22px;
   }
 }
@@ -72,11 +78,23 @@ ul {
 .intro {
   background: $gradient;
   position: relative;
-  top: -90px;
   padding-top: 90px;
+  height: 300px;
   color: $white;
   display: flex;
   align-items: center;
+
+  &.light {
+    background: $white;
+
+  #Landing-Page {
+    fill: #000;
+  }
+
+    * {
+      color: $grey-1;
+    }
+  }
 
   p {
     color: $white;
@@ -137,11 +155,6 @@ section {
       margin-top: 0px;
     }
   }
-}
-
-.content {
-  position: relative;
-  top: -45px;
 }
 
 .bubble {

@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './Navbar.css';
 import MenuIcon from '../../lib/icons/menu-button.svg';
-import Logo from '../../lib/img/logo.svg';
+import Logo from '../../lib/img/Logo.js';
 
 class Navbar extends Component {
   render() {
-
     return (
       <div>
         <nav>
@@ -13,7 +12,7 @@ class Navbar extends Component {
             <div className="nav-wrapper">
               <div className="brand">
                 <a href="/">
-                  <img src={Logo} alt="" />
+                  <Logo />
                   Chatler
                 </a>
               </div>
