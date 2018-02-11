@@ -1,6 +1,6 @@
 /* Colors */
 .request {
-  background: #3752ea;
+  background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
   color: #ffffff; }
   .request h2 {
     color: #ffffff; }

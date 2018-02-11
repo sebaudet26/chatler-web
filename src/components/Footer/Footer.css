@@ -10,8 +10,7 @@ footer {
     align-items: center; }
   footer .footer-list-title {
     font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     opacity: 0.5;
     margin-bottom: 15px !important; }
   footer .brand {

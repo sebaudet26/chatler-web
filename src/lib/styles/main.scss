@@ -79,7 +79,6 @@ ul {
   background: $gradient;
   position: relative;
   padding-top: 90px;
-  height: 300px;
   color: $white;
   display: flex;
   align-items: center;
@@ -136,25 +135,6 @@ ul {
 
 section {
   padding: 50px 0;
-}
-
-.center-section {
-  margin: auto;
-  max-width: 800px;
-  text-align: center;
-
-  .img-icon {
-    margin: auto;
-  }
-
-  &.content-header {
-    p {
-      margin-bottom: 0px;
-    }
-    h2 {
-      margin-top: 0px;
-    }
-  }
 }
 
 .bubble {

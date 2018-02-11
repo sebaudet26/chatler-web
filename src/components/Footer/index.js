@@ -17,7 +17,8 @@ class Footer extends Component {
                   </a>
                 </div>
                 <ul className="footer-list">
-                  <li>contact@jeeves.com</li>
+                  <li className="footer-list-title">Contact Us</li>
+                  <li>contact@chatler.io</li>
                   <li>Montreal, QC, Canada</li>
                 </ul>
               </div>
@@ -32,7 +33,7 @@ class Footer extends Component {
               </div>
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
-                  <li className="footer-list-title">SOCIAL</li>
+                  <li className="footer-list-title">Social</li>
                   <li>
                     <a href="/partners">
                       Facebook

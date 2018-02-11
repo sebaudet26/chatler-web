@@ -33,14 +33,6 @@ class Home extends Component {
           </div>
         </section>
         <div className="container">
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="center-section content-header">
-                <p>What we do</p>
-                <h2>We help venues increase their sales.</h2>
-              </div>
-            </div>
-          </div>
           <section>
             <div className="row flex">
               <div className="col-sm-7">

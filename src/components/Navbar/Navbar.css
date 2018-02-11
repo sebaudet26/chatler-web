@@ -29,7 +29,7 @@ nav {
       transition: 0.3s;
       opacity: 0;
       position: absolute;
-      bottom: 0;
+      bottom: -2px;
       left: 0;
       height: 2px;
       width: 100%;

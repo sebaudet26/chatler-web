@@ -6,12 +6,13 @@ class About extends Component {
   render() {
     return (
       <div>
-        <section className="intro light">
+        <section className="intro ">
           <div className="container">
             <div className="row">
               <div className="col-sm-6">
                 <div className="intro-block">
-                  <h1>Go big or go home.</h1>
+                  <h1>We help venues increase their sales.</h1>
+                  <p>At Chatler, we make it our mission to put businesses and their customers in the same conversation.</p>
                 </div>
               </div>
             </div>

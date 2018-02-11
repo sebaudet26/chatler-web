@@ -1,11 +1,9 @@
 @import '../../lib/styles/variables.scss';
 
-nav {
-  a {
-    color: $main-color;
+.menu-link {
+  &:nth-child(3) {
+    &:after {
+      opacity: 1;
+    }
   }
-}
-
-.intro {
-  
 }
