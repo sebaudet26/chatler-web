@@ -15,7 +15,7 @@ class Home extends Component {
               <div className="col-sm-6">
                 <div className="intro-block">
                   <h1>In-seat delivery through chat.</h1>
-                  <p>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</p>
+                  <h3>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</h3>
                   <a className="btn" href="/contact">Request Demo</a>
                   <a className="btn-link" href="/features">or learn more</a>
                 </div>

@@ -9,10 +9,10 @@ class About extends Component {
         <section className="intro ">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6">
-                <div className="intro-block">
+              <div className="col-sm-12">
+                <div className="intro-block center-section">
                   <h1>We help venues increase their sales.</h1>
-                  <p>At Chatler, we make it our mission to put businesses and their customers in the same conversation.</p>
+                  <h3>At Chatler, we make it our mission to put businesses and their customers in the same conversation.</h3>
                 </div>
               </div>
             </div>

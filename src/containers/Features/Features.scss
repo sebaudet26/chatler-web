@@ -1,0 +1,9 @@
+@import '../../lib/styles/variables.scss';
+
+.menu-link {
+  &:nth-child(2) {
+    &:after {
+      opacity: 1;
+    }
+  }
+}

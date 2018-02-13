@@ -10,10 +10,10 @@ class About extends Component {
         <section className="intro">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6">
-                <div className="intro-block">
+              <div className="col-sm-12">
+                <div className="intro-block center-section">
                   <h1>Request a Demo</h1>
-                  <p>Bring Chatler to your venue and score with your fans!</p>
+                  <h3>Bring Chatler to your venue and score with your fans!</h3>
                 </div>
               </div>
             </div>
