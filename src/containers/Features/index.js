@@ -11,8 +11,8 @@ class About extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="intro-block center-section">
-                  <h1>What we offer</h1>
-                  <h3>A full suite of tools powering venues.</h3>
+                  <h1>Powering Venues</h1>
+                  <h3>A full suite of tools that power up venues.</h3>
                 </div>
               </div>
             </div>
@@ -23,8 +23,11 @@ class About extends Component {
             <div className="row flex">
               <div className="col-sm-7">
                 <div className="bubble-container left">
-                  <h2>Chatbot</h2>
-                  <p>Our chatbot gathers orders from fans in a super intuitive experience and dispatches them to the correct concession.</p>
+                  <div className="img-icon blue">
+ -                  <img alt="" />
+ -                </div>
+                  <h2>Lightning Fast Ordering</h2>
+                  <p>Ordering from your seat shouldn't be more complicated than ordering directly from a concession. In under 30 seconds, fans can easily order and have their payment processed.</p>
                   <div className="bubble left"></div>
                 </div>
               </div>
@@ -42,9 +45,11 @@ class About extends Component {
               </div>
               <div className="col-sm-7">
                 <div className="bubble-container right">
-                  <h2>Complete tools for concessions and runners</h2>
+                  <div className="img-icon green">
+                    <img alt="" />
+                  </div>
+                  <h2>Efficient Order Management</h2>
                   <p>A complete solution to fulfill your customers orders. It's an easy-to-use drag-and-drop interface that gives concessions an easy way to process and dispatch orders.</p>
-                  <p>Runners can easily pickup orders from concessions and deliver them to the fans.</p>
                   <div className="bubble right"></div>
                 </div>
               </div>
