@@ -1,24 +1,28 @@
 /* Colors */
 footer {
   padding: 75px 0;
-  background: #3D5AFE;
-  color: #ffffff;
-  font-size: 18px; }
+  background: #F6F9FC;
+  font-size: 18px;
+  color: #434E5D; }
   footer .footer-list li {
     margin-bottom: 5px;
     display: flex;
     align-items: center; }
   footer .footer-list-title {
-    font-size: 16px;
+    color: #6F7785;
+    font-size: 18px;
     font-weight: 600;
-    opacity: 0.5;
     margin-bottom: 15px !important; }
   footer .brand {
     margin-bottom: 25px; }
+    footer .brand a:hover {
+      color: #3D5AFE; }
+    footer .brand .logo g {
+      fill: #3D5AFE; }
   footer a {
-    color: #ffffff; }
+    color: #3D5AFE; }
     footer a:hover {
-      color: #ffffff; }
+      color: #434E5D; }
   footer .copyright {
     text-align: left; }
   footer .divider {

@@ -37,8 +37,6 @@ class Home extends Component {
             <div className="row flex">
               <div className="col-sm-7">
                 <div className="bubble-container left">
-                  <div className="img-icon blue">
-                  </div>
                   <h2>Seamless experience for fans</h2>
                   <p>Fans can effortlessly order with our chatbot. There are no apps to download, no accounts to create and no location to enter. The only thing the fan has to think about is what to eat. Just scan, chat and pay!</p>
                   <div className="bubble left"></div>
@@ -58,8 +56,6 @@ class Home extends Component {
               </div>
               <div className="col-sm-7">
                 <div className="bubble-container right">
-                  <div className="img-icon blue">
-                  </div>
                   <h2>Increased productivity and efficiency for venues</h2>
                   <p>Venues lose on potential sales because fans don't want to miss any of the action. And during breaks, customers don't want to wait in line either. We help venues have a steady demand all along the event and help them reach their sales potential.</p>
                   <div className="bubble right"></div>
@@ -71,8 +67,6 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="center-section">
-                  <div className="img-icon blue">
-                  </div>
                   <h2>More insights on your customers</h2>
                   <p>Get to know your fans better. The person attending the event is very often not the one who purchased the ticket. Chatler helps venues understand their customers.</p>
                 </div>

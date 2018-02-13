@@ -2,9 +2,9 @@
 
 footer {
   padding: 75px 0;
-  background: $main-color;
-  color: $white;
+  background: $grey-5;
   font-size: 18px;
+  color: $grey-1;
 
   .footer-list {
 
@@ -15,22 +15,30 @@ footer {
     }
 
     &-title {
-      font-size: 16px;
+      color: $grey-2;
+      font-size: 18px;
       font-weight: 600;
-      opacity: 0.5;
       margin-bottom: 15px !important;
     }
   }
 
   .brand {
     margin-bottom: 25px;
+
+    a:hover {
+      color: $main-color;
+    }
+
+    .logo g {
+      fill: $main-color;
+    }
   }
 
   a {
-    color: $white;
+    color: $main-color;
 
     &:hover {
-      color: $white;
+      color: $grey-1;
     }
   }
 
