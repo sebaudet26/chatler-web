@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 import Request from '../../components/Request/';
 import StadiumImg from '../../lib/img/stadium.svg';
+import PhoneScreenImg from '../../lib/img/screen.svg';
 import Cloud1Img from '../../lib/img/cloud-1.svg';
 import Cloud2Img from '../../lib/img/cloud-2.svg';
 
@@ -17,7 +18,7 @@ class Home extends Component {
                   <h1>In-seat delivery through chat.</h1>
                   <h3>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</h3>
                   <a className="btn" href="/contact">Request Demo</a>
-                  <a className="btn-link" href="/features">or learn more</a>
+                  <a className="btn-link" href="/company">or learn more</a>
                 </div>
               </div>
               <div className="col-sm-6 hidden-xs">
@@ -34,7 +35,7 @@ class Home extends Component {
         </section>
         <div className="container">
           <section>
-            <div className="row flex">
+            <div className="row">
               <div className="col-sm-7">
                 <div className="bubble-container left">
                   <h2>Seamless experience for fans</h2>
@@ -44,14 +45,21 @@ class Home extends Component {
               </div>
               <div className="col-sm-5">
                 <div className="img-wrapper hidden-xs">
+                  <div className="phone">
+                    <img src={PhoneScreenImg} alt="" />
+                    <div className="phone-home"></div>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
           <section>
-            <div className="row flex">
+            <div className="row">
               <div className="col-sm-5">
                 <div className="img-wrapper hidden-xs">
+                  <div className="tablet">
+                    <div className="tablet-home"></div>
+                  </div>
                 </div>
               </div>
               <div className="col-sm-7">

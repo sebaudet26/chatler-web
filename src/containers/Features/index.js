@@ -24,8 +24,8 @@ class About extends Component {
               <div className="col-sm-7">
                 <div className="bubble-container left">
                   <div className="img-icon blue">
- -                  <img alt="" />
- -                </div>
+                    <img alt="" />
+                  </div>
                   <h2>Lightning Fast Ordering</h2>
                   <p>Ordering from your seat shouldn't be more complicated than ordering directly from a concession. In under 30 seconds, fans can easily order and have their payment processed.</p>
                   <div className="bubble left"></div>

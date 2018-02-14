@@ -26,7 +26,6 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">Pages</li>
                   <li><a href="/">Home</a></li>
-                  <li><a href="/features">Features</a></li>
                   <li><a href="/company">Company</a></li>
                   <li><a href="/contact">Contact Us</a></li>
                 </ul>

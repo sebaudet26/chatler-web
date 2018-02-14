@@ -108,6 +108,8 @@ section {
   text-align: center;
   max-width: 800px;
   margin: auto; }
+  .center-section .img-icon {
+    margin: auto; }
 
 .bubble {
   background: #F6F9FC;
@@ -145,7 +147,7 @@ section {
   .img-icon.green {
     background: #66CFB0; }
   .img-icon.red {
-    background: #CF6671; }
+    background: #FF5A52; }
   .img-icon.white {
     background: #ffffff; }
   .img-icon img {

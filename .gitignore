@@ -8,6 +8,7 @@
 
 # production
 /build
+/src/containers/Features
 
 # misc
 .DS_Store
