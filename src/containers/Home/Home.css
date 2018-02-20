@@ -3,7 +3,18 @@
   opacity: 1; }
 
 .intro {
-  height: 800px; }
+  height: 700px;
+  background: transparent; }
+  .intro::before {
+    width: 110%;
+    left: -5%;
+    height: 700px;
+    background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
+    position: absolute;
+    top: 0;
+    content: '';
+    border-radius: 0 0 50% 50% / 25%;
+    overflow-x: hidden; }
   .intro .row {
     position: relative;
     top: -30px; }
@@ -26,6 +37,7 @@
   .intro .mouse {
     position: absolute;
     display: block;
+    left: calc(50% - 17.5px);
     width: 35px;
     height: 55px;
     bottom: 50px;
@@ -73,11 +85,19 @@
     left: 7px; }
 
 .tablet {
-  width: 512px;
-  height: 352px;
+  position: absolute;
+  left: -200px;
+  width: 675px;
+  height: 450px;
   border-radius: 38px;
   background: #F6F9FC;
-  box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05); }
+  box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14), 0 10px 20px rgba(0, 21, 64, 0.05);
+  transform: skew(10deg, -10deg); }
+  .tablet img {
+    height: 436px;
+    top: 7px;
+    left: 47px;
+    position: relative; }
 
 @-webkit-keyframes bounce {
   from,

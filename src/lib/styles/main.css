@@ -4,7 +4,8 @@ body {
   padding: 0;
   font-family: "Josefin Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden; }
 
 h1 {
   font-size: 48px;
@@ -95,6 +96,8 @@ ul {
     font-size: 16px;
     font-weight: 700; }
     .btn-link:hover {
+      opacity: 0.75; }
+    .btn-link:hover {
       color: #ffffff; }
   .btn:hover {
     color: #ffffff;
@@ -137,9 +140,9 @@ section {
 
 .img-icon {
   margin-bottom: 25px;
-  height: 60px;
-  width: 60px;
-  border-radius: 99px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   align-items: center;
   display: flex; }
   .img-icon.blue {
@@ -147,11 +150,12 @@ section {
   .img-icon.green {
     background: #66CFB0; }
   .img-icon.red {
-    background: #FF5A52; }
+    background: #F24D6E; }
   .img-icon.white {
     background: #ffffff; }
   .img-icon img {
-    margin: auto; }
+    margin: auto;
+    height: 30px; }
 
 @keyframes pulse {
   0% {
