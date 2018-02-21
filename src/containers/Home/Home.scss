@@ -11,21 +11,6 @@
 
 .intro {
   height: 700px;
-  //background: url(../../lib/img/background.svg) no-repeat;
-  //background-size: auto 700px;
-  background: transparent;
-
-  &::before {
-    width: 110%;
-    left: -5%;
-    height: 700px;
-    background: $gradient;
-    position:absolute;
-    top: 0;
-    content: '';
-    border-radius: 0 0 50% 50% / 25%;
-    overflow-x: hidden;
-  }
 
   .row {
     position: relative;

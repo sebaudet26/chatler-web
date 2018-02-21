@@ -85,12 +85,23 @@ ul {
 }
 
 .intro {
-  background: $gradient;
-  position: relative;
   padding-top: 90px;
-  color: $white;
   display: flex;
   align-items: center;
+  color: $white;
+  position: relative;
+
+  &::before {
+    width: 110%;
+    left: -5%;
+    height: 100%;
+    background: $gradient;
+    position:absolute;
+    top: 0;
+    content: '';
+    border-radius: 0 0 50% 50% / 25%;
+    overflow-x: hidden;
+  }
 
   &.light {
     background: $white;

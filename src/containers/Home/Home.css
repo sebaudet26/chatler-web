@@ -3,18 +3,7 @@
   opacity: 1; }
 
 .intro {
-  height: 700px;
-  background: transparent; }
-  .intro::before {
-    width: 110%;
-    left: -5%;
-    height: 700px;
-    background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
-    position: absolute;
-    top: 0;
-    content: '';
-    border-radius: 0 0 50% 50% / 25%;
-    overflow-x: hidden; }
+  height: 700px; }
   .intro .row {
     position: relative;
     top: -30px; }

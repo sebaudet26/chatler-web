@@ -1,3 +1,6 @@
 /* Colors */
+body {
+  background: #F6F9FC; }
+
 .menu-link:nth-child(3):after {
   opacity: 1; }

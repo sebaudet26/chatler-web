@@ -62,12 +62,21 @@ ul {
     height: 22px; }
 
 .intro {
-  background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
-  position: relative;
   padding-top: 90px;
-  color: #ffffff;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  color: #ffffff;
+  position: relative; }
+  .intro::before {
+    width: 110%;
+    left: -5%;
+    height: 100%;
+    background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
+    position: absolute;
+    top: 0;
+    content: '';
+    border-radius: 0 0 50% 50% / 25%;
+    overflow-x: hidden; }
   .intro.light {
     background: #ffffff; }
     .intro.light #Landing-Page {

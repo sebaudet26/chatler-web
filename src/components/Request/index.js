@@ -13,7 +13,7 @@ class Request extends Component {
                 <h2>Score with your Fans!<br /><span className="accent">Bring Chatler to your venue.</span></h2>
               </div>
               <div className="col-sm-6">
-                <a className="btn" href="/demo">Request Demo</a>
+                <a className="btn" href="/contact">Request Demo</a>
               </div>
             </div>
           </div>
