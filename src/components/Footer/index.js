@@ -34,13 +34,13 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">Social</li>
                   <li>
-                    <a href="/partners">
+                    <a href="https://www.facebook.com/Chatler-1902952329966274">
                       Facebook
                     </a>
                   </li>
                   <li>
-                    <a href="/partners">
-                      LinkedIn
+                    <a href="/">
+                      Angel.co
                     </a>
                   </li>
                 </ul>

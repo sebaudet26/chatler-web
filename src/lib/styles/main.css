@@ -92,13 +92,15 @@ ul {
 .btn {
   font-size: 16px;
   font-weight: bold;
+  border: none;
   color: #ffffff;
   background: #66CFB0;
   display: inline-flex;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   padding: 15px 20px;
   border-radius: 99px;
-  position: relative; }
+  position: relative;
+  transition: 0.3s; }
   .btn-link {
     margin-left: 15px;
     color: #ffffff;

@@ -86,7 +86,7 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="center-section">
-                  <div className="img-icon red">
+                  <div className="img-icon blue">
                     <img src={ChartIcon} alt="" />
                   </div>
                   <h2>More insights on your customers</h2>

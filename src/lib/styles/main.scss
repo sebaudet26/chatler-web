@@ -127,6 +127,7 @@ ul {
 .btn {
   font-size: 16px;
   font-weight: bold;
+  border: none;
   color: $white;
   background: $alt-color;
   display: inline-flex;
@@ -134,6 +135,7 @@ ul {
   padding: 15px 20px;
   border-radius: 99px;
   position: relative;
+  transition: 0.3s;
 
   &-link {
     margin-left: 15px;

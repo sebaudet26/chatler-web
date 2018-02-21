@@ -25,8 +25,8 @@ class Navbar extends Component {
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />
                 <ul className="mobile-menu-links">
                   <li><a href="/" onClick={this.burgerToggle}>Home</a></li>
-                  <li><a href="/about" onClick={this.burgerToggle}>Product</a></li>
-                  <li><a href="/" onClick={this.burgerToggle}>Company</a></li>
+                  <li><a href="/company" onClick={this.burgerToggle}>Company</a></li>
+                  <li><a href="/contact" onClick={this.burgerToggle}>Contact Us</a></li>
                 </ul>
               </div>
             </div>
