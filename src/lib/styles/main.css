@@ -79,8 +79,6 @@ ul {
     overflow-x: hidden; }
   .intro.light {
     background: #ffffff; }
-    .intro.light #Landing-Page {
-      fill: #000; }
     .intro.light * {
       color: #434E5D; }
   .intro p {

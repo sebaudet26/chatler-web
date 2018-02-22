@@ -4,3 +4,6 @@ body {
 
 .menu-link:nth-child(3):after {
   opacity: 1; }
+
+footer {
+  border-top: solid 1px #E2E7EC; }
