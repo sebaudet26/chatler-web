@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import "./Footer.css";
 import Logo from '../../lib/img/Logo.js';
+import { getTranslations } from '../../redux/selectors/translations';
+import { changeLocale } from '../../redux/actions/app';
+
+
+const onLocaleChange = (action, language, country) => () => action(language, country);
 
 class Footer extends Component {
   render() {
+    const { changeLocale, t } = this.props;
+
     return (
       <div>
         <footer>
@@ -17,7 +25,7 @@ class Footer extends Component {
                   </a>
                 </div>
                 <ul className="footer-list">
-                  <li className="footer-list-title">Contact Us</li>
+                  <li className="footer-list-title">{t.footer.contactUs}</li>
                   <li>contact@chatler.io</li>
                   <li>Montreal, QC, Canada</li>
                 </ul>
@@ -48,8 +56,8 @@ class Footer extends Component {
               <div className="col-sm-2 col-xs-12">
                 <ul className="footer-list">
                   <li className="footer-list-title">Language</li>
-                  <li><a href="/">English</a></li>
-                  <li><a href="/">Français</a></li>
+                  <li><a onClick={onLocaleChange(changeLocale, 'en', 'ca')}>English</a></li>
+                  <li><a onClick={onLocaleChange(changeLocale, 'fr', 'ca')}>French</a></li>
                 </ul>
               </div>
             </div>
@@ -66,4 +74,14 @@ class Footer extends Component {
   }
 }
 
-export default Footer;
+const mapState = state => ({
+  t: getTranslations(state, 'userId'),
+});
+
+const mapActions = dispatch => ({
+  changeLocale: (language, country) => (
+    dispatch(changeLocale(language, country))
+  ),
+});
+
+export default connect(mapState, mapActions)(Footer);
