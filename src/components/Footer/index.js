@@ -64,7 +64,7 @@ class Footer extends Component {
             <div className="divider"></div>
             <div className="row">
               <div className="col-sm-12">
-                <div className="copyright">&copy; Chatler 2018</div>
+                <div className="copyright">&copy; Chatler {(new Date()).getFullYear()}</div>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ class Footer extends Component {
 }
 
 const mapState = state => ({
-  t: getTranslations(state, 'userId'),
+  t: getTranslations(state),
 });
 
 const mapActions = dispatch => ({
