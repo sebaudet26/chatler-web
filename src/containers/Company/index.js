@@ -28,7 +28,7 @@ class Company extends Component {
         <div className="container">
           <section>
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-md-6">
                 <div className="bubble-container left">
                   <div className="img-icon green">
                     <img src={RocketIcon} alt="" />
@@ -38,7 +38,7 @@ class Company extends Component {
                   <div className="bubble left"></div>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 hidden-xs">
                 <img className="work-img" src={WorkImg} alt="" />
               </div>
             </div>

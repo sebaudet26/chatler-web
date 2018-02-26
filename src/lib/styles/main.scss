@@ -302,3 +302,18 @@ section {
     right: calc((-1*(100vw - 1170px))/2);
   }
 }
+
+@media (max-width: 768px) {
+  .intro {
+    .mouse {
+      display: none !important;
+    }
+
+    &::before {
+      left: 0;
+      width: 100%;
+      border-radius: 0 0 100% 100% / 20%;
+      overflow-x: hidden;
+    }
+  }
+}

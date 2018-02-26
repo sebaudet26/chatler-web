@@ -21,7 +21,7 @@ class Home extends Component {
         <section className="intro">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-md-6">
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
@@ -29,7 +29,7 @@ class Home extends Component {
                   <a className="btn-link" href="/company">{t.home.intro.learnMore}</a>
                 </div>
               </div>
-              <div className="col-sm-6 hidden-xs">
+              <div className="col-md-6 hidden-xs">
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
@@ -44,7 +44,7 @@ class Home extends Component {
         <div className="container">
           <section>
             <div className="row">
-              <div className="col-sm-7">
+              <div className="col-md-7">
                 <div className="bubble-container left">
                   <div className="img-icon blue">
                     <img src={LightIcon} alt="" />
@@ -74,7 +74,7 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-7">
+              <div className="col-md-7">
                 <div className="bubble-container right">
                   <div className="img-icon green">
                     <img src={GearsIcon} alt="" />
