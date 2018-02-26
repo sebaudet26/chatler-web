@@ -12,6 +12,10 @@ footer {
       margin-bottom: 5px;
       display: flex;
       align-items: center;
+
+      a {
+        cursor: pointer;
+      }
     }
 
     &-title {

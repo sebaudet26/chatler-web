@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { getTranslations } from '../../redux/selectors/translations';
 import './Home.css';
 import Request from '../../components/Request/';
 import StadiumImg from '../../lib/img/stadium.svg';
@@ -12,6 +14,8 @@ import ChartIcon from '../../lib/icons/pie-chart.svg';
 
 class Home extends Component {
   render() {
+    const { t } = this.props;
+
     return (
       <div>
         <section className="intro">
@@ -19,10 +23,10 @@ class Home extends Component {
             <div className="row">
               <div className="col-sm-6">
                 <div className="intro-block">
-                  <h1>In-seat delivery through chat.</h1>
-                  <h3>A chatbot that allows fans to easily get their food delivered to their seat without missing any of the action.</h3>
-                  <a className="btn" href="/contact">Request Demo</a>
-                  <a className="btn-link" href="/company">or learn more</a>
+                  <h1>{t.home.intro.title}</h1>
+                  <h3>{t.home.intro.subtitle}</h3>
+                  <a className="btn" href="/contact">{t.button.demo}</a>
+                  <a className="btn-link" href="/company">{t.home.intro.learnMore}</a>
                 </div>
               </div>
               <div className="col-sm-6 hidden-xs">
@@ -45,8 +49,8 @@ class Home extends Component {
                   <div className="img-icon blue">
                     <img src={LightIcon} alt="" />
                   </div>
-                  <h2>Seamless experience for fans</h2>
-                  <p>Fans can effortlessly order with our chatbot. There are no apps to download, no accounts to create and no location to enter. The only thing the fan has to think about is what to eat. Just scan, chat and pay!</p>
+                  <h2>{t.home.body.title1}</h2>
+                  <p>{t.home.body.p1}</p>
                   <div className="bubble left"></div>
                 </div>
               </div>
@@ -75,8 +79,8 @@ class Home extends Component {
                   <div className="img-icon green">
                     <img src={GearsIcon} alt="" />
                   </div>
-                  <h2>Increased productivity and efficiency for venues</h2>
-                  <p>Venues lose on potential sales because fans don't want to miss any of the action. And during breaks, customers don't want to wait in line either. We help venues have a steady demand all along the event and help them reach their sales potential.</p>
+                  <h2>{t.home.body.title2}</h2>
+                  <p>{t.home.body.p2}</p>
                   <div className="bubble right"></div>
                 </div>
               </div>
@@ -89,8 +93,8 @@ class Home extends Component {
                   <div className="img-icon blue">
                     <img src={ChartIcon} alt="" />
                   </div>
-                  <h2>More insights on your customers</h2>
-                  <p>Get to know your fans better. The person attending the event is very often not the one who purchased the ticket. Chatler helps venues understand their customers.</p>
+                  <h2>{t.home.body.title3}</h2>
+                  <p>{t.home.body.p3}</p>
                 </div>
               </div>
             </div>
@@ -102,4 +106,8 @@ class Home extends Component {
   }
 }
 
-export default Home;
+const mapState = state => ({
+  t: getTranslations(state),
+});
+
+export default connect(mapState)(Home);

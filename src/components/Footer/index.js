@@ -27,20 +27,20 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.contactUs}</li>
                   <li>contact@chatler.io</li>
-                  <li>Montreal, QC, Canada</li>
+                  <li>{t.footer.contactLocation}</li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
-                  <li className="footer-list-title">Pages</li>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/company">Company</a></li>
-                  <li><a href="/contact">Contact Us</a></li>
+                  <li className="footer-list-title">{t.footer.pages}</li>
+                  <li><a href="/">{t.menu.home}</a></li>
+                  <li><a href="/company">{t.menu.company}</a></li>
+                  <li><a href="/contact">{t.menu.contact}</a></li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
-                  <li className="footer-list-title">Social</li>
+                  <li className="footer-list-title">{t.footer.social}</li>
                   <li>
                     <a href="https://www.facebook.com/Chatler-1902952329966274">
                       Facebook
@@ -57,7 +57,7 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">Language</li>
                   <li><a onClick={onLocaleChange(changeLocale, 'en', 'ca')}>English</a></li>
-                  <li><a onClick={onLocaleChange(changeLocale, 'fr', 'ca')}>French</a></li>
+                  <li><a onClick={onLocaleChange(changeLocale, 'fr', 'ca')}>Français</a></li>
                 </ul>
               </div>
             </div>

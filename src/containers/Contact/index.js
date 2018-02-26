@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { getTranslations } from '../../redux/selectors/translations';
 import Form from '../../components/Form/';
 import './Contact.css';
 
 
-class About extends Component {
+class Contact extends Component {
   render() {
+    const { t } = this.props;
+
     return (
       <div>
         <section className="intro">
@@ -12,8 +16,8 @@ class About extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="intro-block center-section">
-                  <h1>Request a Demo</h1>
-                  <h3>Bring Chatler to your venue and score with your fans!</h3>
+                  <h1>{t.contact.title}</h1>
+                  <h3>{t.contact.subtitle}</h3>
                 </div>
               </div>
             </div>
@@ -33,4 +37,8 @@ class About extends Component {
   }
 }
 
-export default About;
+const mapState = state => ({
+  t: getTranslations(state),
+});
+
+export default connect(mapState)(Contact);

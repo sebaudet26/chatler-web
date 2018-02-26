@@ -8,6 +8,8 @@ footer {
     margin-bottom: 5px;
     display: flex;
     align-items: center; }
+    footer .footer-list li a {
+      cursor: pointer; }
   footer .footer-list-title {
     color: #6F7785;
     font-size: 18px;

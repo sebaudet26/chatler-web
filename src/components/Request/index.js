@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './Request.css';
+import { getTranslations } from '../../redux/selectors/translations';
 
 class Request extends Component {
   render() {
+    const { t } = this.props;
 
     return (
       <div>
         <section className="request blue">
           <div className="container">
             <div className="row">
-              <div className="col-sm-6">
-                <h2>Score with your Fans!<br /><span className="accent">Bring Chatler to your venue.</span></h2>
+              <div className="col-sm-8">
+                <h2>{t.request.l1}<br /><span className="accent">{t.request.l2}</span></h2>
               </div>
-              <div className="col-sm-6">
-                <a className="btn" href="/contact">Request Demo</a>
+              <div className="col-sm-4">
+                <a className="btn" href="/contact">{t.button.demo}</a>
               </div>
             </div>
           </div>
@@ -23,4 +26,8 @@ class Request extends Component {
   }
 }
 
-export default Request;
+const mapState = state => ({
+  t: getTranslations(state),
+});
+
+export default connect(mapState)(Request);
