@@ -19,7 +19,7 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
-                  <a href="/">
+                  <a href={process.env.PUBLIC_URL + '/'}>
                     <Logo />
                     Chatler
                   </a>

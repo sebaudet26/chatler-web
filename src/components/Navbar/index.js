@@ -15,7 +15,7 @@ class Navbar extends Component {
           <div className="container">
             <div className="nav-wrapper">
               <div className="brand">
-                <a href="/">
+                <a href={process.env.PUBLIC_URL + '/'}>
                   <Logo />
                   Chatler
                 </a>
