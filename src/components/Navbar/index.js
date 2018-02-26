@@ -17,7 +17,7 @@ class Navbar extends Component {
               <div className="brand">
                 <a href="/">
                   <Logo />
-                  Chatler
+                  Test
                 </a>
               </div>
               <div className="menu">
