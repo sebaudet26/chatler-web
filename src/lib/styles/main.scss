@@ -265,7 +265,22 @@ section {
   .hidden-xs {
     display: none;
   }
+
+  .intro {
+    .mouse {
+      display: none !important;
+    }
+
+    &::before {
+      left: 0;
+      width: 100%;
+      border-radius: 0 0 100% 100% / 20%;
+      overflow-x: hidden;
+    }
+  }
 }
+
+
 
 @media (min-width: 768px) {
   .bubble {
@@ -276,6 +291,12 @@ section {
   }
   .bubble.right {
     right: calc((-1*(100vw - 750px))/2);
+  }
+}
+
+@media (max-width: 992px) {
+  .hidden-md {
+    display: none;
   }
 }
 
@@ -300,20 +321,5 @@ section {
   }
   .bubble.right {
     right: calc((-1*(100vw - 1170px))/2);
-  }
-}
-
-@media (max-width: 768px) {
-  .intro {
-    .mouse {
-      display: none !important;
-    }
-
-    &::before {
-      left: 0;
-      width: 100%;
-      border-radius: 0 0 100% 100% / 20%;
-      overflow-x: hidden;
-    }
   }
 }

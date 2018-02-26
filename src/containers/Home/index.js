@@ -29,7 +29,7 @@ class Home extends Component {
                   <a className="btn-link" href="/company">{t.home.intro.learnMore}</a>
                 </div>
               </div>
-              <div className="col-md-6 hidden-xs">
+              <div className="col-md-6 hidden-md">
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
@@ -55,7 +55,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-5">
-                <div className="img-wrapper hidden-xs">
+                <div className="img-wrapper hidden-md">
                   <div className="phone">
                     <img src={PhoneScreenImg} alt="" />
                     <div className="phone-home"></div>
@@ -67,7 +67,7 @@ class Home extends Component {
           <section>
             <div className="row">
               <div className="col-sm-5">
-                <div className="img-wrapper hidden-xs">
+                <div className="img-wrapper hidden-md">
                   <div className="tablet">
                     <img src={TabletScreenImg} alt="" />
                     <div className="tablet-home"></div>

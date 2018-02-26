@@ -38,7 +38,7 @@ class Company extends Component {
                   <div className="bubble left"></div>
                 </div>
               </div>
-              <div className="col-sm-6 hidden-xs">
+              <div className="col-sm-6 hidden-md">
                 <img className="work-img" src={WorkImg} alt="" />
               </div>
             </div>

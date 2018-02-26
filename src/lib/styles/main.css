@@ -184,7 +184,14 @@ section {
 
 @media (max-width: 768px) {
   .hidden-xs {
-    display: none; } }
+    display: none; }
+  .intro .mouse {
+    display: none !important; }
+  .intro::before {
+    left: 0;
+    width: 100%;
+    border-radius: 0 0 100% 100% / 20%;
+    overflow-x: hidden; } }
 
 @media (min-width: 768px) {
   .bubble {
@@ -193,6 +200,10 @@ section {
     left: calc((-1*(100vw - 750px))/2); }
   .bubble.right {
     right: calc((-1*(100vw - 750px))/2); } }
+
+@media (max-width: 992px) {
+  .hidden-md {
+    display: none; } }
 
 @media (min-width: 992px) {
   .bubble {
@@ -209,12 +220,3 @@ section {
     left: calc((-1*(100vw - 1170px))/2); }
   .bubble.right {
     right: calc((-1*(100vw - 1170px))/2); } }
-
-@media (max-width: 768px) {
-  .intro .mouse {
-    display: none !important; }
-  .intro::before {
-    left: 0;
-    width: 100%;
-    border-radius: 0 0 100% 100% / 20%;
-    overflow-x: hidden; } }
