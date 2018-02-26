@@ -21,16 +21,16 @@ class Navbar extends Component {
                 </a>
               </div>
               <div className="menu">
-                <a className='menu-link' href="/">{t.menu.home}</a>
-                <a className="menu-link" href="/company">{t.menu.company}</a>
-                <a className="menu-link" href="/contact">{t.menu.contact}</a>
+                <a className='menu-link' href={process.env.PUBLIC_URL + '/'}>{t.menu.home}</a>
+                <a className="menu-link" href={process.env.PUBLIC_URL + '/company'}>{t.menu.company}</a>
+                <a className="menu-link"href={process.env.PUBLIC_URL + '/contact'}>{t.menu.contact}</a>
               </div>
               <div className="mobile-menu">
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />
                 <ul className="mobile-menu-links">
-                  <li><a href="/" onClick={this.burgerToggle}>{t.menu.home}</a></li>
-                  <li><a href="/company" onClick={this.burgerToggle}>{t.menu.company}</a></li>
-                  <li><a href="/contact" onClick={this.burgerToggle}>{t.menu.contact}</a></li>
+                  <li><a href={process.env.PUBLIC_URL + '/'} onClick={this.burgerToggle}>{t.menu.home}</a></li>
+                  <li><a href={process.env.PUBLIC_URL + '/company'} onClick={this.burgerToggle}>{t.menu.company}</a></li>
+                  <li><a href={process.env.PUBLIC_URL + '/contact'} onClick={this.burgerToggle}>{t.menu.contact}</a></li>
                 </ul>
               </div>
             </div>
