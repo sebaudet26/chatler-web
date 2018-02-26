@@ -5,7 +5,7 @@ import { getTranslations } from '../../redux/selectors/translations';
 import './Company.css';
 import WorkImg from '../../lib/img/work.svg';
 import RocketIcon from '../../lib/icons/rocket.svg';
-import LogoIcon from '../../lib/icons/chat-icon.svg';
+import LogoIcon from '../../lib/icons/logo-icon.svg';
 
 class Company extends Component {
   render() {
@@ -47,9 +47,7 @@ class Company extends Component {
             <div className="row">
               <div className="col-sm-12">
                 <div className="center-section">
-                  <div className="img-icon blue">
-                    <img className="logo-icon" src={LogoIcon} alt="" />
-                  </div>
+                  <img className="logo-icon" src={LogoIcon} alt="" />
                   <h2>{t.company.body.title2}</h2>
                   <p>{t.company.body.p2l1}</p>
                   <p>{t.company.body.p2l2}</p>
