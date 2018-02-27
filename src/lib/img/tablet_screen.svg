@@ -14,52 +14,88 @@
             </feMerge>
         </filter>
         <rect id="path-2" x="0" y="0" width="1024" height="768" rx="5"></rect>
-        <rect id="path-4" x="0" y="0" width="501" height="73" rx="10"></rect>
-        <filter x="-3.0%" y="-20.5%" width="106.0%" height="141.1%" filterUnits="objectBoundingBox" id="filter-6">
+        <rect id="path-4" x="0" y="0" width="585" height="85.7069847" rx="10"></rect>
+        <filter x="-2.6%" y="-17.5%" width="105.1%" height="135.0%" filterUnits="objectBoundingBox" id="filter-6">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-7" x="393.559441" y="-5" width="108.608392" height="84"></rect>
-        <rect id="path-8" x="0" y="0" width="501" height="73" rx="10"></rect>
-        <filter x="-3.0%" y="-20.5%" width="106.0%" height="141.1%" filterUnits="objectBoundingBox" id="filter-10">
+        <rect id="path-7" x="499" y="-6" width="87.770822" height="98.6217358"></rect>
+        <path d="M34.3824532,69.7614991 C15.3935486,69.7614991 0,54.1448556 0,34.8807496 C0,15.6166435 15.3935486,0 34.3824532,0 C53.3713577,0 68.7649063,15.6166435 68.7649063,34.8807496 C68.7649063,54.1448556 53.3713577,69.7614991 34.3824532,69.7614991 Z M34.3824532,65.031906 C50.796591,65.031906 64.1028788,51.5327734 64.1028788,34.8807496 C64.1028788,18.2287257 50.796591,4.72959316 34.3824532,4.72959316 C17.9683153,4.72959316 4.66202755,18.2287257 4.66202755,34.8807496 C4.66202755,51.5327734 17.9683153,65.031906 34.3824532,65.031906 Z" id="path-8"></path>
+        <rect id="path-10" x="0" y="0" width="585" height="85.4159593" rx="10"></rect>
+        <filter x="-2.6%" y="-17.6%" width="105.1%" height="135.1%" filterUnits="objectBoundingBox" id="filter-12">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-11" x="393.559441" y="-5" width="108.608392" height="84"></rect>
-        <rect id="path-12" x="0" y="0" width="501" height="73" rx="10"></rect>
-        <filter x="-3.0%" y="-20.5%" width="106.0%" height="141.1%" filterUnits="objectBoundingBox" id="filter-14">
+        <rect id="path-13" x="499" y="-6" width="87.770822" height="98.2868572"></rect>
+        <path d="M34.2657046,69.524618 C15.3412785,69.524618 0,53.9610021 0,34.762309 C0,15.5636159 15.3412785,0 34.2657046,0 C53.1901307,0 68.5314092,15.5636159 68.5314092,34.762309 C68.5314092,53.9610021 53.1901307,69.524618 34.2657046,69.524618 Z M34.2657046,64.8110846 C50.6241068,64.8110846 63.8852119,51.3577895 63.8852119,34.762309 C63.8852119,18.1668285 50.6241068,4.71353342 34.2657046,4.71353342 C17.9073024,4.71353342 4.64619723,18.1668285 4.64619723,34.762309 C4.64619723,51.3577895 17.9073024,64.8110846 34.2657046,64.8110846 Z" id="path-14"></path>
+        <rect id="path-16" x="0" y="0" width="585" height="85.239521" rx="10"></rect>
+        <filter x="-2.6%" y="-17.6%" width="105.1%" height="135.2%" filterUnits="objectBoundingBox" id="filter-18">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-15" x="393.559441" y="-5" width="108.608392" height="84"></rect>
-        <rect id="path-16" x="0" y="0" width="501" height="73" rx="10"></rect>
-        <filter x="-3.0%" y="-20.5%" width="106.0%" height="141.1%" filterUnits="objectBoundingBox" id="filter-18">
+        <rect id="path-19" x="499" y="-6" width="87.770822" height="98.0838323"></rect>
+        <path d="M34.4461078,68.8922156 C15.4220478,68.8922156 0,53.4701678 0,34.4461078 C0,15.4220478 15.4220478,0 34.4461078,0 C53.4701678,0 68.8922156,15.4220478 68.8922156,34.4461078 C68.8922156,53.4701678 53.4701678,68.8922156 34.4461078,68.8922156 Z M34.4461078,64.2215569 C50.8906342,64.2215569 64.2215569,50.8906342 64.2215569,34.4461078 C64.2215569,18.0015813 50.8906342,4.67065868 34.4461078,4.67065868 C18.0015813,4.67065868 4.67065868,18.0015813 4.67065868,34.4461078 C4.67065868,50.8906342 18.0015813,64.2215569 34.4461078,64.2215569 Z" id="path-20"></path>
+        <rect id="path-22" x="0" y="0" width="585" height="85.239521" rx="10"></rect>
+        <filter x="-2.6%" y="-17.6%" width="105.1%" height="135.2%" filterUnits="objectBoundingBox" id="filter-24">
             <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <rect id="path-19" x="393.559441" y="-5" width="108.608392" height="84"></rect>
-        <rect id="path-20" x="0" y="0" width="501" height="73" rx="10"></rect>
-        <filter x="-3.0%" y="-20.5%" width="106.0%" height="141.1%" filterUnits="objectBoundingBox" id="filter-22">
-            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-23" x="393.559441" y="-5" width="108.608392" height="84"></rect>
+        <rect id="path-25" x="499" y="-6" width="87.770822" height="98.0838323"></rect>
+        <path d="M34.4461078,68.8922156 C15.4220478,68.8922156 0,53.4701678 0,34.4461078 C0,15.4220478 15.4220478,0 34.4461078,0 C53.4701678,0 68.8922156,15.4220478 68.8922156,34.4461078 C68.8922156,53.4701678 53.4701678,68.8922156 34.4461078,68.8922156 Z M34.4461078,64.2215569 C50.8906342,64.2215569 64.2215569,50.8906342 64.2215569,34.4461078 C64.2215569,18.0015813 50.8906342,4.67065868 34.4461078,4.67065868 C18.0015813,4.67065868 4.67065868,18.0015813 4.67065868,34.4461078 C4.67065868,50.8906342 18.0015813,64.2215569 34.4461078,64.2215569 Z" id="path-26"></path>
     </defs>
     <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="tablet_screen" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)">
-            <g id="Rectangle-17">
+            <g id="Group-5">
                 <mask id="mask-3" fill="white">
                     <use xlink:href="#path-2"></use>
                 </mask>
-                <use id="Mask" fill="#434E5D" xlink:href="#path-2"></use>
-                <rect fill="#333B45" mask="url(#mask-3)" x="0" y="0" width="1024" height="20"></rect>
+                <use id="Mask" fill="#2B313A" xlink:href="#path-2"></use>
+                <g mask="url(#mask-3)">
+                    <rect id="Rectangle-15" fill="#363F4C" x="0" y="0" width="140" height="768"></rect>
+                    <g id="Logo" transform="translate(17.000000, 33.000000)">
+                        <text id="Chatler" font-family="JosefinSans-Bold, Josefin Sans" font-size="20" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="36" y="21">Chatler</tspan>
+                        </text>
+                        <g id="logo-icon">
+                            <rect id="Rectangle-11" fill="#3D5AFE" x="0" y="0" width="28" height="28" rx="14"></rect>
+                            <g transform="translate(3.000000, 8.000000)" id="Combined-Shape" fill="#FFFFFF">
+                                <path d="M6,0 L16,0 L16,-1.77635684e-15 C19.3137085,-2.38507522e-15 22,2.6862915 22,6 L22,6 L22,6 C22,9.3137085 19.3137085,12 16,12 L6,12 L6,12 C2.6862915,12 4.05812251e-16,9.3137085 0,6 L0,6 L0,6 C-4.05812251e-16,2.6862915 2.6862915,6.08718376e-16 6,0 L6,0 Z M6.003663,7.40689655 C6.73801965,7.40689655 7.33333333,6.79553366 7.33333333,6.04137931 C7.33333333,5.28722496 6.73801965,4.67586207 6.003663,4.67586207 C5.26930636,4.67586207 4.67399267,5.28722496 4.67399267,6.04137931 C4.67399267,6.79553366 5.26930636,7.40689655 6.003663,7.40689655 Z M15.996337,7.40689655 C16.7306936,7.40689655 17.3260073,6.79553366 17.3260073,6.04137931 C17.3260073,5.28722496 16.7306936,4.67586207 15.996337,4.67586207 C15.2619804,4.67586207 14.6666667,5.28722496 14.6666667,6.04137931 C14.6666667,6.79553366 15.2619804,7.40689655 15.996337,7.40689655 Z M11,7.44827586 C11.7343566,7.44827586 12.3296703,6.83691297 12.3296703,6.08275862 C11.3921049,6.08275862 10.4111936,6.08275862 9.67032967,6.08275862 C9.67032967,6.83691297 10.2656434,7.44827586 11,7.44827586 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-3" transform="translate(0.000000, 83.000000)">
+                        <rect id="Rectangle-16" fill="#FFFFFF" opacity="0.1" x="0" y="0" width="140" height="140"></rect>
+                        <circle id="Oval-2" fill="#3D5AFE" cx="70.5" cy="57.5" r="19.5"></circle>
+                        <g id="pickup" transform="translate(70.583333, 58.000000) rotate(-180.000000) translate(-70.583333, -58.000000) translate(65.083333, 51.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                            <polygon id="Shape" points="5.42014156 -2.84217094e-14 3.74953113 1.67710401 -1.56319402e-13 5.4472275 1.66864363 7.12472687 4.21487894 4.56558159 4.21487894 13.6179258 6.57466043 13.6179258 6.57466043 4.51616198 9.17006605 7.12472687 10.8387097 5.4472275 7.08799846 1.67789472"></polygon>
+                        </g>
+                        <text id="INCOMING" font-family="JosefinSans-Bold, Josefin Sans" font-size="14" font-weight="bold" fill="#FFFFFF">
+                            <tspan x="31" y="103">INCOMING</tspan>
+                        </text>
+                        <g id="Group-2" transform="translate(79.000000, 29.000000)">
+                            <circle id="Oval-3" fill="#F24D6E" cx="11" cy="11" r="11"></circle>
+                            <text id="5" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="12" font-weight="500" fill="#FFFFFF">
+                                <tspan x="8" y="15">5</tspan>
+                            </text>
+                        </g>
+                    </g>
+                    <g id="Group-3" transform="translate(0.000000, 223.000000)">
+                        <rect id="Rectangle-16" x="0" y="0" width="139" height="140"></rect>
+                        <text id="READY" font-family="JosefinSans-Bold, Josefin Sans" font-size="14" font-weight="bold" fill="#6F7785">
+                            <tspan x="45" y="102">READY</tspan>
+                        </text>
+                        <g id="Group-4" transform="translate(48.000000, 33.000000)">
+                            <circle id="Oval-2" fill="#6F7785" cx="22" cy="22" r="22"></circle>
+                            <path d="M31.2416378,17.0035027 L19.8849698,28.3601707 C19.7849378,28.4602027 19.6229701,28.4602027 19.5231719,28.3601707 L13.0748487,21.9116138 C12.9750504,21.8120493 12.9750504,21.6500816 13.0748487,21.5500496 L14.6417048,19.9831936 C14.7417367,19.8833953 14.9037044,19.8833953 15.0035027,19.9831936 L19.7043045,24.6837617 L29.3132176,15.0748487 C29.4134833,14.9750504 29.5749835,14.9750504 29.6750155,15.0748487 L31.2416378,16.6417048 C31.3416698,16.741503 31.3416698,16.903237 31.2416378,17.0035027 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
             </g>
-            <g id="Group" transform="translate(262.000000, 80.000000)">
+            <g id="Group" transform="translate(220.000000, 84.000000)">
                 <g id="Group-8">
                     <g id="Rectangle-24">
                         <mask id="mask-5" fill="white">
@@ -71,187 +107,212 @@
                         </g>
                         <g mask="url(#mask-5)">
                             <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-7"></use>
-                            <rect stroke="#E2E7EC" stroke-width="1" x="394.059441" y="-4.5" width="107.608392" height="83"></rect>
+                            <rect stroke="#E2E7EC" stroke-width="1" x="499.5" y="-5.5" width="86.770822" height="97.6217358"></rect>
                         </g>
-                    </g>
-                    <g id="Group-6" transform="translate(18.000000, 16.000000)">
-                        <circle id="Oval" fill="#FE973D" cx="19.5" cy="19.5" r="19.5"></circle>
-                        <text id="!" font-family="JosefinSans-Bold, Josefin Sans" font-size="20" font-weight="bold" letter-spacing="0.416666657" fill="#FFFFFF">
-                            <tspan x="17.5433333" y="27">!</tspan>
+                        <text id="View" mask="url(#mask-5)" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                            <tspan x="524" y="48">View</tspan>
                         </text>
                     </g>
                 </g>
-                <text id="7:56-PM" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                    <tspan x="97" y="50">7:56 PM</tspan>
+                <text id="54678" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="121.584327" y="57.8211244">54678</tspan>
                 </text>
-                <text id="TIME" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                    <tspan x="98" y="27">TIME</tspan>
+                <text id="ID" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="122.58092" y="30.911414">ID</tspan>
                 </text>
-                <text id="54678" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                    <tspan x="222" y="50">54678</tspan>
+                <text id="S.-Bonnet" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="219.250426" y="57.8211244">S. Bonnet</tspan>
                 </text>
-                <text id="ID" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                    <tspan x="223" y="27">ID</tspan>
+                <text id="Name" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="219.250426" y="30.911414">Name</tspan>
                 </text>
-                <text id="View" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#6F7785">
-                    <tspan x="425" y="43">View</tspan>
+                <text id="$21.47" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="365.749574" y="57.8211244">$21.47</tspan>
                 </text>
-            </g>
-            <g id="Rectangle-24" transform="translate(261.000000, 173.000000)">
-                <g id="Group-12">
-                    <mask id="mask-9" fill="white">
-                        <use xlink:href="#path-8"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-8"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                <text id="Total" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="365.749574" y="30.911414">Total</tspan>
+                </text>
+                <g id="Group-7" transform="translate(20.928450, 7.972743)">
+                    <g id="Path-3">
+                        <mask id="mask-9" fill="white">
+                            <use xlink:href="#path-8"></use>
+                        </mask>
+                        <use id="Mask" fill="#F24D6E" fill-rule="nonzero" xlink:href="#path-8"></use>
+                        <polygon fill="#E2E7EC" mask="url(#mask-9)" points="34.2499943 -11.8239829 34.2499943 35.4699845 -2.33101377 -1.6411832"></polygon>
                     </g>
-                    <g id="Rectangle-24" mask="url(#mask-9)">
-                        <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-11"></use>
-                        <rect stroke="#E2E7EC" stroke-width="1" x="394.059441" y="-4.5" width="107.608392" height="83"></rect>
-                    </g>
-                    <text id="8:03-PM" mask="url(#mask-9)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="97" y="50">8:03 PM</tspan>
+                    <text id="13" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                        <tspan x="27.2792066" y="35.5599573">13</tspan>
                     </text>
-                    <text id="TIME" mask="url(#mask-9)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="98" y="27">TIME</tspan>
+                    <text id="MIN" font-family="JosefinSans-Regular, Josefin Sans" font-size="8" font-weight="normal" fill="#6F7785">
+                        <tspan x="24.4756446" y="47.931135">MIN</tspan>
                     </text>
-                    <text id="39491" mask="url(#mask-9)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="222" y="50">39491</tspan>
-                    </text>
-                    <text id="ID" mask="url(#mask-9)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="223" y="27">ID</tspan>
-                    </text>
-                    <text id="View" mask="url(#mask-9)" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#6F7785">
-                        <tspan x="425" y="43">View</tspan>
-                    </text>
-                    <circle id="Oval" fill="#3D5AFE" mask="url(#mask-9)" cx="38.5" cy="36.5" r="19.5"></circle>
-                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-9)" transform="translate(38.500000, 36.000000) rotate(-180.000000) translate(-38.500000, -36.000000) " points="38.5007984 29 36.8053277 30.5848474 33 34.1475785 34.6934746 35.7327996 37.2776003 33.3144315 37.2776003 43 39.6724976 43 39.6724976 33.2677304 42.3065254 35.7327996 44 34.1475785 40.1934746 30.5855947"></polygon>
                 </g>
             </g>
-            <g id="Rectangle-24" transform="translate(261.000000, 266.000000)">
-                <g id="Group-12">
-                    <mask id="mask-13" fill="white">
-                        <use xlink:href="#path-12"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-12"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+            <g id="Group" transform="translate(220.000000, 198.000000)">
+                <g id="Group-8">
+                    <g id="Rectangle-24">
+                        <mask id="mask-11" fill="white">
+                            <use xlink:href="#path-10"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-10"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                        </g>
+                        <g mask="url(#mask-11)">
+                            <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <rect stroke="#E2E7EC" stroke-width="1" x="499.5" y="-5.5" width="86.770822" height="97.2868572"></rect>
+                        </g>
+                        <text id="View" mask="url(#mask-11)" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                            <tspan x="524" y="48">View</tspan>
+                        </text>
                     </g>
-                    <g id="Rectangle-24" mask="url(#mask-13)">
-                        <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-15"></use>
-                        <rect stroke="#E2E7EC" stroke-width="1" x="394.059441" y="-4.5" width="107.608392" height="83"></rect>
+                </g>
+                <text id="12342" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="121.171477" y="57.6434635">12342</tspan>
+                </text>
+                <text id="ID" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="122.164686" y="30.8234295">ID</tspan>
+                </text>
+                <text id="A.-Sobolevski" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="219.499151" y="57.6434635">A. Sobolevski</tspan>
+                </text>
+                <text id="Name" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="219.499151" y="30.8234295">Name</tspan>
+                </text>
+                <text id="$11.24" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="365.500849" y="57.6434635">$11.24</tspan>
+                </text>
+                <text id="Total" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="365.500849" y="30.8234295">Total</tspan>
+                </text>
+                <g id="Group-7" transform="translate(20.857385, 7.945671)">
+                    <g id="Path-3">
+                        <mask id="mask-15" fill="white">
+                            <use xlink:href="#path-14"></use>
+                        </mask>
+                        <use id="Mask" fill="#FE973D" fill-rule="nonzero" xlink:href="#path-14"></use>
+                        <path d="M34.1336956,-11.7838336 L34.1336956,35.3495431 L-5.33568782,52.9991352 C-7.51266576,24.1661872 -6.71832507,7.3154861 -2.95266575,2.44703173 C0.812993558,-2.42142263 13.175114,-7.1650444 34.1336956,-11.7838336 Z" fill="#E2E7EC" mask="url(#mask-15)"></path>
                     </g>
-                    <text id="8:07-PM" mask="url(#mask-13)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="97" y="50">8:07 PM</tspan>
+                    <text id="8" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                        <tspan x="28.9779299" y="35.4595839">8</tspan>
                     </text>
-                    <text id="TIME" mask="url(#mask-13)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="98" y="27">TIME</tspan>
+                    <text id="MIN" font-family="JosefinSans-Regular, Josefin Sans" font-size="8" font-weight="normal" fill="#6F7785">
+                        <tspan x="24.3925355" y="47.7785675">MIN</tspan>
                     </text>
-                    <text id="93948" mask="url(#mask-13)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="222" y="50">93948</tspan>
-                    </text>
-                    <text id="ID" mask="url(#mask-13)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="223" y="27">ID</tspan>
-                    </text>
-                    <text id="View" mask="url(#mask-13)" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#6F7785">
-                        <tspan x="425" y="43">View</tspan>
-                    </text>
-                    <circle id="Oval" fill="#3D5AFE" mask="url(#mask-13)" cx="38.5" cy="36.5" r="19.5"></circle>
-                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-13)" transform="translate(38.500000, 36.000000) rotate(-180.000000) translate(-38.500000, -36.000000) " points="38.5007984 29 36.8053277 30.5848474 33 34.1475785 34.6934746 35.7327996 37.2776003 33.3144315 37.2776003 43 39.6724976 43 39.6724976 33.2677304 42.3065254 35.7327996 44 34.1475785 40.1934746 30.5855947"></polygon>
                 </g>
             </g>
-            <g id="Rectangle-24" transform="translate(261.000000, 359.000000)">
-                <g id="Group-12">
-                    <mask id="mask-17" fill="white">
-                        <use xlink:href="#path-16"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-16"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+            <g id="Group" transform="translate(220.000000, 312.000000)">
+                <g id="Group-8">
+                    <g id="Rectangle-24">
+                        <mask id="mask-17" fill="white">
+                            <use xlink:href="#path-16"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-16"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                        </g>
+                        <g mask="url(#mask-17)">
+                            <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-19"></use>
+                            <rect stroke="#E2E7EC" stroke-width="1" x="499.5" y="-5.5" width="86.770822" height="97.0838323"></rect>
+                        </g>
+                        <text id="View" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                            <tspan x="524" y="48">View</tspan>
+                        </text>
                     </g>
-                    <g id="Rectangle-24" mask="url(#mask-17)">
-                        <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-19"></use>
-                        <rect stroke="#E2E7EC" stroke-width="1" x="394.059441" y="-4.5" width="107.608392" height="83"></rect>
+                </g>
+                <text id="53232" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="121.437126" y="57.4610778">53232</tspan>
+                </text>
+                <text id="ID" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="122.60479" y="30.6886228">ID</tspan>
+                </text>
+                <text id="B.-Provencher" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="219.520958" y="57.4610778">B. Provencher</tspan>
+                </text>
+                <text id="Name" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="219.520958" y="30.6886228">Name</tspan>
+                </text>
+                <text id="$35.72" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="365.479042" y="57.4610778">$35.72</tspan>
+                </text>
+                <text id="Total" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="365.479042" y="30.6886228">Total</tspan>
+                </text>
+                <g id="Group-7" transform="translate(21.017964, 8.173653)">
+                    <g id="Path-3">
+                        <mask id="mask-21" fill="white">
+                            <use xlink:href="#path-20"></use>
+                        </mask>
+                        <use id="Mask" fill="#66CFB0" fill-rule="nonzero" xlink:href="#path-20"></use>
+                        <path d="M34.3134038,-11.6766467 L34.3134038,35.0280003 C62.136288,55.9768805 74.7087717,66.4513206 72.0308548,66.4513206 C70.0605057,66.4513206 38.6427494,79.3912594 12.7322549,68.0502182 C6.52914574,65.335113 1.50661767,54.3277071 -2.33532934,35.0280003 C-9.40044139,18.3343766 -11.2631785,7.85957018 -7.92354059,3.60358108 C-4.5839027,-0.652408019 9.49507874,-5.74581728 34.3134038,-11.6766467 Z" fill="#E2E7EC" mask="url(#mask-21)"></path>
                     </g>
-                    <text id="8:11-PM" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="97" y="50">8:11 PM</tspan>
+                    <text id="4" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                        <tspan x="29.0382754" y="35.1916168">4</tspan>
                     </text>
-                    <text id="TIME" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="98" y="27">TIME</tspan>
+                    <text id="MIN" font-family="JosefinSans-Regular, Josefin Sans" font-size="8" font-weight="normal" fill="#6F7785">
+                        <tspan x="24.5209581" y="47.3712575">MIN</tspan>
                     </text>
-                    <text id="39492" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="222" y="50">39492</tspan>
-                    </text>
-                    <text id="ID" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="223" y="27">ID</tspan>
-                    </text>
-                    <text id="View" mask="url(#mask-17)" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#6F7785">
-                        <tspan x="425" y="43">View</tspan>
-                    </text>
-                    <circle id="Oval" fill="#3D5AFE" mask="url(#mask-17)" cx="38.5" cy="36.5" r="19.5"></circle>
-                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-17)" transform="translate(38.500000, 36.000000) rotate(-180.000000) translate(-38.500000, -36.000000) " points="38.5007984 29 36.8053277 30.5848474 33 34.1475785 34.6934746 35.7327996 37.2776003 33.3144315 37.2776003 43 39.6724976 43 39.6724976 33.2677304 42.3065254 35.7327996 44 34.1475785 40.1934746 30.5855947"></polygon>
                 </g>
             </g>
-            <g id="Rectangle-24" transform="translate(261.000000, 452.000000)">
-                <g id="Group-12">
-                    <mask id="mask-21" fill="white">
-                        <use xlink:href="#path-20"></use>
-                    </mask>
-                    <g id="Mask">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-20"></use>
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-20"></use>
+            <g id="Group" transform="translate(220.000000, 426.000000)">
+                <g id="Group-8">
+                    <g id="Rectangle-24">
+                        <mask id="mask-23" fill="white">
+                            <use xlink:href="#path-22"></use>
+                        </mask>
+                        <g id="Mask">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-22"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-22"></use>
+                        </g>
+                        <g mask="url(#mask-23)">
+                            <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-25"></use>
+                            <rect stroke="#E2E7EC" stroke-width="1" x="499.5" y="-5.5" width="86.770822" height="97.0838323"></rect>
+                        </g>
+                        <text id="View" mask="url(#mask-23)" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                            <tspan x="524" y="48">View</tspan>
+                        </text>
                     </g>
-                    <g id="Rectangle-24" mask="url(#mask-21)">
-                        <use fill="#F6F9FC" fill-rule="evenodd" xlink:href="#path-23"></use>
-                        <rect stroke="#E2E7EC" stroke-width="1" x="394.059441" y="-4.5" width="107.608392" height="83"></rect>
+                </g>
+                <text id="75432" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="121.437126" y="57.4610778">75432</tspan>
+                </text>
+                <text id="ID" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="122.60479" y="30.6886228">ID</tspan>
+                </text>
+                <text id="S.-Audet" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="219.520958" y="57.4610778">S. Audet</tspan>
+                </text>
+                <text id="Name" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="219.520958" y="30.6886228">Name</tspan>
+                </text>
+                <text id="$27.12" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                    <tspan x="365.479042" y="57.4610778">$27.12</tspan>
+                </text>
+                <text id="Total" font-family="JosefinSans-Regular, Josefin Sans" font-size="16" font-weight="normal" fill="#6F7785">
+                    <tspan x="365.479042" y="30.6886228">Total</tspan>
+                </text>
+                <g id="Group-7" transform="translate(21.017964, 8.173653)">
+                    <g id="Path-3">
+                        <mask id="mask-27" fill="white">
+                            <use xlink:href="#path-26"></use>
+                        </mask>
+                        <use id="Mask" fill="#66CFB0" fill-rule="nonzero" xlink:href="#path-26"></use>
+                        <path d="M34.3134038,-11.6766467 L34.3134038,35.0280003 C62.9920571,20.256829 76.5205567,14.0904683 74.8989024,16.5289184 C70.8248642,22.6549705 78.9118845,50.2165734 66.7765643,61.3318367 C48.5359251,78.0392251 7.01256052,68.6687543 4.18291832,67.4575311 C-1.65325953,64.9593658 -6.01552747,47.9831615 -8.90388549,16.5289184 L34.3134038,-11.6766467 Z" fill="#E2E7EC" mask="url(#mask-27)"></path>
                     </g>
-                    <text id="8:15-PM" mask="url(#mask-21)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="97" y="50">8:15 PM</tspan>
+                    <text id="2" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#434E5D">
+                        <tspan x="28.9572754" y="35.1916168">2</tspan>
                     </text>
-                    <text id="TIME" mask="url(#mask-21)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="98" y="27">TIME</tspan>
+                    <text id="MIN" font-family="JosefinSans-Regular, Josefin Sans" font-size="8" font-weight="normal" fill="#6F7785">
+                        <tspan x="24.5209581" y="47.3712575">MIN</tspan>
                     </text>
-                    <text id="12039" mask="url(#mask-21)" font-family="JosefinSans-Regular, Josefin Sans" font-size="20" font-weight="normal" fill="#434E5D">
-                        <tspan x="222" y="50">12039</tspan>
-                    </text>
-                    <text id="ID" mask="url(#mask-21)" font-family="JosefinSans-Regular, Josefin Sans" font-size="12" font-weight="normal" fill="#6F7785">
-                        <tspan x="223" y="27">ID</tspan>
-                    </text>
-                    <text id="View" mask="url(#mask-21)" font-family="JosefinSans-Regular, Josefin Sans" font-size="18" font-weight="normal" fill="#6F7785">
-                        <tspan x="425" y="43">View</tspan>
-                    </text>
-                    <circle id="Oval" fill="#3D5AFE" mask="url(#mask-21)" cx="38.5" cy="36.5" r="19.5"></circle>
-                    <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" mask="url(#mask-21)" transform="translate(38.500000, 36.000000) rotate(-180.000000) translate(-38.500000, -36.000000) " points="38.5007984 29 36.8053277 30.5848474 33 34.1475785 34.6934746 35.7327996 37.2776003 33.3144315 37.2776003 43 39.6724976 43 39.6724976 33.2677304 42.3065254 35.7327996 44 34.1475785 40.1934746 30.5855947"></polygon>
                 </g>
             </g>
-            <text id="Incoming-Orders" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="18" font-weight="500" fill="#FFFFFF">
+            <text id="Incoming-Orders" font-family="JosefinSans-Bold, Josefin Sans" font-size="18" font-weight="bold" fill="#FFFFFF">
                 <tspan x="443" y="51">Incoming Orders</tspan>
             </text>
-            <g id="Group-2" transform="translate(15.000000, 80.000000)">
-                <rect id="Rectangle-18" fill-opacity="0.3" fill="#CDCDCD" x="0" y="0" width="96" height="120" rx="4"></rect>
-                <g id="pickup" transform="translate(48.000000, 60.000000) rotate(-180.000000) translate(-48.000000, -60.000000) translate(36.000000, 48.000000)" fill-rule="nonzero" fill="#FFFFFF">
-                    <polygon id="Shape" points="15.6965958 3.71358745 12.001742 0 11.999129 0.000875433157 11.9973869 0 8.30253321 3.71358745 8.30427524 3.71533832 0 12.061718 3.69485374 15.7761809 9.33294621 10.1095021 9.33294621 24 14.5581767 24 14.5581767 10.000073 20.3051463 15.7761809 24 12.061718 15.6948537 3.71533832"></polygon>
-                </g>
-            </g>
-            <g id="Group-3" transform="translate(16.000000, 226.000000)">
-                <rect id="Rectangle-18" fill-opacity="0.05" fill="#CDCDCD" x="0" y="0" width="96" height="120" rx="4"></rect>
-                <g id="check-mark-black-outline" transform="translate(35.000000, 51.000000)" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero">
-                    <path d="M25.0303887,2.74911994 L9.44725858,18.33225 C9.30999901,18.4695096 9.08775396,18.4695096 8.95081509,18.33225 L0.102704151,9.48381837 C-0.034234717,9.3472002 -0.034234717,9.12495515 0.102704151,8.98769559 L2.25267645,6.83772329 C2.38993602,6.70078442 2.61218107,6.70078442 2.74911994,6.83772329 L9.19935754,13.2876402 L22.3842936,0.102704151 C22.5218738,-0.034234717 22.7434775,-0.034234717 22.8807371,0.102704151 L25.0303887,2.25267645 C25.1676482,2.38961532 25.1676482,2.61153967 25.0303887,2.74911994 Z" id="Shape"></path>
-                </g>
-            </g>
-            <g id="foodi" transform="translate(15.000000, 36.000000)" fill="#FFFFFF">
-                <path d="M7.77777778,0 L22.2222222,0 L22.2222222,-8.8817842e-15 C26.5177703,-5.85565049e-15 30,3.48222972 30,7.77777778 L30,7.77777778 C30,12.0733258 26.5177703,15.5555556 22.2222222,15.5555556 L7.77777778,15.5555556 L7.77777778,15.5555556 C3.48222972,15.5555556 5.26052918e-16,12.0733258 0,7.77777778 L0,7.77777778 L0,7.77777778 C-5.26052918e-16,3.48222972 3.48222972,7.89079376e-16 7.77777778,0 L7.77777778,0 Z M8.18681319,9.60153257 C9.18820861,9.60153257 10,8.80902511 10,7.83141762 C10,6.85381014 9.18820861,6.06130268 8.18681319,6.06130268 C7.18541776,6.06130268 6.37362637,6.85381014 6.37362637,7.83141762 C6.37362637,8.80902511 7.18541776,9.60153257 8.18681319,9.60153257 Z M21.8131868,9.60153257 C22.8145822,9.60153257 23.6263736,8.80902511 23.6263736,7.83141762 C23.6263736,6.85381014 22.8145822,6.06130268 21.8131868,6.06130268 C20.8117914,6.06130268 20,6.85381014 20,7.83141762 C20,8.80902511 20.8117914,9.60153257 21.8131868,9.60153257 Z M15,9.65517241 C16.0013954,9.65517241 16.8131868,8.86266496 16.8131868,7.88505747 C15.5346885,7.88505747 14.1970822,7.88505747 13.1868132,7.88505747 C13.1868132,8.86266496 13.9986046,9.65517241 15,9.65517241 Z" id="Combined-Shape"></path>
-            </g>
-            <text id="Chatler" font-family="JosefinSans-Bold, Josefin Sans" font-size="20" font-weight="bold" fill="#FFFFFF">
-                <tspan x="52" y="51">Chatler</tspan>
+            <text id="LOG-OUT" font-family="JosefinSans-Bold, Josefin Sans" font-size="12" font-weight="bold" fill="#FFFFFF">
+                <tspan x="943.976" y="49">LOG OUT</tspan>
             </text>
-            <g id="Group-2" transform="translate(102.000000, 75.000000)">
-                <circle id="Oval-3" fill="#F24D6E" cx="9" cy="9" r="9"></circle>
-                <text id="5" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="12" font-weight="500" fill="#FFFFFF">
-                    <tspan x="6" y="13">5</tspan>
-                </text>
-            </g>
         </g>
     </g>
 </svg>

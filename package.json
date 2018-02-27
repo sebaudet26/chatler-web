@@ -1,6 +1,6 @@
 {
-  "name": "chatler-website",
-  "homepage": "https://happykennedy.github.io/chatler-web",
+  "name": "chatler-web",
+  "homepage": "http://www.chatler.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
