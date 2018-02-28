@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Router, HashRouter } from "react-router-dom";
 import asyncComponent from "./components/AsyncComponent/";
 
 const AsyncHome = asyncComponent(() => import("./containers/Home/"));
@@ -9,11 +9,12 @@ const AsyncNotFound = asyncComponent(() => import("./containers/NotFound/"));
 
 export default ({ childProps }) =>
   <Switch>
-    <Router history={hashHistory}>
-      <Route path={process.env.PUBLIC_URL + '/'} exact component={AsyncHome} />
-      <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
-      <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
-    </Router>
-
-    <Route component={AsyncNotFound} />
+    <HashRouter>
+      <div>
+        <Route path={process.env.PUBLIC_URL + '/'} exact component={AsyncHome} />
+        <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
+        <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
+        <Route component={AsyncNotFound} />
+      </div>
+    </HashRouter>
   </Switch>;
