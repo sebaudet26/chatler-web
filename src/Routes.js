@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch, BrowserRouter} from "react-router-dom";
+import { Route, Switch, HashRouter} from "react-router-dom";
 import asyncComponent from "./components/AsyncComponent/";
 
 const AsyncHome = asyncComponent(() => import("./containers/Home/"));
@@ -9,7 +9,7 @@ const AsyncNotFound = asyncComponent(() => import("./containers/NotFound/"));
 
 export default ({ childProps }) =>
 
-<BrowserRouter>
+<HashRouter>
   <div>
     <Switch>
       <Route path={process.env.PUBLIC_URL + '/'} exact component={AsyncHome} />
@@ -18,4 +18,4 @@ export default ({ childProps }) =>
       <Route component={AsyncNotFound} />
     </Switch>
   </div>
-</BrowserRouter>
+</HashRouter>

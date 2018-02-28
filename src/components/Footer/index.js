@@ -34,8 +34,8 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
                   <li><a href={process.env.PUBLIC_URL + '/'}>{t.menu.home}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/company'}>{t.menu.company}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/contact'}>{t.menu.contact}</a></li>
+                  <li><a href={process.env.PUBLIC_URL + '/#/company'}>{t.menu.company}</a></li>
+                  <li><a href={process.env.PUBLIC_URL + '/#/contact'}>{t.menu.contact}</a></li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">

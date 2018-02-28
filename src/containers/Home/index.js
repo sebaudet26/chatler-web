@@ -25,8 +25,8 @@ class Home extends Component {
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <a className="btn" href={process.env.PUBLIC_URL + '/contact'}>{t.button.demo}</a>
-                  <a className="btn-link" href={process.env.PUBLIC_URL + '/company'}>{t.home.intro.learnMore}</a>
+                  <a className="btn" href={process.env.PUBLIC_URL + '/#/contact'}>{t.button.demo}</a>
+                  <a className="btn-link" href={process.env.PUBLIC_URL + '/#/company'}>{t.home.intro.learnMore}</a>
                 </div>
               </div>
               <div className="col-md-6 hidden-md">

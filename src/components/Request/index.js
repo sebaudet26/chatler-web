@@ -16,7 +16,7 @@ class Request extends Component {
                 <h2>{t.request.l1}<br /><span className="accent">{t.request.l2}</span></h2>
               </div>
               <div className="col-sm-4">
-                <a className="btn" href={process.env.PUBLIC_URL + '/contact'}>{t.button.demo}</a>
+                <a className="btn" href={process.env.PUBLIC_URL + '/#/contact'}>{t.button.demo}</a>
               </div>
             </div>
           </div>
