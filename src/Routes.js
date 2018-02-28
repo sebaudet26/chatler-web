@@ -9,9 +9,11 @@ const AsyncNotFound = asyncComponent(() => import("./containers/NotFound/"));
 
 export default ({ childProps }) =>
   <Switch>
-    <Route path={process.env.PUBLIC_URL + '/'} exact component={AsyncHome} />
-    <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
-    <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
+    <Router history={hashHistory}>
+      <Route path={process.env.PUBLIC_URL + '/'} exact component={AsyncHome} />
+      <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
+      <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
+    </Router>
 
     <Route component={AsyncNotFound} />
   </Switch>;
