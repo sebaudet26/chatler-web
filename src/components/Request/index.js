@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import './Request.css';
 import { getTranslations } from '../../redux/selectors/translations';
 
@@ -16,7 +17,7 @@ class Request extends Component {
                 <h2>{t.request.l1}<br /><span className="accent">{t.request.l2}</span></h2>
               </div>
               <div className="col-sm-4">
-                <a className="btn" href={process.env.PUBLIC_URL + '/#/contact'}>{t.button.demo}</a>
+                <Link className="btn" to='/contact'>{t.button.demo}</Link>
               </div>
             </div>
           </div>

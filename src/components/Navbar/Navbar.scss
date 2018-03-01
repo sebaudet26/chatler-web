@@ -16,8 +16,9 @@ nav {
   a {
     color: $white;
 
-    &:hover {
+    &:hover, &:focus {
       color: $white;
+      outline: none;
     }
   }
 }
@@ -31,6 +32,12 @@ nav {
   &-link {
     margin: 0 3rem;
     position: relative;
+
+    &.active {
+      &:after {
+        opacity: 1;
+      }
+    }
 
     &:last-child {
       margin-right: 0;
@@ -97,6 +104,7 @@ nav {
 
       a {
         color: $grey-1;
+        cursor: pointer;
       }
     }
   }

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router-dom";
+import { withRouter, HashRouter } from "react-router-dom";
 import Routes from "./Routes";
 import Navbar from "./components/Navbar/"
 import Footer from "./components/Footer/"
@@ -10,13 +10,15 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Navbar />
+      <HashRouter>
         <div>
-          <Routes />
+          <Navbar />
+          <div>
+            <Routes />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </HashRouter>
     );
   }
 }

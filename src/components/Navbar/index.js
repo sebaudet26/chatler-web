@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { NavLink, withRouter } from 'react-router-dom';
 import './Navbar.css';
 import MenuIcon from '../../lib/icons/menu-button.svg';
 import Logo from '../../lib/img/Logo.js';
@@ -21,16 +22,16 @@ class Navbar extends Component {
                 </a>
               </div>
               <div className="menu">
-                <a className='menu-link' href={process.env.PUBLIC_URL + '/'}>{t.menu.home}</a>
-                <a className="menu-link" href={process.env.PUBLIC_URL + '/#/company'}>{t.menu.company}</a>
-                <a className="menu-link" href={process.env.PUBLIC_URL + '/#/contact'}>{t.menu.contact}</a>
+                <NavLink activeClassName="active" className='menu-link' exact to={process.env.PUBLIC_URL + '/'}>{t.menu.home}</NavLink>
+                <NavLink activeClassName="active" className='menu-link' to='/company'>{t.menu.company}</NavLink>
+                <NavLink activeClassName="active" className='menu-link' to='/contact'>{t.menu.contact}</NavLink>
               </div>
               <div className="mobile-menu">
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />
                 <ul className="mobile-menu-links">
-                  <li><a href={process.env.PUBLIC_URL + '/'} onClick={this.burgerToggle}>{t.menu.home}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/#/company'} onClick={this.burgerToggle}>{t.menu.company}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/#/contact'} onClick={this.burgerToggle}>{t.menu.contact}</a></li>
+                  <li><NavLink to='/' exact onClick={this.burgerToggle}>{t.menu.home}</NavLink></li>
+                  <li><NavLink to='/company' onClick={this.burgerToggle}>{t.menu.company}</NavLink></li>
+                  <li><NavLink to='/contact' onClick={this.burgerToggle}>{t.menu.contact}</NavLink></li>
                 </ul>
               </div>
             </div>
@@ -53,4 +54,4 @@ const mapState = state => ({
   t: getTranslations(state),
 });
 
-export default connect(mapState)(Navbar);
+export default withRouter(connect(mapState)(Navbar));

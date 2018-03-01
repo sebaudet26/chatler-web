@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 import Logo from '../../lib/img/Logo.js';
 import { getTranslations } from '../../redux/selectors/translations';
@@ -19,7 +20,7 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
-                  <a href={process.env.PUBLIC_URL + '/'}>
+                  <a href='/'>
                     <Logo />
                     Chatler
                   </a>
@@ -33,9 +34,9 @@ class Footer extends Component {
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
-                  <li><a href={process.env.PUBLIC_URL + '/'}>{t.menu.home}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/#/company'}>{t.menu.company}</a></li>
-                  <li><a href={process.env.PUBLIC_URL + '/#/contact'}>{t.menu.contact}</a></li>
+                  <li><a href='/'>{t.menu.home}</a></li>
+                  <li><a href='/#/company'>{t.menu.company}</a></li>
+                  <li><a href='/#/contact'>{t.menu.contact}</a></li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">
@@ -47,7 +48,7 @@ class Footer extends Component {
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="https://angel.co/chatler">
                       Angel.co
                     </a>
                   </li>

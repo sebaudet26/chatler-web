@@ -11,8 +11,9 @@ nav {
     align-items: center; }
   nav a {
     color: #ffffff; }
-    nav a:hover {
-      color: #ffffff; }
+    nav a:hover, nav a:focus {
+      color: #ffffff;
+      outline: none; }
 
 .menu {
   display: none;
@@ -22,6 +23,8 @@ nav {
   .menu-link {
     margin: 0 3rem;
     position: relative; }
+    .menu-link.active:after {
+      opacity: 1; }
     .menu-link:last-child {
       margin-right: 0; }
     .menu-link:after {
@@ -68,7 +71,8 @@ nav {
       .mobile-menu-links li:last-child {
         border-bottom: none; }
       .mobile-menu-links li a {
-        color: #434E5D; }
+        color: #434E5D;
+        cursor: pointer; }
 
 @media (min-width: 600px) {
   nav .menu {

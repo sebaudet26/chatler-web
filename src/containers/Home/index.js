@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getTranslations } from '../../redux/selectors/translations';
+import { Link } from 'react-router-dom';
 import './Home.css';
 import Request from '../../components/Request/';
 import StadiumImg from '../../lib/img/stadium.svg';
@@ -18,18 +19,18 @@ class Home extends Component {
 
     return (
       <div>
-        <section className="intro">
+        <section className="intro intro-home">
           <div className="container">
             <div className="row">
               <div className="col-md-6">
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <a className="btn" href={process.env.PUBLIC_URL + '/#/contact'}>{t.button.demo}</a>
-                  <a className="btn-link" href={process.env.PUBLIC_URL + '/#/company'}>{t.home.intro.learnMore}</a>
+                  <Link className="btn" to='/contact'>{t.button.demo}</Link>
+                  <Link className="btn-link" to='/company'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
-              <div className="col-md-6 hidden-md">
+              <div className="col-md-6 hidden-med">
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
@@ -55,7 +56,7 @@ class Home extends Component {
                 </div>
               </div>
               <div className="col-sm-5">
-                <div className="img-wrapper hidden-md">
+                <div className="img-wrapper hidden-med">
                   <div className="phone">
                     <img src={PhoneScreenImg} alt="" />
                     <div className="phone-home"></div>
@@ -67,7 +68,7 @@ class Home extends Component {
           <section>
             <div className="row">
               <div className="col-sm-5">
-                <div className="img-wrapper hidden-md">
+                <div className="img-wrapper hidden-med">
                   <div className="tablet">
                     <img src={TabletScreenImg} alt="" />
                     <div className="tablet-home"></div>

@@ -32,7 +32,7 @@ p {
 a {
   text-decoration: none;
   transition: 0.3s; }
-  a:hover {
+  a:hover, a:focus {
     text-decoration: none; }
 
 .flex {
@@ -202,7 +202,7 @@ section {
     right: calc((-1*(100vw - 750px))/2); } }
 
 @media (max-width: 992px) {
-  .hidden-md {
+  .hidden-med {
     display: none; } }
 
 @media (min-width: 992px) {
