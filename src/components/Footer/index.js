@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 import Logo from '../../lib/img/Logo.js';
 import { getTranslations } from '../../redux/selectors/translations';
@@ -19,10 +20,10 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
-                  <a href='/'>
+                  <Link to='/'>
                     <Logo />
                     Chatler
-                  </a>
+                  </Link>
                 </div>
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.contactUs}</li>
@@ -33,9 +34,9 @@ class Footer extends Component {
               <div className="col-sm-2 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
-                  <li><a href='/'>{t.menu.home}</a></li>
-                  <li><a href='/#/company'>{t.menu.company}</a></li>
-                  <li><a href='/#/contact'>{t.menu.contact}</a></li>
+                  <li><Link to='/'>{t.menu.home}</Link></li>
+                  <li><Link to='/company'>{t.menu.company}</Link></li>
+                  <li><Link to='/contact'>{t.menu.contact}</Link></li>
                 </ul>
               </div>
               <div className="col-sm-2 col-xs-6">
