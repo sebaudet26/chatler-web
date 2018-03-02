@@ -71,7 +71,7 @@ ul {
     width: 110%;
     left: -5%;
     height: 100%;
-    background: linear-gradient(135deg, #3D5AFE 0%, #7093FF 100%);
+    background: linear-gradient(135deg, #3D5AFE 0%, #99B2FF 100%);
     position: absolute;
     top: 0;
     content: '';
@@ -158,21 +158,9 @@ section {
     background: #3D5AFE; }
   .img-icon.green {
     background: #66CFB0; }
-  .img-icon.red {
-    background: #F24D6E; }
-  .img-icon.white {
-    background: #ffffff; }
   .img-icon img {
     margin: auto;
     height: 30px; }
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(61, 169, 254, 0.4); }
-  70% {
-    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0); }
-  100% {
-    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0); } }
 
 @media (min-width: 576px) {
   .bubble {
