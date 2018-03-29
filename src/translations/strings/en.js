@@ -20,6 +20,19 @@ export default {
       p3: 'Get to know your fans better. The person attending the event is often not the one who purchased the ticket. Chatler helps venues understand their customers.',
     },
   },
+  features: {
+    intro: {
+      title: 'Frictionless Mobile Ordering',
+      subtitle: 'Eliminate the sales barrier between your customers and your venue.',
+    },
+    body: {
+      title1: 'Qui sommes-nous?',
+      p1: 'Nous sommes une startup de Montréal passionnée par les nouvelles tendances technologiques. Nous sommes une équipe de designers et d\'ingénieurs qui itèrent rapidement, tout en livrant la plus grande qualité possible.',
+      title2: 'Fini les Apps. C\'est le temps des chatbots.',
+      p2l1: 'Le marché est saturé en applications mobiles qui n\'engagent pas. Tout le monde est en train de bâtir une app que ce soit un cinéma, une station de train, un stade ou encore un aéroport. Les entreprises dépensent des sommes massives d\'argent pour développer des apps que très fréquemment, peu de gens utilisent. La solution à chaque problème ne devrait pas être "Bâtissons une app pour ça".',
+      p2l2: 'Voilà où nous entrons en jeu. Les chatbots sont idéaux. Il n\'y a pas d\'application à télécharger, ni de compte à créer. Les chatbots offrent une expérience qui ressemble le plus comment nous intéragissons avec le monde autour de nous.',
+    },
+  },
   company: {
     intro: {
       title: 'We help venues increase their sales.',

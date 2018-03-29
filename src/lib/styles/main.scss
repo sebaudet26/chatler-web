@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 400;
-  color: $dark-purple;
+  color: $main-color;
 }
 
 h3 {
@@ -90,6 +90,15 @@ ul {
   align-items: center;
   color: $white;
   position: relative;
+  min-height: 400px;
+
+  &-block {
+    position: relative;
+  }
+
+  &-block.center-section {
+    margin: 75px auto;
+  }
 
   &::before {
     width: 110%;
@@ -103,6 +112,10 @@ ul {
     overflow-x: hidden;
   }
 
+  .btn {
+    margin-top: 15px;
+  }
+
   &.light {
     background: $white;
 
@@ -111,7 +124,7 @@ ul {
     }
   }
 
-  p {
+  h1, h2, h3, p {
     color: $white;
   }
 }
@@ -133,6 +146,10 @@ ul {
   position: relative;
   transition: 0.3s;
 
+  &.blue {
+    background: $main-color;
+  }
+
   &-link {
     margin-left: 15px;
     color: $white;
@@ -152,6 +169,42 @@ ul {
     color: $white;
     opacity: 1;
     box-shadow: $shadow-2;
+  }
+}
+
+.card {
+  background: $white;
+  border-radius: 15px;
+  box-shadow: $grey-shadow;
+  padding: 25px;
+  text-align: center;
+
+  &-header {
+    margin-bottom: 15px;
+    color: $grey-3;
+    font-size: 18px;
+  }
+
+  &-icon {
+    margin: auto;
+    background: $light-main;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 5px $light-main-2;
+  }
+
+  &-title {
+    font-size: 18px;
+    color: $grey-1;
+    font-weight: 700;
+    margin-top: 15px;
+  }
+
+  &-subtitle {
+    color: $grey-2;
+    font-size: 18px;
+    margin-top: 10px;
   }
 }
 

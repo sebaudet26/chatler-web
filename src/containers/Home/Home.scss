@@ -4,12 +4,7 @@
   &-home {
     height: 700px;
   }
-
-  .row {
-    position: relative;
-    top: -30px;
-  }
-
+  
   .cloud-1 {
     position: absolute;
     top: 25px;
@@ -26,10 +21,6 @@
     animation: bounce 1s linear;
     animation-delay: 2s;
     animation-duration: 1s;
-  }
-
-  .btn {
-    margin-top: 15px;
   }
 
   .mouse {

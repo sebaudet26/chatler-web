@@ -1,1 +1,46 @@
 /* Colors */
+.intro-features .intro-block.center-section {
+  margin-bottom: 0px; }
+
+.intro-features:before {
+  background: #2B313A;
+  height: 900px; }
+
+.intro .row {
+  position: relative;
+  top: 0px !important; }
+
+.intro-list {
+  position: relative;
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap; }
+  .intro-list li {
+    margin: auto; }
+  .intro-list-item {
+    display: block;
+    text-align: center;
+    width: 150px;
+    height: 150px; }
+    .intro-list-item-icon {
+      height: 50px;
+      width: 50px;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.15);
+      border: solid 5px rgba(0, 0, 0, 0.25);
+      margin: auto; }
+    .intro-list-item-title {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 15px; }
+    .intro-list-item-subtitle {
+      color: #CBD1DB;
+      margin-top: 5px; }
+
+.features-overview {
+  padding-bottom: 0px; }
+  .features-overview h2 {
+    margin-bottom: 25px; }

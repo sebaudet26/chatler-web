@@ -19,6 +19,19 @@ export default {
       p3: 'La personne qui vient à l\'évenement n\'est pas nécessairement la personne qui a acheté le billet. Avec Chatler, vous pouvez en savoir plus sur vos fans et les genres d\'achats qu\'ils font.',
     },
   },
+  features: {
+    intro: {
+      title: 'Nous aidons nos clients à augmenter leurs ventes.',
+      subtitle: 'À Chatler, c\'est notre mission d\'éliminier les obstacles de vente avec votre clientèle.',
+    },
+    body: {
+      title1: 'Qui sommes-nous?',
+      p1: 'Nous sommes une startup de Montréal passionnée par les nouvelles tendances technologiques. Nous sommes une équipe de designers et d\'ingénieurs qui itèrent rapidement, tout en livrant la plus grande qualité possible.',
+      title2: 'Fini les Apps. C\'est le temps des chatbots.',
+      p2l1: 'Le marché est saturé en applications mobiles qui n\'engagent pas. Tout le monde est en train de bâtir une app que ce soit un cinéma, une station de train, un stade ou encore un aéroport. Les entreprises dépensent des sommes massives d\'argent pour développer des apps que très fréquemment, peu de gens utilisent. La solution à chaque problème ne devrait pas être "Bâtissons une app pour ça".',
+      p2l2: 'Voilà où nous entrons en jeu. Les chatbots sont idéaux. Il n\'y a pas d\'application à télécharger, ni de compte à créer. Les chatbots offrent une expérience qui ressemble le plus comment nous intéragissons avec le monde autour de nous.',
+    },
+  },
   company: {
     intro: {
       title: 'Nous aidons nos clients à augmenter leurs ventes.',

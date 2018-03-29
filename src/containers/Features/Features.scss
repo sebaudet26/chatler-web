@@ -1,1 +1,69 @@
 @import '../../lib/styles/variables.scss';
+
+.intro {
+  &-features {
+
+    .intro-block.center-section {
+      margin-bottom: 0px;
+    }
+
+    &:before {
+      background: $black;
+      height: 900px;
+    }
+  }
+
+  .row {
+    position: relative;
+    top: 0px !important;
+  }
+
+  &-list {
+    position: relative;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap;
+
+    li {
+      margin: auto;
+    }
+
+    &-item {
+      display: block;
+      text-align: center;
+      width: 150px;
+      height: 150px;
+
+      &-icon {
+        height: 50px;
+        width:50px;
+        border-radius: 50px;
+        background: rgba(255,255,255,0.15);
+        border: solid 5px rgba(0,0,0,0.25);
+        margin: auto;
+      }
+
+      &-title {
+        color: $white;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      &-subtitle {
+        color: $grey-3;
+        margin-top: 5px;
+      }
+    }
+  }
+}
+
+.features-overview {
+  padding-bottom: 0px;
+
+  h2 {
+    margin-bottom: 25px;
+  }
+}
