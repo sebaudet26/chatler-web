@@ -23,6 +23,7 @@ class Navbar extends Component {
               </div>
               <div className="menu">
                 <NavLink activeClassName="active" className='menu-link' exact to={process.env.PUBLIC_URL + '/'}>{t.menu.home}</NavLink>
+                <NavLink activeClassName="active" className='menu-link' to='/features'>{t.menu.features}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/company'>{t.menu.company}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/contact'>{t.menu.contact}</NavLink>
               </div>
@@ -30,6 +31,7 @@ class Navbar extends Component {
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />
                 <ul className="mobile-menu-links">
                   <li><NavLink to='/' exact onClick={this.burgerToggle}>{t.menu.home}</NavLink></li>
+                  <li><NavLink to='/features' onClick={this.burgerToggle}>{t.menu.features}</NavLink></li>
                   <li><NavLink to='/company' onClick={this.burgerToggle}>{t.menu.company}</NavLink></li>
                   <li><NavLink to='/contact' onClick={this.burgerToggle}>{t.menu.contact}</NavLink></li>
                 </ul>

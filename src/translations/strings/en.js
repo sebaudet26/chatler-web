@@ -1,6 +1,7 @@
 export default {
   menu: {
     home: 'Home',
+    features: 'Features',
     company: 'Company',
     contact: 'Contact Us',
   },

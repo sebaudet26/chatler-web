@@ -35,6 +35,7 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
                   <li><Link to='/'>{t.menu.home}</Link></li>
+                  <li><Link to='/features'>{t.menu.features}</Link></li>
                   <li><Link to='/company'>{t.menu.company}</Link></li>
                   <li><Link to='/contact'>{t.menu.contact}</Link></li>
                 </ul>

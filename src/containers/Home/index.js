@@ -27,7 +27,7 @@ class Home extends Component {
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
                   <Link className="btn" to='/contact'>{t.button.demo}</Link>
-                  <Link className="btn-link" to='/company'>{t.home.intro.learnMore}</Link>
+                  <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
               <div className="col-md-6 hidden-med">
