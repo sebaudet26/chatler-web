@@ -29,13 +29,13 @@ class Features extends Component {
                   <ul className="intro-list">
                     <li className="intro-list-item">
                       <div className="intro-list-item-icon blue"><img alt="" src={FrictionIcon}/></div>
-                      <div className="intro-list-item-title">Frictionless</div>
-                      <div className="intro-list-item-subtitle">Beat traditional apps. Order and pay.</div>
+                      <div className="intro-list-item-title">Effortless</div>
+                      <div className="intro-list-item-subtitle">Beats traditional apps. Just order and pay.</div>
                     </li>
                     <li className="intro-list-item">
                       <div className="intro-list-item-icon green"><img alt="" src={IntuitiveIcon}/></div>
                       <div className="intro-list-item-title">Intuitive</div>
-                      <div className="intro-list-item-subtitle">Conversational Interface</div>
+                      <div className="intro-list-item-subtitle">Nothing easier to use than a conversational interface.</div>
                     </li>
                     <li className="intro-list-item">
                       <div className="intro-list-item-icon red"><img alt="" src={VarietyIcon}/></div>
@@ -45,7 +45,7 @@ class Features extends Component {
                     <li className="intro-list-item">
                       <div className="intro-list-item-icon orange"><img alt="" src={ManageIcon}/></div>
                       <div className="intro-list-item-title">Easy to Manage</div>
-                      <div className="intro-list-item-subtitle">Prepare, dispatch and deliver</div>
+                      <div className="intro-list-item-subtitle">Prepare, dispatch and deliver orders</div>
                     </li>
                   </ul>
                   <section className="features-overview">
