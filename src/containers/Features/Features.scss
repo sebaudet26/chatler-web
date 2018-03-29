@@ -33,7 +33,7 @@
     &-item {
       display: block;
       text-align: center;
-      width: 150px;
+      width: 175px;
       height: 150px;
 
       &-icon {
@@ -41,8 +41,30 @@
         width:50px;
         border-radius: 50px;
         background: rgba(255,255,255,0.15);
-        border: solid 5px rgba(0,0,0,0.25);
+        border: solid 5px rgba(43,49,58,0.75);
         margin: auto;
+        display: flex;
+        align-items: center;
+
+        &.blue {
+          background: $main-color;
+        }
+
+        &.green {
+          background: $alt-color;
+        }
+
+        &.red {
+          background: $red;
+        }
+
+        &.orange {
+          background: $orange;
+        }
+
+        img {
+          margin: auto;
+        }
       }
 
       &-title {

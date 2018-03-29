@@ -4,6 +4,8 @@ import { getTranslations } from '../../redux/selectors/translations';
 import { Link } from 'react-router-dom';
 import './Home.css';
 import Request from '../../components/Request/';
+
+//Img and Icons
 import StadiumImg from '../../lib/img/stadium.svg';
 import PhoneScreenImg from '../../lib/img/screen.svg';
 import TabletScreenImg from '../../lib/img/tablet_screen.svg';

@@ -59,7 +59,7 @@ ul {
   .brand .logo {
     margin-top: -6px;
     margin-right: 10px;
-    height: 22px; }
+    height: 40px; }
 
 .intro {
   padding-top: 90px;
@@ -99,7 +99,7 @@ ul {
   font-weight: bold;
   border: none;
   color: #ffffff;
-  background: #66CFB0;
+  background: #4db193;
   display: inline-flex;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   padding: 15px 20px;
@@ -193,7 +193,7 @@ section {
   .img-icon.blue {
     background: #3D5AFE; }
   .img-icon.green {
-    background: #66CFB0; }
+    background: #4db193; }
   .img-icon img {
     margin: auto;
     height: 30px; }

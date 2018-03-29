@@ -5,6 +5,13 @@ import { Link } from 'react-router-dom';
 import Request from '../../components/Request/';
 import './Features.css';
 
+//Img and Icons
+import FrictionIcon from '../../lib/icons/frictionless.svg';
+import IntuitiveIcon from '../../lib/icons/intuitive.svg';
+import VarietyIcon from '../../lib/icons/variety.svg';
+import ManageIcon from '../../lib/icons/gears.svg';
+
+
 class Features extends Component {
   render() {
     const { t } = this.props;
@@ -20,40 +27,25 @@ class Features extends Component {
                   <h3>{t.features.intro.subtitle}</h3>
                   <Link className="btn blue" to='/contact'>{t.button.demo}</Link>
                   <ul className="intro-list">
-                    <li>
-                      <Link to='#frictionless' className="intro-list-item">
-                        <div className="intro-list-item-icon"></div>
-                        <div className="intro-list-item-title">Frictionless</div>
-                        <div className="intro-list-item-subtitle">Beat traditional apps. Order and pay.</div>
-                      </Link>
+                    <li className="intro-list-item">
+                      <div className="intro-list-item-icon blue"><img alt="" src={FrictionIcon}/></div>
+                      <div className="intro-list-item-title">Frictionless</div>
+                      <div className="intro-list-item-subtitle">Beat traditional apps. Order and pay.</div>
                     </li>
-                    <li>
-                      <Link to='#frictionless' className="intro-list-item">
-                        <div className="intro-list-item-icon"></div>
-                        <div className="intro-list-item-title">Intuitive</div>
-                        <div className="intro-list-item-subtitle">Conversational Interface</div>
-                      </Link>
+                    <li className="intro-list-item">
+                      <div className="intro-list-item-icon green"><img alt="" src={IntuitiveIcon}/></div>
+                      <div className="intro-list-item-title">Intuitive</div>
+                      <div className="intro-list-item-subtitle">Conversational Interface</div>
                     </li>
-                    <li>
-                      <Link to='#frictionless' className="intro-list-item">
-                        <div className="intro-list-item-icon"></div>
-                        <div className="intro-list-item-title">Adaptable</div>
-                        <div className="intro-list-item-subtitle">Sell wide variety of products</div>
-                      </Link>
+                    <li className="intro-list-item">
+                      <div className="intro-list-item-icon red"><img alt="" src={VarietyIcon}/></div>
+                      <div className="intro-list-item-title">Adaptable</div>
+                      <div className="intro-list-item-subtitle">Sell wide variety of products</div>
                     </li>
-                    <li>
-                      <Link to='#frictionless' className="intro-list-item">
-                        <div className="intro-list-item-icon"></div>
-                        <div className="intro-list-item-title">Manage</div>
-                        <div className="intro-list-item-subtitle">Prepare, dispatch and deliver</div>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to='#frictionless' className="intro-list-item">
-                        <div className="intro-list-item-icon"></div>
-                        <div className="intro-list-item-title">Insights</div>
-                        <div className="intro-list-item-subtitle">Understand your customers</div>
-                      </Link>
+                    <li className="intro-list-item">
+                      <div className="intro-list-item-icon orange"><img alt="" src={ManageIcon}/></div>
+                      <div className="intro-list-item-title">Easy to Manage</div>
+                      <div className="intro-list-item-subtitle">Prepare, dispatch and deliver</div>
                     </li>
                   </ul>
                   <section className="features-overview">

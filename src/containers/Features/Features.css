@@ -22,15 +22,27 @@
   .intro-list-item {
     display: block;
     text-align: center;
-    width: 150px;
+    width: 175px;
     height: 150px; }
     .intro-list-item-icon {
       height: 50px;
       width: 50px;
       border-radius: 50px;
       background: rgba(255, 255, 255, 0.15);
-      border: solid 5px rgba(0, 0, 0, 0.25);
-      margin: auto; }
+      border: solid 5px rgba(43, 49, 58, 0.75);
+      margin: auto;
+      display: flex;
+      align-items: center; }
+      .intro-list-item-icon.blue {
+        background: #3D5AFE; }
+      .intro-list-item-icon.green {
+        background: #4db193; }
+      .intro-list-item-icon.red {
+        background: #F24D6E; }
+      .intro-list-item-icon.orange {
+        background: #FE973D; }
+      .intro-list-item-icon img {
+        margin: auto; }
     .intro-list-item-title {
       color: #ffffff;
       font-size: 18px;

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { NavLink, withRouter } from 'react-router-dom';
 import './Navbar.css';
 import MenuIcon from '../../lib/icons/menu-button.svg';
-import Logo from '../../lib/img/Logo.js';
+import Logo from '../../lib/img/logo-nav.js';
 import { getTranslations } from '../../redux/selectors/translations';
 
 class Navbar extends Component {
