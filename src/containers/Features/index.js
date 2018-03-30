@@ -28,72 +28,105 @@ class Features extends Component {
                   <Link className="btn blue" to='/contact'>{t.button.demo}</Link>
                   <ul className="intro-list">
                     <li className="intro-list-item">
-                      <div className="intro-list-item-icon blue"><img alt="" src={FrictionIcon}/></div>
-                      <div className="intro-list-item-title">Effortless</div>
+                      <div className="img-icon blue"><img alt="" src={FrictionIcon}/></div>
+                      <div className="intro-list-item-title">Frictionless</div>
                       <div className="intro-list-item-subtitle">Beats traditional apps. Just order and pay.</div>
                     </li>
                     <li className="intro-list-item">
-                      <div className="intro-list-item-icon green"><img alt="" src={IntuitiveIcon}/></div>
+                      <div className="img-icon white"><img alt="" src={IntuitiveIcon}/></div>
                       <div className="intro-list-item-title">Intuitive</div>
                       <div className="intro-list-item-subtitle">Nothing easier to use than a conversational interface.</div>
                     </li>
                     <li className="intro-list-item">
-                      <div className="intro-list-item-icon red"><img alt="" src={VarietyIcon}/></div>
+                      <div className="img-icon green"><img alt="" src={VarietyIcon}/></div>
                       <div className="intro-list-item-title">Adaptable</div>
                       <div className="intro-list-item-subtitle">Sell wide variety of products</div>
                     </li>
                     <li className="intro-list-item">
-                      <div className="intro-list-item-icon orange"><img alt="" src={ManageIcon}/></div>
+                      <div className="img-icon red"><img alt="" src={ManageIcon}/></div>
                       <div className="intro-list-item-title">Easy to Manage</div>
                       <div className="intro-list-item-subtitle">Prepare, dispatch and deliver orders</div>
                     </li>
                   </ul>
-                  <section className="features-overview">
-                    <h2>What we provide</h2>
-                    <div className="row">
-                      <div className="col-sm-6">
-                        <div className="card-header">For your Customers</div>
-                        <div className="card">
-                          <div className="card-icon"></div>
-                          <div className="card-title">Chatbot</div>
-                          <div className="card-subtitle">Put your point-of-service in the hands of your customers.</div>
-                        </div>
-                      </div>
-                      <div className="col-sm-6">
-                      <div className="card-header">For your Concessions and Runners</div>
-                        <div className="card">
-                          <div className="card-icon"></div>
-                          <div className="card-title">Order Manager App</div>
-                          <div className="card-subtitle">Track, manage, dispatch and deliver orders from our mobile app.</div>
-                        </div>
-                      </div>
-                    </div>
-                  </section>
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <div className="container">
-
-        </div>
-        <div className="container">
-          <section id="#frictionless">
+        <section className="features-overview ">
+          <div className="container center-section">
+            <h2>A full suite of tools powering the ultimate venue experience.</h2>
+            <p>For your customers, we have our chatbot that will make it easy for anyone to order and for your concessions, we have our an app for your concessions to manage, dispatch and deliver their orders.</p>
+          </div>
+        </section>
+        <section className="features-ordering">
+          <div className="container">
             <div className="row flex">
-              <div className="col-sm-7">
+              <div className="col-sm-6">
                 <div className="img-icon blue">
-                  <img alt="" />
+                  <img alt="" src={FrictionIcon}/>
                 </div>
-                <h2>Lightning Fast Ordering</h2>
-                <p>Ordering from your seat shouldn't be more complicated than ordering directly from a concession. In under 30 seconds, fans can easily order and have their payment processed.</p>
+                <h2>Frictionless Ordering</h2>
+                <p>Nothing to download, no account to create and location to enter. Your customer can focus on what really matters.</p>
               </div>
-              <div className="col-sm-5">
+              <div className="col-sm-6">
                 <div className="img-wrapper hidden-xs">
                 </div>
               </div>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
+        <section className="features-ux">
+          <div className="container">
+            <div className="row flex">
+              <div className="col-sm-6">
+                <div className="img-wrapper hidden-xs">
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="img-icon white">
+                  <img alt="" src={IntuitiveIcon}/>
+                </div>
+                <h2>Intuitive Experience</h2>
+                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="features-commerce">
+          <div className="container">
+            <div className="row flex">
+              <div className="col-sm-6">
+                <div className="img-icon green">
+                  <img alt="" src={VarietyIcon}/>
+                </div>
+                <h2>Sell a wide variety of products</h2>
+                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+              </div>
+              <div className="col-sm-6">
+                <div className="img-wrapper hidden-xs">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="features-manager">
+          <div className="container">
+            <div className="row flex">
+              <div className="col-sm-6">
+                <div className="img-wrapper hidden-xs">
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="img-icon red">
+                  <img alt="" src={ManageIcon}/>
+                </div>
+                <h2>Prepare, dispatch and deliver your orders</h2>
+                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+              </div>
+            </div>
+          </div>
+        </section>
         <Request />
       </div>
     );

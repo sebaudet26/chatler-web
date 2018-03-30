@@ -16,8 +16,8 @@ h1 {
 
 h2 {
   font-size: 30px;
-  font-weight: 400;
-  color: $main-color;
+  font-weight: 700;
+  color: $grey-1;
 }
 
 h3 {
@@ -94,10 +94,11 @@ ul {
 
   &-block {
     position: relative;
+    margin-bottom: 0px;
   }
 
   &-block.center-section {
-    margin: 75px auto;
+    margin-top: 75px;
   }
 
   &::before {
@@ -172,44 +173,8 @@ ul {
   }
 }
 
-.card {
-  background: $white;
-  border-radius: 15px;
-  box-shadow: $grey-shadow;
-  padding: 25px;
-  text-align: center;
-
-  &-header {
-    margin-bottom: 15px;
-    color: $grey-3;
-    font-size: 18px;
-  }
-
-  &-icon {
-    margin: auto;
-    background: $light-main;
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    border: solid 5px $light-main-2;
-  }
-
-  &-title {
-    font-size: 18px;
-    color: $grey-1;
-    font-weight: 700;
-    margin-top: 15px;
-  }
-
-  &-subtitle {
-    color: $grey-2;
-    font-size: 18px;
-    margin-top: 10px;
-  }
-}
-
 section {
-  padding: 50px 0;
+  padding: 75px 0;
 }
 
 .center-section {
@@ -222,74 +187,43 @@ section {
   }
 }
 
-.bubble {
-  background: $grey-5;
-  height: 100%;
-  top: 0;
-  position: absolute;
-  z-index: -1;
-  width: 97%;
-
-  &.blue {
-    background: $main-color;
-
-    .title, p {
-      color: $white;
-    }
-  }
-
-  &.left {
-    border-radius: 0 75px 75px 0;
-    left: 0px;
-  }
-
-  &.right {
-    border-radius: 75px 0 0 75px;
-    right: 0px;
-  }
-}
-
-.bubble-container {
-
-  &.left {
-    padding: 50px 75px 50px 0;
-  }
-  &.right {
-    padding: 50px 0px 50px 75px;
-  }
-}
-
 .img-icon {
-  margin-bottom: 25px;
   height: 50px;
-  width: 50px;
+  width:50px;
   border-radius: 50px;
-  align-items: center;
+  background: rgba(255,255,255,0.15);
   display: flex;
+  align-items: center;
+  margin-bottom: 35px;
 
   &.blue {
     background: $main-color;
+    box-shadow: 0px 0px 0px 5px rgba(61,90,254,0.25);
+  }
+
+  &.white {
+    background: $white;
+    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.25);
   }
 
   &.green {
     background: $alt-color;
+    box-shadow: 0px 0px 0px 5px rgba(77,177,147,0.25);
+
+  }
+
+  &.red {
+    background: $red;
+    box-shadow: 0px 0px 0px 5px rgba(242,77,110,0.25);
+  }
+
+  &.orange {
+    background: $orange;
+    box-shadow: 0px 0px 0px 5px rgba(254,151,61,0.25);
   }
 
   img {
     margin: auto;
-    height: 30px;
-  }
-}
-
-@media (min-width: 576px) {
-  .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 540px))/2));
-  }
-  .bubble.left {
-    left: calc((-1*(100vw - 540px))/2);
-  }
-  .bubble.right {
-    right: calc((-1*(100vw - 540px))/2);
   }
 }
 
@@ -312,46 +246,8 @@ section {
   }
 }
 
-
-
-@media (min-width: 768px) {
-  .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 750px))/2));
-  }
-  .bubble.left {
-    left: calc((-1*(100vw - 750px))/2);
-  }
-  .bubble.right {
-    right: calc((-1*(100vw - 750px))/2);
-  }
-}
-
 @media (max-width: 992px) {
   .hidden-med {
     display: none;
-  }
-}
-
-@media (min-width: 992px) {
-  .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 970px))/2));
-  }
-  .bubble.left {
-    left: calc((-1*(100vw - 970px))/2);
-  }
-  .bubble.right {
-    right: calc((-1*(100vw - 970px))/2);
-  }
-}
-
-@media (min-width: 1200px) {
-  .bubble {
-    width: calc(100% - 15px + ((1*(100vw - 1170px))/2));
-  }
-  .bubble.left {
-    left: calc((-1*(100vw - 1170px))/2);
-  }
-  .bubble.right {
-    right: calc((-1*(100vw - 1170px))/2);
   }
 }

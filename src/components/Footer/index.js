@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
-import Logo from '../../lib/img/Logo.js';
+import Logo from '../../lib/img/logo-nav.js';
 import { getTranslations } from '../../redux/selectors/translations';
 import { changeLocale } from '../../redux/actions/app';
 

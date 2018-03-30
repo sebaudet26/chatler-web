@@ -2,14 +2,10 @@
 
 .intro {
   &-features {
-
-    .intro-block.center-section {
-      margin-bottom: 0px;
-    }
+    //background: $dark-main;
 
     &:before {
-      background: $gradient-2;
-      height: 900px;
+      background: $dark-main;
     }
   }
 
@@ -36,35 +32,8 @@
       width: 175px;
       height: 150px;
 
-      &-icon {
-        height: 50px;
-        width:50px;
-        border-radius: 50px;
-        background: rgba(255,255,255,0.15);
-        border: solid 5px rgba(43,49,58,0.75);
+      .img-icon {
         margin: auto;
-        display: flex;
-        align-items: center;
-
-        &.blue {
-          background: $main-color;
-        }
-
-        &.green {
-          background: $alt-color;
-        }
-
-        &.red {
-          background: $red;
-        }
-
-        &.orange {
-          background: $orange;
-        }
-
-        img {
-          margin: auto;
-        }
       }
 
       &-title {
@@ -83,9 +52,27 @@
 }
 
 .features-overview {
-  padding-bottom: 0px;
-
   h2 {
     margin-bottom: 25px;
+  }
+}
+
+.features-ordering {
+  background: $grey-5;
+}
+
+.features-ux {
+  background: $main-color;
+
+  h2, p {
+    color: $white;
+  }
+}
+
+.features-commerce {
+  background: $dark-main;
+
+  h2, p {
+    color: $white;
   }
 }
