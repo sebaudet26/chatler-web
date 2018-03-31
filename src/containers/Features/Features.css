@@ -31,18 +31,80 @@
       color: #CBD1DB;
       margin-top: 5px; }
 
-.features-overview h2 {
+.features-type {
+  color: #ffffff;
+  opacity: 0.75;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700; }
+  .features-type.dark {
+    color: #2B313A; }
+
+.feature-overview h2 {
   margin-bottom: 25px; }
 
-.features-ordering {
+.feature .img-wrapper img {
+  position: absolute; }
+
+.feature-ordering {
   background: #F6F9FC; }
+  .feature-ordering h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #434E5D;
+    font-weight: 700; }
+  .feature-ordering .bullet-list {
+    font-size: 18px;
+    line-height: 54px; }
+    .feature-ordering .bullet-list-item {
+      display: flex;
+      align-items: center; }
+    .feature-ordering .bullet-list-point {
+      width: 25px;
+      height: 25px;
+      border-radius: 20px;
+      margin-right: 15px;
+      background: #E2E7EC;
+      font-size: 14px;
+      color: #3D5AFE;
+      font-weight: 700;
+      text-align: center;
+      line-height: 25px; }
 
-.features-ux {
-  background: #3D5AFE; }
-  .features-ux h2, .features-ux p {
+.feature-ux {
+  background: #3D5AFE;
+  overflow-y: hidden;
+  height: 700px;
+  display: flex;
+  align-items: center; }
+  .feature-ux h2, .feature-ux p {
     color: #ffffff; }
+  .feature-ux .img-wrapper img {
+    width: 400px;
+    top: -150px; }
 
-.features-commerce {
-  background: #232C63; }
-  .features-commerce h2, .features-commerce p {
+.feature-commerce {
+  background: #232C63;
+  align-items: center;
+  height: 800px;
+  display: flex; }
+  .feature-commerce h2, .feature-commerce p {
     color: #ffffff; }
+  .feature-commerce-gear, .feature-commerce-food {
+    width: 300px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15); }
+  .feature-commerce-gear {
+    z-index: 99;
+    top: -50px; }
+  .feature-commerce-food {
+    left: 250px;
+    top: -150px; }
+
+.feature-manager {
+  align-items: center;
+  height: 700px;
+  display: flex;
+  overflow-y: hidden; }
+  .feature-manager .img-wrapper img {
+    right: 100px;
+    width: 850px; }
