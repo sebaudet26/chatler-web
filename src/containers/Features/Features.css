@@ -47,7 +47,9 @@
   position: absolute; }
 
 .feature-ordering {
-  background: #F6F9FC; }
+  background: #F6F9FC;
+  display: flex;
+  align-items: center; }
   .feature-ordering h3 {
     text-transform: uppercase;
     font-size: 18px;

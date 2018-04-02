@@ -32,23 +32,23 @@ class Features extends Component {
                   <ul className="intro-list">
                     <li className="intro-list-item">
                       <div className="img-icon blue"><img alt="" src={FrictionIcon}/></div>
-                      <div className="intro-list-item-title">Frictionless</div>
-                      <div className="intro-list-item-subtitle">Beats traditional apps. Just order and pay.</div>
+                      <div className="intro-list-item-title">{t.features.intro.feature1Title}</div>
+                      <div className="intro-list-item-subtitle">{t.features.intro.feature1Subtitle}</div>
                     </li>
                     <li className="intro-list-item">
                       <div className="img-icon white"><img alt="" src={IntuitiveIcon}/></div>
-                      <div className="intro-list-item-title">Intuitive</div>
-                      <div className="intro-list-item-subtitle">Nothing easier to use than a conversational interface.</div>
+                      <div className="intro-list-item-title">{t.features.intro.feature2Title}</div>
+                      <div className="intro-list-item-subtitle">{t.features.intro.feature2Subtitle}</div>
                     </li>
                     <li className="intro-list-item">
                       <div className="img-icon green"><img alt="" src={VarietyIcon}/></div>
-                      <div className="intro-list-item-title">Adaptable</div>
-                      <div className="intro-list-item-subtitle">Sell wide variety of products</div>
+                      <div className="intro-list-item-title">{t.features.intro.feature3Title}</div>
+                      <div className="intro-list-item-subtitle">{t.features.intro.feature3Subtitle}</div>
                     </li>
                     <li className="intro-list-item">
                       <div className="img-icon red"><img alt="" src={ManageIcon}/></div>
-                      <div className="intro-list-item-title">Easy to Manage</div>
-                      <div className="intro-list-item-subtitle">Prepare, dispatch and deliver orders</div>
+                      <div className="intro-list-item-title">{t.features.intro.feature4Title}</div>
+                      <div className="intro-list-item-subtitle">{t.features.intro.feature4Subtitle}</div>
                     </li>
                   </ul>
                 </div>
@@ -58,8 +58,8 @@ class Features extends Component {
         </section>
         <section className="feature-overview ">
           <div className="container center-section">
-            <h2>A full suite of tools powering the ultimate venue experience.</h2>
-            <p>For your customers, we have our chatbot that will make it easy for anyone to order and for your concessions, we have our an app for your concessions to manage, dispatch and deliver their orders.</p>
+            <h2>{t.features.body.title1}</h2>
+            <p>{t.features.body.p1}</p>
           </div>
         </section>
         <section className="feature feature-ordering">
@@ -69,27 +69,27 @@ class Features extends Component {
                 <div className="img-icon blue">
                   <img alt="" src={FrictionIcon}/>
                 </div>
-                <div className="features-type dark">Chatbot</div>
-                <h2>Frictionless Ordering</h2>
-                <p>Nothing to download, no account to create and seat location to enter. Your customer can focus on what really matters.</p>
+                <div className="features-type dark">{t.features.body.featureType1}</div>
+                <h2>{t.features.body.title2}</h2>
+                <p>{t.features.body.p2}</p>
               </div>
               <div className="col-sm-3">
-                <h3>Chatbot</h3>
+                <h3>{t.features.body.featureType1}</h3>
                 <div className="bullet-list">
-                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>Scan Code</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>Order Food</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>Pay</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList1}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList2}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList3}</div>
                 </div>
               </div>
               <div className="col-sm-3">
-                <h3>Traditional App</h3>
+                <h3>{t.features.body.tradionalApp}</h3>
                 <div className="bullet-list">
-                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>Download App</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>Figure Out How to Use it</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>Create Account</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">4</span>Order Food</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">5</span>Enter Seat Location</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">6</span>Pay</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList4}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList5}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList6}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">4</span>{t.features.body.bulletList7}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">5</span>{t.features.body.bulletList8}</div>
+                  <div className="bullet-list-item"><span className="bullet-list-point">6</span>{t.features.body.bulletList9}</div>
                 </div>
               </div>
             </div>
@@ -107,9 +107,9 @@ class Features extends Component {
                 <div className="img-icon white">
                   <img alt="" src={IntuitiveIcon}/>
                 </div>
-                <div className="features-type">Chatbot</div>
-                <h2>Intuitive Experience</h2>
-                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+                <div className="features-type">{t.features.body.featureType1}</div>
+                <h2>{t.features.body.title3}</h2>
+                <p>{t.features.body.p3}</p>
               </div>
             </div>
           </div>
@@ -121,9 +121,9 @@ class Features extends Component {
                 <div className="img-icon green">
                   <img alt="" src={VarietyIcon}/>
                 </div>
-                <div className="features-type">Chatbot</div>
-                <h2>Sell a wide variety of products</h2>
-                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+                <div className="features-type">{t.features.body.featureType1}</div>
+                <h2>{t.features.body.title4}</h2>
+                <p>{t.features.body.p4}</p>
               </div>
               <div className="col-sm-6">
                 <div className="img-wrapper hidden-xs">
@@ -146,9 +146,9 @@ class Features extends Component {
                 <div className="img-icon red">
                   <img alt="" src={ManageIcon}/>
                 </div>
-                <div className="features-type dark">Order Manager</div>
-                <h2>Prepare, dispatch and deliver your orders</h2>
-                <p>There is nothing easier to use than a conversational interface. Everyone knows how to send a text, even my grandma can do it.</p>
+                <div className="features-type dark">{t.features.body.featureType2}</div>
+                <h2>{t.features.body.title5}</h2>
+                <p>{t.features.body.p5}</p>
               </div>
             </div>
           </div>
