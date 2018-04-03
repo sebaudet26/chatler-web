@@ -185,7 +185,16 @@ section {
       text-align: left; }
     .body-section.feature-ux .img-wrapper img {
       width: 300px;
-      top: 0px; }
+      top: 0px;
+      right: 50px; }
+    .body-section.feature-commerce .feature-commerce-gear {
+      left: 50px;
+      width: 250px;
+      top: 50px; }
+    .body-section.feature-commerce .feature-commerce-food {
+      width: 250px;
+      top: -25px;
+      left: 125px; }
     .body-section.feature-manager .img-wrapper img {
       width: 700px;
       top: 0px;

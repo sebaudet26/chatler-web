@@ -73,7 +73,7 @@ class Features extends Component {
                 <h2>{t.features.body.title2}</h2>
                 <p>{t.features.body.p2}</p>
               </div>
-              <div className="col-md-3">
+              <div className="col-sm-6">
                 <h3>{t.features.body.featureType1}</h3>
                 <div className="bullet-list">
                   <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList1}</div>
@@ -81,7 +81,7 @@ class Features extends Component {
                   <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList3}</div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-sm-6">
                 <h3>{t.features.body.tradionalApp}</h3>
                 <div className="bullet-list">
                   <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList4}</div>

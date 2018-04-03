@@ -8,6 +8,8 @@
 @media (min-width: 576px) {
   .request .row {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    flex-flow: row;
+    flex-wrap: wrap; }
     .request .row .btn {
       float: right; } }

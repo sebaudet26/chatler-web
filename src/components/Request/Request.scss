@@ -15,6 +15,8 @@
     .row  {
       display: flex;
       align-items: center;
+      flex-flow: row;
+      flex-wrap: wrap;
 
       .btn {
         float: right;
