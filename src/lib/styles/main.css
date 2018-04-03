@@ -77,7 +77,7 @@ ul {
     width: 110%;
     left: -5%;
     height: 100%;
-    background: linear-gradient(135deg, #3D5AFE 0%, #99B2FF 100%);
+    background: #3D5AFE;
     position: absolute;
     top: 0;
     content: '';
