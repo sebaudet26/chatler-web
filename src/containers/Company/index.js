@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import Request from '../../components/Request/';
 import { getTranslations } from '../../redux/selectors/translations';
 import './Company.css';
-import WorkImg from '../../lib/img/work.svg';
 import RocketIcon from '../../lib/icons/rocket.svg';
 import LogoIcon from '../../lib/icons/logo-icon.svg';
 
@@ -13,7 +12,7 @@ class Company extends Component {
 
     return (
       <div>
-        <section className="intro ">
+        <section className="intro intro-company">
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
@@ -28,18 +27,14 @@ class Company extends Component {
         <div className="container">
           <section>
             <div className="row">
-              <div className="col-md-6">
-                <div className="bubble-container left">
-                  <div className="img-icon green">
+              <div className="col-md-12">
+                <div className="center-section">
+                  <div className="img-icon blue">
                     <img src={RocketIcon} alt="" />
                   </div>
                   <h2>{t.company.body.title1}</h2>
                   <p>{t.company.body.p1}</p>
-                  <div className="bubble left"></div>
                 </div>
-              </div>
-              <div className="col-sm-6 hidden-med">
-                <img className="work-img" src={WorkImg} alt="" />
               </div>
             </div>
           </section>

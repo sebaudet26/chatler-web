@@ -1,4 +1,17 @@
 /* Colors */
+.intro-company {
+  background-image: url(../../lib/img/montreal.jpeg);
+  background-size: 100% auto;
+  background-position-y: -200px; }
+  .intro-company::before {
+    width: 100%;
+    left: 0;
+    background: rgba(35, 44, 99, 0.9);
+    position: absolute;
+    top: 0;
+    content: '';
+    border-radius: 0; }
+
 .work-img {
   margin: auto;
   display: block;
