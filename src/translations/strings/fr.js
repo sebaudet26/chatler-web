@@ -12,6 +12,7 @@ export default {
       learnMore: 'ou en savoir plus',
     },
     body: {
+      title0: 'Engagez vos fans et impactez directement vos ventes.',
       title1: 'Une expérience sans obstacles pour les fans',
       p1: 'Vos fans peuvent commander sans effort avec notre chatbot. Il n\'y a pas d\'application à télécharger, de compte à créer, ni d\'emplacement de livraison à spécifier. La seule chose dont le fan à besoin de faire est choisir ce qu\'il veut manger ou boire.',
       title2: 'Plus grande efficacité et productivité pour les concessions',

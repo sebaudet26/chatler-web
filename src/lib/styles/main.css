@@ -15,6 +15,9 @@ h2 {
   font-size: 30px;
   font-weight: 700;
   color: #434E5D; }
+  h2 .accent {
+    color: #232C63;
+    font-weight: 700; }
 
 h3 {
   font-size: 24px;
@@ -92,6 +95,9 @@ ul {
   .intro h1, .intro h2, .intro h3, .intro p {
     color: #ffffff; }
 
+.body-intro h3 {
+  margin-bottom: 25px; }
+
 .btn {
   font-size: 16px;
   font-weight: bold;
@@ -123,6 +129,8 @@ ul {
 .body-section {
   display: flex;
   align-items: center; }
+  .body-section .img-wrapper img {
+    position: absolute; }
 
 section {
   padding: 75px 0; }
@@ -183,6 +191,14 @@ section {
       margin: auto auto 35px auto; }
     .body-section h3 {
       text-align: left; }
+    .body-section.home-chatbot .img-wrapper img {
+      width: 300px;
+      top: 0px;
+      right: 50px; }
+    .body-section.home-manager .img-wrapper img {
+      width: 700px;
+      top: 0;
+      left: 50px; }
     .body-section.feature-ux .img-wrapper img {
       width: 300px;
       top: 0px;

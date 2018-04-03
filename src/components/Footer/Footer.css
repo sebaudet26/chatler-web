@@ -2,7 +2,8 @@
 footer {
   padding: 75px 0;
   font-size: 18px;
-  color: #2B313A; }
+  color: #2B313A;
+  background: #ffffff; }
   footer .footer-list li {
     margin-bottom: 5px;
     display: flex;

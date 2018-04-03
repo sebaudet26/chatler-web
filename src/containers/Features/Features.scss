@@ -63,16 +63,7 @@
   }
 }
 
-.feature-overview {
-  h2 {
-    margin-bottom: 25px;
-  }
-}
-
 .feature {
-  .img-wrapper img {
-    position: absolute;
-  }
 
   &-ordering {
     background: $grey-5;
@@ -115,11 +106,15 @@
 
     h2, p {
       color: $white;
+
+      .accent {
+        color: $white;
+      }
     }
 
     .img-wrapper img {
-      width: 400px;
-      top: -150px;
+      width: 375px;
+      top: -125px;
     }
   }
 
@@ -129,6 +124,10 @@
 
     h2, p {
       color: $white;
+
+      .accent {
+        color: $white;
+      }
     }
 
     &-gear, &-food {
@@ -152,7 +151,7 @@
     overflow-y: hidden;
 
     .img-wrapper img {
-      right: 100px;
+      right: 75px;
       width: 850px;
     }
   }

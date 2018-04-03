@@ -4,6 +4,8 @@
   color: #ffffff; }
   .request h2 {
     color: #ffffff; }
+    .request h2 .accent {
+      color: #ffffff; }
 
 @media (min-width: 576px) {
   .request .row {

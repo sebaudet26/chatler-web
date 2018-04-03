@@ -1,7 +1,7 @@
 export default {
   menu: {
     home: 'Home',
-    features: 'Features',
+    features: 'Product',
     company: 'Company',
     contact: 'Contact Us',
   },
@@ -12,6 +12,7 @@ export default {
       learnMore: 'or learn more',
     },
     body: {
+      title0: 'Engage your fans in a way that directly impacts your bottom line.',
       title1: 'Seamless experience for fans',
       p1: 'With reduced friction points, fans can effortlessly order. There are no apps to download, no accounts to create and no location to enter. The only thing the fan has to think about is what to eat. Just scan, chat and pay!',
       title2: 'Increased productivity and efficiency for venues',

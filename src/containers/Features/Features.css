@@ -40,12 +40,6 @@
   .features-type.dark {
     color: #2B313A; }
 
-.feature-overview h2 {
-  margin-bottom: 25px; }
-
-.feature .img-wrapper img {
-  position: absolute; }
-
 .feature-ordering {
   background: #F6F9FC; }
   .feature-ordering h3 {
@@ -77,15 +71,19 @@
   height: 700px; }
   .feature-ux h2, .feature-ux p {
     color: #ffffff; }
+    .feature-ux h2 .accent, .feature-ux p .accent {
+      color: #ffffff; }
   .feature-ux .img-wrapper img {
-    width: 400px;
-    top: -150px; }
+    width: 375px;
+    top: -125px; }
 
 .feature-commerce {
   background: #232C63;
   height: 800px; }
   .feature-commerce h2, .feature-commerce p {
     color: #ffffff; }
+    .feature-commerce h2 .accent, .feature-commerce p .accent {
+      color: #ffffff; }
   .feature-commerce-gear, .feature-commerce-food {
     width: 300px;
     box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15); }
@@ -100,5 +98,5 @@
   height: 700px;
   overflow-y: hidden; }
   .feature-manager .img-wrapper img {
-    right: 100px;
+    right: 75px;
     width: 850px; }

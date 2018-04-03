@@ -56,7 +56,7 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <section className="feature-overview">
+        <section className="feature-overview body-intro">
           <div className="container center-section">
             <h2>{t.features.body.title1}</h2>
             <p>{t.features.body.p1}</p>
@@ -73,23 +73,27 @@ class Features extends Component {
                 <h2>{t.features.body.title2}</h2>
                 <p>{t.features.body.p2}</p>
               </div>
-              <div className="col-sm-6">
-                <h3>{t.features.body.featureType1}</h3>
-                <div className="bullet-list">
-                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList1}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList2}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList3}</div>
-                </div>
-              </div>
-              <div className="col-sm-6">
-                <h3>{t.features.body.tradionalApp}</h3>
-                <div className="bullet-list">
-                  <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList4}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList5}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList6}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">4</span>{t.features.body.bulletList7}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">5</span>{t.features.body.bulletList8}</div>
-                  <div className="bullet-list-item"><span className="bullet-list-point">6</span>{t.features.body.bulletList9}</div>
+              <div className="col-md-6">
+                <div className="row">
+                  <div className="col-sm-6">
+                    <h3>{t.features.body.featureType1}</h3>
+                    <div className="bullet-list">
+                      <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList1}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList2}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList3}</div>
+                    </div>
+                  </div>
+                  <div className="col-sm-6">
+                    <h3>{t.features.body.tradionalApp}</h3>
+                    <div className="bullet-list">
+                      <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList4}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">2</span>{t.features.body.bulletList5}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList6}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">4</span>{t.features.body.bulletList7}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">5</span>{t.features.body.bulletList8}</div>
+                      <div className="bullet-list-item"><span className="bullet-list-point">6</span>{t.features.body.bulletList9}</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -100,7 +104,7 @@ class Features extends Component {
             <div className="row flex">
               <div className="col-sm-6">
                 <div className="img-wrapper hidden-xs">
-                  <img width="375px" alt="" src={ChatUx}/>
+                  <img alt="" src={ChatUx}/>
                 </div>
               </div>
               <div className="col-sm-6">
