@@ -47,9 +47,7 @@
   position: absolute; }
 
 .feature-ordering {
-  background: #F6F9FC;
-  display: flex;
-  align-items: center; }
+  background: #F6F9FC; }
   .feature-ordering h3 {
     text-transform: uppercase;
     font-size: 18px;
@@ -76,9 +74,7 @@
 .feature-ux {
   background: #3D5AFE;
   overflow-y: hidden;
-  height: 700px;
-  display: flex;
-  align-items: center; }
+  height: 700px; }
   .feature-ux h2, .feature-ux p {
     color: #ffffff; }
   .feature-ux .img-wrapper img {
@@ -87,9 +83,7 @@
 
 .feature-commerce {
   background: #232C63;
-  align-items: center;
-  height: 800px;
-  display: flex; }
+  height: 800px; }
   .feature-commerce h2, .feature-commerce p {
     color: #ffffff; }
   .feature-commerce-gear, .feature-commerce-food {
@@ -103,9 +97,7 @@
     top: -150px; }
 
 .feature-manager {
-  align-items: center;
   height: 700px;
-  display: flex;
   overflow-y: hidden; }
   .feature-manager .img-wrapper img {
     right: 100px;

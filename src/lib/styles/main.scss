@@ -130,10 +130,6 @@ ul {
   }
 }
 
-.subtitle {
-  font-size: 24px;
-}
-
 .btn {
   font-size: 16px;
   font-weight: bold;
@@ -171,6 +167,11 @@ ul {
     opacity: 1;
     box-shadow: $shadow-2;
   }
+}
+
+.body-section {
+  display: flex;
+  align-items: center;
 }
 
 section {
@@ -247,7 +248,43 @@ section {
 }
 
 @media (max-width: 992px) {
+  footer, section {
+    padding: 50px;
+  }
+
   .hidden-med {
     display: none;
+  }
+
+  .body-section {
+    height: auto !important;
+    text-align: center;
+
+    .img-icon {
+      margin: auto auto 35px auto;
+    }
+
+    h3 {
+      text-align: left;
+    }
+
+    &.feature-ux {
+      .img-wrapper img {
+        width: 300px;
+        top: 0px;
+      }
+    }
+
+    &.feature-manager {
+      .img-wrapper img {
+        width: 700px;
+        top: 0px;
+        right: 50px;
+      }
+    }
+
+    .row {
+      display: block;
+    }
   }
 }

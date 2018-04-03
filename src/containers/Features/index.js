@@ -56,16 +56,16 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <section className="feature-overview ">
+        <section className="feature-overview">
           <div className="container center-section">
             <h2>{t.features.body.title1}</h2>
             <p>{t.features.body.p1}</p>
           </div>
         </section>
-        <section className="feature feature-ordering">
+        <section className="feature feature-ordering body-section">
           <div className="container">
             <div className="row flex">
-              <div className="col-sm-6">
+              <div className="col-md-6">
                 <div className="img-icon blue">
                   <img alt="" src={FrictionIcon}/>
                 </div>
@@ -73,7 +73,7 @@ class Features extends Component {
                 <h2>{t.features.body.title2}</h2>
                 <p>{t.features.body.p2}</p>
               </div>
-              <div className="col-sm-3">
+              <div className="col-md-3">
                 <h3>{t.features.body.featureType1}</h3>
                 <div className="bullet-list">
                   <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList1}</div>
@@ -81,7 +81,7 @@ class Features extends Component {
                   <div className="bullet-list-item"><span className="bullet-list-point">3</span>{t.features.body.bulletList3}</div>
                 </div>
               </div>
-              <div className="col-sm-3">
+              <div className="col-md-3">
                 <h3>{t.features.body.tradionalApp}</h3>
                 <div className="bullet-list">
                   <div className="bullet-list-item"><span className="bullet-list-point">1</span>{t.features.body.bulletList4}</div>
@@ -95,7 +95,7 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <section className="feature feature-ux">
+        <section className="feature feature-ux body-section">
           <div className="container">
             <div className="row flex">
               <div className="col-sm-6">
@@ -114,7 +114,7 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <section className="feature feature-commerce">
+        <section className="feature feature-commerce body-section">
           <div className="container">
             <div className="row flex">
               <div className="col-sm-6">
@@ -134,7 +134,7 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <section className="feature feature-manager">
+        <section className="feature feature-manager body-section">
           <div className="container">
             <div className="row flex">
               <div className="col-sm-7">

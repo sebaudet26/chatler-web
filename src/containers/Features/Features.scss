@@ -76,8 +76,6 @@
 
   &-ordering {
     background: $grey-5;
-    display: flex;
-    align-items: center;
 
     h3 {
       text-transform: uppercase;
@@ -114,8 +112,6 @@
     background: $main-color;
     overflow-y: hidden;
     height: 700px;
-    display: flex;
-    align-items: center;
 
     h2, p {
       color: $white;
@@ -129,9 +125,7 @@
 
   &-commerce {
     background: $dark-main;
-    align-items: center;
     height: 800px;
-    display: flex;
 
     h2, p {
       color: $white;
@@ -154,9 +148,7 @@
   }
 
   &-manager {
-    align-items: center;
     height: 700px;
-    display: flex;
     overflow-y: hidden;
 
     .img-wrapper img {
