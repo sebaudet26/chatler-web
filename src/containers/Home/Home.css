@@ -45,15 +45,28 @@
     animation: mouse 2.5s linear infinite; }
 
 .home-chatbot {
-  overflow-y: hidden;
-  height: 600px; }
-  .home-chatbot .img-wrapper img {
-    width: 350px;
-    top: -75px; }
+  overflow-y: hidden; }
+  .home-chatbot .row {
+    flex-flow: row;
+    flex-wrap: wrap; }
+  .home-chatbot .body-text {
+    max-width: 500px; }
+  .home-chatbot .phone {
+    background-image: url("../../lib/img/phone-white.png");
+    width: 330px;
+    height: 669px;
+    display: flex;
+    margin-right: 100px; }
+    .home-chatbot .phone video {
+      margin: auto;
+      width: 300px;
+      display: block;
+      top: -5px;
+      position: relative; }
 
 .home-manager {
   background: #232C63;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 700px; }
   .home-manager h2, .home-manager p {
     color: #ffffff; }

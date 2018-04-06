@@ -55,17 +55,36 @@
 
 .home-chatbot {
   overflow-y: hidden;
-  height: 600px;
 
-  .img-wrapper img {
-    width: 350px;
-    top: -75px;
+  .row {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .body-text {
+    max-width: 500px;
+  }
+
+  .phone {
+    background-image: url('../../lib/img/phone-white.png');
+    width: 330px;
+    height: 669px;
+    display: flex;
+    margin-right: 100px;
+
+    video {
+      margin: auto;
+      width: 300px;
+      display: block;
+      top: -5px;
+      position: relative;
+    }
   }
 }
 
 .home-manager {
   background: $dark-main;
-  overflow-y: hidden;
+  overflow: hidden;
   height: 700px;
 
   h2, p {

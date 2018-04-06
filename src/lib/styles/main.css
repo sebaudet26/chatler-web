@@ -40,6 +40,8 @@ a {
 
 .flex {
   display: flex; }
+  .flex-center {
+    align-items: center; }
 
 ul {
   margin: 0;
@@ -103,7 +105,7 @@ ul {
   font-weight: bold;
   border: none;
   color: #ffffff;
-  background: #4db193;
+  background: #66CFB0;
   display: inline-flex;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   padding: 15px 20px;
@@ -157,7 +159,7 @@ section {
     background: #ffffff;
     box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.25); }
   .img-icon.green {
-    background: #4db193;
+    background: #66CFB0;
     box-shadow: 0px 0px 0px 5px rgba(77, 177, 147, 0.25); }
   .img-icon.red {
     background: #F24D6E;
@@ -171,6 +173,10 @@ section {
 @media (max-width: 768px) {
   .hidden-xs {
     display: none; }
+  .body-section {
+    text-align: center; }
+    .body-section .img-icon {
+      margin: auto auto 35px auto; }
   .intro .mouse {
     display: none !important; }
   .intro::before {
@@ -185,16 +191,19 @@ section {
   .hidden-med {
     display: none; }
   .body-section {
-    height: auto !important;
-    text-align: center; }
+    height: auto !important; }
+    .body-section .row {
+      display: block; }
     .body-section .img-icon {
-      margin: auto auto 35px auto; }
+      margin-top: 15px; }
     .body-section h3 {
       text-align: left; }
     .body-section.home-chatbot .img-wrapper img {
       width: 300px;
       top: 0px;
       right: 50px; }
+    .body-section.home-chatbot .row {
+      display: flex; }
     .body-section.home-manager .img-wrapper img {
       width: 700px;
       top: 0;
@@ -206,14 +215,12 @@ section {
     .body-section.feature-commerce .feature-commerce-gear {
       left: 50px;
       width: 250px;
-      top: 50px; }
+      top: 60px; }
     .body-section.feature-commerce .feature-commerce-food {
       width: 250px;
-      top: -25px;
+      top: -15px;
       left: 125px; }
     .body-section.feature-manager .img-wrapper img {
       width: 700px;
       top: 0px;
-      right: 50px; }
-    .body-section .row {
-      display: block; } }
+      right: 50px; } }

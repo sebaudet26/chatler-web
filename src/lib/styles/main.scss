@@ -52,6 +52,10 @@ a {
 
 .flex {
   display: flex;
+
+  &-center {
+    align-items: center;
+  }
 }
 
 ul {
@@ -248,6 +252,14 @@ section {
     display: none;
   }
 
+  .body-section {
+    text-align: center;
+
+    .img-icon {
+      margin: auto auto 35px auto;
+    }
+  }
+
   .intro {
     .mouse {
       display: none !important;
@@ -273,10 +285,13 @@ section {
 
   .body-section {
     height: auto !important;
-    text-align: center;
+
+    .row {
+      display: block;
+    }
 
     .img-icon {
-      margin: auto auto 35px auto;
+      margin-top: 15px;
     }
 
     h3 {
@@ -288,6 +303,10 @@ section {
         width: 300px;
         top: 0px;
         right: 50px;
+      }
+
+      .row {
+        display:flex;
       }
     }
 
@@ -311,12 +330,12 @@ section {
       .feature-commerce-gear {
         left: 50px;
         width: 250px;
-        top: 50px;
+        top: 60px;
       }
 
       .feature-commerce-food {
         width: 250px;
-        top: -25px;
+        top: -15px;
         left: 125px;
       }
     }
@@ -329,8 +348,6 @@ section {
       }
     }
 
-    .row {
-      display: block;
-    }
+
   }
 }
