@@ -13,7 +13,7 @@ import LightIcon from '../../lib/icons/lightning.svg';
 import ManageIcon from '../../lib/icons/gears.svg';
 import OrderManager from '../../lib/img/order_manager.png';
 import ChartIcon from '../../lib/icons/pie-chart.svg';
-import Video from '../../lib/img/demo-video.MP4';
+import Video from '../../lib/img/demo-video.mp4';
 
 class Home extends Component {
 
@@ -26,7 +26,7 @@ class Home extends Component {
   }
 
   handleScroll(e) {
-    if(window.scrollY > 600){
+    if(window.scrollY > 550){
       document.getElementById("scrollVid").play();
     }
   }

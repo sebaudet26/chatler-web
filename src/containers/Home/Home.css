@@ -62,7 +62,9 @@
       width: 300px;
       display: block;
       top: -5px;
-      position: relative; }
+      position: relative;
+      border-radius: 4px;
+      border: solid 2px #E2E7EC; }
 
 .home-manager {
   background: #232C63;
