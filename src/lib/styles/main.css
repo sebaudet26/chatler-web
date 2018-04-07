@@ -170,24 +170,18 @@ section {
   .img-icon img {
     margin: auto; }
 
-@media (max-width: 768px) {
-  .hidden-xs {
-    display: none; }
-  .body-section {
-    text-align: center; }
-    .body-section .img-icon {
-      margin: auto auto 35px auto; }
+@media (max-width: 992px) {
   .intro .mouse {
     display: none !important; }
   .intro::before {
     left: 0;
     width: 100%;
-    border-radius: 0 0 100% 100% / 20%;
-    overflow-x: hidden; } }
-
-@media (max-width: 992px) {
+    border-radius: 0;
+    overflow-x: hidden; }
   footer, section {
-    padding: 50px; }
+    padding: 50px 0; }
+  .menu-link {
+    margin: 0 2rem; }
   .hidden-med {
     display: none; }
   .body-section {
@@ -195,7 +189,7 @@ section {
     .body-section .row {
       display: block; }
     .body-section .img-icon {
-      margin-top: 15px; }
+      margin-top: 25px; }
     .body-section h3 {
       text-align: left; }
     .body-section.home-chatbot .img-wrapper img {
@@ -224,3 +218,19 @@ section {
       width: 700px;
       top: 0px;
       right: 50px; } }
+
+@media (max-width: 768px) {
+  footer, section {
+    padding: 50px 0; }
+  .hidden-xs {
+    display: none; }
+  .body-section {
+    text-align: center; }
+    .body-section .img-icon {
+      margin: 25px auto 35px auto; }
+  .intro {
+    text-align: center; }
+  .row.flex {
+    display: block !important; }
+  .phone {
+    margin: 0 auto 50px auto; } }

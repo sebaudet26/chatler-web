@@ -22,7 +22,7 @@ nav {
   flex-grow: 1;
   justify-content: flex-end; }
   .menu-link {
-    margin: 0 3rem;
+    margin: 0 2.5rem;
     position: relative; }
     .menu-link.active:after {
       opacity: 1; }

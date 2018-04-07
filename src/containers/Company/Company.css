@@ -21,3 +21,7 @@
 .logo-icon {
   position: relative;
   width: 50px; }
+
+@media (max-width: 992px) {
+  .intro-company {
+    background-position-y: 0px; } }

@@ -14,7 +14,7 @@ export default {
     body: {
       title0: 'Engage your fans in a way that directly impacts your bottom line.',
       title1: 'Seamless experience for fans',
-      p1: 'With reduced friction points, fans can effortlessly order. There are no apps to download, no accounts to create and no location to enter. The only thing the fan has to think about is what to eat. Just scan, chat and pay!',
+      p1: 'No more missing home runs because you were busy getting a beer for your friends. No more waiting in lines. With a frictionless experience, fans can get their food, drinks and merchandise delivered right to their seats. It’s also way better than an app. Nothing to download, no account to create and no seat location to enter, it’s like having your personal waiter!',
       title2: 'Increased productivity and efficiency for venues',
       p2: 'Venues lose on potential sales because fans don\'t want to miss any of the action. And during breaks, customers don\'t want to wait in line either. We help venues have a steady demand all along the event and help them reach their sales potential. Venues get all the tools necessary to satisfy their customers.',
       title3: 'More insights on your customers',
@@ -48,7 +48,7 @@ export default {
       bulletList8: 'Enter Seat Location',
       bulletList9: 'Pay',
       title1: 'A full key-in-hand solution for your venue',
-      p1: 'For your customers, our chatbot allows frictionless ordering, engaging them in ways that was previously unheard of. For your staff, our Order Manager App is a seamless integration to your concessions, making them easily prepare, dispatch and deliver orders on time.',
+      p1: 'For your customers, our chatbot allows frictionless ordering, engaging them in ways that were previously unheard of. For your staff, our Order Manager App is a seamless integration to your concessions, making them easily prepare, dispatch and deliver orders on time.',
       title2: 'Frictionless Ordering',
       p2: 'Unlike traditional apps, chatbots offer a seamless experience where fans can order the moment they have an impulse. There\'s no app to download, no account to create and no seat location to input. Your customer can focus on what really matters.',
       title3: 'Intuitive Experience',

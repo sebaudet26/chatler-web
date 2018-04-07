@@ -26,8 +26,10 @@ class Home extends Component {
   }
 
   handleScroll(e) {
-    if(window.scrollY > 550){
+    if(window.scrollY > 550 && window.scrollY < 900){
       document.getElementById("scrollVid").play();
+    } else {
+      document.getElementById("scrollVid").pause();
     }
   }
 
@@ -39,7 +41,7 @@ class Home extends Component {
         <section className="intro intro-home">
           <div className="container">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-sm-7 col-md-6">
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
@@ -47,7 +49,7 @@ class Home extends Component {
                   <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
-              <div className="col-md-6 hidden-med">
+              <div className="col-sm-5 col-md-6 hidden-xs">
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
@@ -62,8 +64,8 @@ class Home extends Component {
         <section className="home-chatbot body-section">
           <div className="container">
             <div className="row flex flex-center">
-              <div className="col-sm-6">
-                <div className="img-wrapper hidden-xs">
+              <div className="col-sm-6 col-md-5">
+                <div className="img-wrapper">
                   <div className="phone">
                     <video id="scrollVid">
                       <source src={Video} />
@@ -71,7 +73,7 @@ class Home extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 col-md-7">
                 <div className="img-icon blue">
                   <img alt="" src={LightIcon}/>
                 </div>
