@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
-import Logo from '../../lib/img/logo-nav.js';
+import Logo from '../../lib/img/chatler-d-logo.svg';
 import { getTranslations } from '../../redux/selectors/translations';
 import { changeLocale } from '../../redux/actions/app';
 
@@ -21,7 +21,7 @@ class Footer extends Component {
               <div className="col-sm-6 col-xs-12">
                 <div className="brand">
                   <Link to='/'>
-                    <Logo />
+                    <img src={Logo} alt="Chatler Blue Logo"/>
                     Chatler
                   </Link>
                 </div>

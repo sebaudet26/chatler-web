@@ -45,7 +45,7 @@ class Home extends Component {
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <Link className="btn" to='/contact'>{t.button.demo}</Link>
+                  <Link className="btn white" to='/contact'>{t.button.demo}</Link>
                   <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
@@ -55,10 +55,6 @@ class Home extends Component {
                 <img src={StadiumImg} alt="" />
               </div>
             </div>
-            <span className="mouse">
-        			<span>
-        			</span>
-        		</span>
           </div>
         </section>
         <section className="home-chatbot body-section">
@@ -87,7 +83,7 @@ class Home extends Component {
           <div className="container">
             <div className="row flex">
               <div className="col-sm-6">
-                <div className="img-icon green">
+                <div className="img-icon blue">
                   <img alt="" src={ManageIcon}/>
                 </div>
                 <h2>{t.home.body.title2}</h2>

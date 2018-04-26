@@ -22,35 +22,6 @@
     animation-delay: 2s;
     animation-duration: 1s;
   }
-
-  .mouse {
-    position: absolute;
-  	display: block;
-    left: calc(50% - 17.5px);
-  	width: 35px;
-  	height: 55px;
-    bottom: 50px;
-  	-webkit-box-sizing: border-box;
-  	-moz-box-sizing: border-box;
-  	box-sizing: border-box;
-  	border: 2px solid white;
-  	border-radius: 23px;
-
-    * {
-    	position: absolute;
-    	display: block;
-    	top: 29%;
-    	left: 50%;
-    	width: 6px;
-    	height: 6px;
-    	margin: -3px 0 0 -3px;
-    	background: white;
-    	border-radius: 50%;
-    	-webkit-animation: mouse 2.5s linear infinite;
-    	-moz-animation: mouse 2.5s linear infinite;
-    	animation: mouse 2.5s linear infinite;
-    }
-  }
 }
 
 .home-chatbot {
@@ -66,20 +37,15 @@
   }
 
   .phone {
-    background-image: url('../../lib/img/phone-white.png');
-    width: 330px;
-    height: 669px;
-    display: flex;
     margin-right: 100px;
 
     video {
-      margin: auto;
       width: 300px;
       display: block;
       top: -5px;
       position: relative;
-      border-radius: 4px;
-      border: solid 2px $grey-4;
+      border-radius: 8px;
+      box-shadow: $shadow;
     }
   }
 }
@@ -131,23 +97,4 @@
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
   }
-}
-
-@-webkit-keyframes mouse {
-	0% {
-	opacity: 1;
-	top: 29%;
-	}
-	15% {
-	opacity: 1;
-	top: 50%;
-	}
-	50% {
-	opacity: 0;
-	top: 50%;
-	}
-	100% {
-	opacity: 0;
-	top: 29%;
-	}
 }

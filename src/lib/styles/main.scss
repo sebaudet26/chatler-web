@@ -73,9 +73,11 @@ ul {
 
 .brand {
   font-size: 20px;
-  letter-spacing: 1px;
   font-weight: 700;
 
+  img {
+    margin-right: 10px;
+  }
 
   a {
     display: flex;
@@ -160,6 +162,15 @@ ul {
 
   &.blue {
     background: $main-color;
+  }
+
+  &.white {
+    background: $white;
+    color: $main-color;
+
+    &:hover {
+      color: $main-color;
+    }
   }
 
   &-link {

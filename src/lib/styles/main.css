@@ -54,8 +54,9 @@ ul {
 
 .brand {
   font-size: 20px;
-  letter-spacing: 1px;
   font-weight: 700; }
+  .brand img {
+    margin-right: 10px; }
   .brand a {
     display: flex;
     align-items: center; }
@@ -105,7 +106,7 @@ ul {
   font-weight: bold;
   border: none;
   color: #ffffff;
-  background: #66CFB0;
+  background: #21C090;
   display: inline-flex;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   padding: 15px 20px;
@@ -114,6 +115,11 @@ ul {
   transition: 0.3s; }
   .btn.blue {
     background: #3D5AFE; }
+  .btn.white {
+    background: #ffffff;
+    color: #3D5AFE; }
+    .btn.white:hover {
+      color: #3D5AFE; }
   .btn-link {
     margin-left: 15px;
     color: #ffffff;
@@ -159,7 +165,7 @@ section {
     background: #ffffff;
     box-shadow: 0px 0px 0px 5px rgba(255, 255, 255, 0.25); }
   .img-icon.green {
-    background: #66CFB0;
+    background: #21C090;
     box-shadow: 0px 0px 0px 5px rgba(77, 177, 147, 0.25); }
   .img-icon.red {
     background: #F24D6E;

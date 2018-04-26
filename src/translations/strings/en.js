@@ -7,7 +7,7 @@ export default {
   },
   home: {
     intro: {
-      title: 'In-seat delivery with messenger.',
+      title: 'In-seat delivery with messenger',
       subtitle: 'A chatbot that allows fans to easily have their food delivered to their seat without missing any of the action',
       learnMore: 'or learn more',
     },
