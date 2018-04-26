@@ -26,7 +26,7 @@ class Home extends Component {
   }
 
   handleScroll(e) {
-    if(window.scrollY > 550 && window.scrollY < 900){
+    if(window.scrollY > 450 && window.scrollY < 800){
       document.getElementById("scrollVid").play();
     } else {
       document.getElementById("scrollVid").pause();
@@ -45,7 +45,7 @@ class Home extends Component {
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <Link className="btn white" to='/contact'>{t.button.demo}</Link>
+                  <Link className="btn" to='/contact'>{t.button.demo}</Link>
                   <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>

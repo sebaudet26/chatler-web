@@ -1,11 +1,11 @@
 /* Colors */
 .request {
-  background: #3D5AFE;
+  background: #F6F9FC;
   color: #ffffff; }
   .request h2 {
-    color: #ffffff; }
+    color: #434E5D; }
     .request h2 .accent {
-      color: #ffffff; }
+      color: #232C63; }
 
 @media (min-width: 576px) {
   .request .row {

@@ -30,7 +30,7 @@
                     <mask id="mask-5" fill="white">
                         <use xlink:href="#path-4"></use>
                     </mask>
-                    <use id="Mask" fill="#66CFB0" xlink:href="#path-4"></use>
+                    <use id="Mask" fill="#21C090" xlink:href="#path-4"></use>
                     <polygon fill="#000000" opacity="0.1" mask="url(#mask-5)" points="118.396415 12.0949237 193.007186 59.7751483 216.216586 37.2356131 135.568638 -4.33374323"></polygon>
                     <polygon fill="#000000" opacity="0.1" mask="url(#mask-5)" points="83.7869473 28.6843121 161.975062 81.6878708 176.960617 73.0760295 99.1405876 18.135374"></polygon>
                     <polygon fill="#000000" opacity="0.1" mask="url(#mask-5)" points="55.8292135 50.0605115 134.017328 103.06407 149.002883 94.4522289 71.1828539 39.5115734"></polygon>

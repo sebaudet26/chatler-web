@@ -156,7 +156,7 @@ ul {
   display: inline-flex;
   box-shadow: $shadow;
   padding: 15px 20px;
-  border-radius: 99px;
+  border-radius: 6px;
   position: relative;
   transition: 0.3s;
 
@@ -219,38 +219,31 @@ section {
 }
 
 .img-icon {
-  height: 50px;
-  width:50px;
-  border-radius: 50px;
-  background: rgba(255,255,255,0.15);
+  height: 45px;
+  width: 45px;
+  border-radius: 6px;
   display: flex;
   align-items: center;
   margin-bottom: 35px;
 
   &.blue {
     background: $main-color;
-    box-shadow: 0px 0px 0px 5px rgba(61,90,254,0.25);
   }
 
   &.white {
     background: $white;
-    box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.25);
   }
 
   &.green {
     background: $alt-color;
-    box-shadow: 0px 0px 0px 5px rgba(77,177,147,0.25);
-
   }
 
   &.red {
     background: $red;
-    box-shadow: 0px 0px 0px 5px rgba(242,77,110,0.25);
   }
 
   &.orange {
     background: $orange;
-    box-shadow: 0px 0px 0px 5px rgba(254,151,61,0.25);
   }
 
   img {

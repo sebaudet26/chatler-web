@@ -2,14 +2,14 @@
 
 
 .request {
-  background: $main-color;
+  background: $grey-5;
   color: $white;
 
   h2 {
-    color: $white;
+    color: $grey-1;
 
     .accent {
-      color: $white;
+      color: $dark-main;
     }
   }
 }
