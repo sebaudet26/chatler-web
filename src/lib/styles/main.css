@@ -49,6 +49,15 @@ ul {
   ul li {
     list-style: none; }
 
+.bullet-list {
+  margin: inherit !important;
+  padding: inherit !important; }
+  .bullet-list li {
+    list-style: circle;
+    color: #434E5D;
+    font-size: 18px;
+    line-height: 36px; }
+
 .white {
   color: #ffffff; }
 

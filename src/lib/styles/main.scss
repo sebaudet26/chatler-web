@@ -67,6 +67,18 @@ ul {
   }
 }
 
+.bullet-list {
+  margin: inherit !important;
+  padding: inherit !important;
+
+  li {
+    list-style: circle;
+    color: $grey-1;
+    font-size: 18px;
+    line-height: 36px;
+  }
+}
+
 .white {
   color: $white;
 }
@@ -115,6 +127,7 @@ ul {
   &::before {
     width: 110%;
     left: -5%;
+    //width: 100%;
     height: 100%;
     background: $main-color;
     position:absolute;

@@ -18,20 +18,17 @@ class Footer extends Component {
         <footer>
           <div className="container">
             <div className="row">
-              <div className="col-sm-6 col-xs-12">
+              <div className="col-sm-4 col-xs-12">
                 <div className="brand">
                   <Link to='/'>
                     <img src={Logo} alt="Chatler Blue Logo"/>
                     Chatler
                   </Link>
                 </div>
-                <ul className="footer-list">
-                  <li className="footer-list-title">{t.footer.contactUs}</li>
-                  <li>contact@chatler.io</li>
-                  <li>{t.footer.contactLocation}</li>
-                </ul>
               </div>
-              <div className="col-sm-2 col-xs-6">
+            </div>
+            <div className="row">
+              <div className="col-sm-3 col-xs-4">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
                   <li><Link to='/'>{t.menu.home}</Link></li>
@@ -40,12 +37,24 @@ class Footer extends Component {
                   <li><Link to='/contact'>{t.menu.contact}</Link></li>
                 </ul>
               </div>
-              <div className="col-sm-2 col-xs-6">
+              <div className="col-sm-3 col-xs-4">
+                <ul className="footer-list">
+                  <li className="footer-list-title">{t.footer.resources}</li>
+                  <li><Link to='/privacy-policy'>{t.footer.privacy}</Link></li>
+                  <li><Link to='/terms'>{t.footer.terms}</Link></li>
+                </ul>
+              </div>
+              <div className="col-sm-3 col-xs-4">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.social}</li>
                   <li>
-                    <a href="https://www.facebook.com/Chatler-1902952329966274">
+                    <a href="https://www.facebook.com/chatlerapp/">
                       Facebook
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/company/11528680/">
+                      LinkedIn
                     </a>
                   </li>
                   <li>
@@ -55,7 +64,7 @@ class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-2 col-xs-12">
+              <div className="col-sm-3 col-xs-12">
                 <ul className="footer-list">
                   <li className="footer-list-title">Language</li>
                   <li><a onClick={onLocaleChange(changeLocale, 'en', 'ca')}>English</a></li>
