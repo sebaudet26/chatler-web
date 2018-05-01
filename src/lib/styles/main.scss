@@ -250,6 +250,10 @@ section {
 }
 
 .light-theme {
+  h3 {
+    font-weight: 600;
+  }
+  
   nav {
     border-bottom: solid 1px $grey-4;
   }

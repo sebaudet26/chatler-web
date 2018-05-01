@@ -41,7 +41,8 @@ footer {
   }
 
   a {
-    color: $main-color;
+    color: $dark-main;
+    font-weight: 600;
 
     &:hover {
       color: $grey-1;

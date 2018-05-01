@@ -22,7 +22,8 @@ footer {
     footer .brand a:hover {
       color: #3D5AFE; }
   footer a {
-    color: #3D5AFE; }
+    color: #232C63;
+    font-weight: 600; }
     footer a:hover {
       color: #434E5D; }
   footer .copyright {

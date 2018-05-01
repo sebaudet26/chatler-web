@@ -171,6 +171,9 @@ section {
   .img-icon img {
     margin: auto; }
 
+.light-theme h3 {
+  font-weight: 600; }
+
 .light-theme nav {
   border-bottom: solid 1px #E2E7EC; }
 
