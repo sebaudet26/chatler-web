@@ -18,6 +18,9 @@ import OrderManager from '../../lib/img/order_manager.png';
 class Features extends Component {
   render() {
     const { t } = this.props;
+    document.title = "Chatler - "+t.menu.features;
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
 
     return (
       <div>

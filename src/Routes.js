@@ -7,7 +7,7 @@ const AsyncFeatures = asyncComponent(() => import("./containers/Features/"));
 const AsyncCompany = asyncComponent(() => import("./containers/Company/"));
 const AsyncContact = asyncComponent(() => import("./containers/Contact/"));
 const AsyncPrivacy = asyncComponent(() => import("./containers/Privacy/"));
-const AsyncTerms = asyncComponent(() => import("./containers/Privacy/"));
+const AsyncTerms = asyncComponent(() => import("./containers/Terms/"));
 const AsyncNotFound = asyncComponent(() => import("./containers/NotFound/"));
 
 export default ({ childProps }) =>

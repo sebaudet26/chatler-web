@@ -35,6 +35,9 @@ class Home extends Component {
 
   render() {
     const { t } = this.props;
+    document.title = "Chatler - "+t.home.intro.title;
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
 
     return (
       <div>

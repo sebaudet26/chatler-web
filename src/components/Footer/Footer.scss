@@ -27,7 +27,13 @@ footer {
   }
 
   .brand {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
+
+    &-logo {
+      path {
+        fill: $main-color;
+      }
+    }
 
     a:hover {
       color: $main-color;

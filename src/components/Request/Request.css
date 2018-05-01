@@ -3,9 +3,11 @@
   background: #F6F9FC;
   color: #ffffff; }
   .request h2 {
-    color: #434E5D; }
+    color: #434E5D;
+    font-weight: 300; }
     .request h2 .accent {
-      color: #232C63; }
+      color: #232C63;
+      font-weight: 600; }
 
 @media (min-width: 576px) {
   .request .row {

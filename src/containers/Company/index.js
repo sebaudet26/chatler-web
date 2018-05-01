@@ -9,6 +9,9 @@ import LogoIcon from '../../lib/icons/logo-icon.svg';
 class Company extends Component {
   render() {
     const { t } = this.props;
+    document.title = "Chatler - "+t.menu.company;
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
 
     return (
       <div>

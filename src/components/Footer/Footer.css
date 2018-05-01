@@ -16,7 +16,9 @@ footer {
     font-weight: 600;
     margin-bottom: 15px !important; }
   footer .brand {
-    margin-bottom: 25px; }
+    margin-bottom: 50px; }
+    footer .brand-logo path {
+      fill: #3D5AFE; }
     footer .brand a:hover {
       color: #3D5AFE; }
   footer a {

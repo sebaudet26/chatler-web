@@ -18,11 +18,6 @@ h2 {
   font-size: 30px;
   font-weight: 600;
   color: $dark-main;
-
-  .accent {
-    color: $dark-main;
-    font-weight: 700;
-  }
 }
 
 h3 {
@@ -30,14 +25,10 @@ h3 {
   font-weight: 400;
 }
 
-.accent {
-  font-weight: 700;
-}
-
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: $grey-1;
+  color: $black;
   line-height: 36px;
 }
 
@@ -72,8 +63,9 @@ ul {
   padding: inherit !important;
 
   li {
-    list-style: circle;
-    color: $grey-1;
+    margin-left: 25px;
+    list-style: initial;
+    color: $black;
     font-size: 18px;
     line-height: 36px;
   }
@@ -85,9 +77,9 @@ ul {
 
 .brand {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 
-  img {
+  &-logo {
     margin-right: 10px;
   }
 
@@ -141,14 +133,6 @@ ul {
     margin-top: 15px;
   }
 
-  &.light {
-    background: $white;
-
-    * {
-      color: $grey-1;
-    }
-  }
-
   h1, h2, h3, p {
     color: $white;
   }
@@ -157,6 +141,7 @@ ul {
 .body-intro {
   h3 {
     margin-bottom: 25px;
+    color: $white;
   }
 }
 
@@ -261,6 +246,36 @@ section {
 
   img {
     margin: auto;
+  }
+}
+
+.light-theme {
+  nav {
+    border-bottom: solid 1px $grey-4;
+  }
+
+  footer {
+    border-top: solid 1px $grey-4;
+  }
+
+  .brand {
+    a {
+      color: $main-color;
+    }
+    &-logo path {
+      fill: $main-color;
+    }
+  }
+
+  .menu-link {
+    color: $dark-main;
+
+    &::after {
+      background: $dark-main;
+    }
+  }
+  section {
+    padding: 110px 0 45px 0;
   }
 }
 

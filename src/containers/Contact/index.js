@@ -8,6 +8,9 @@ import './Contact.css';
 class Contact extends Component {
   render() {
     const { t } = this.props;
+    document.title = "Chatler - "+t.contact.title;
+    document.body.classList.remove('light-theme');
+    document.body.classList.add('dark-theme');
 
     return (
       <div>
