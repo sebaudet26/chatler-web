@@ -12,17 +12,20 @@ footer {
       cursor: pointer; }
   footer .footer-list-title {
     color: #6F7785;
-    font-size: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
     font-weight: 600;
     margin-bottom: 15px !important; }
   footer .brand {
-    margin-bottom: 50px; }
+    margin-bottom: 25px; }
     footer .brand-logo path {
       fill: #3D5AFE; }
-    footer .brand a:hover {
+    footer .brand a {
       color: #3D5AFE; }
+      footer .brand a:hover {
+        color: #3D5AFE; }
   footer a {
-    color: #232C63;
+    color: #2B313A;
     font-weight: 600; }
     footer a:hover {
       color: #434E5D; }

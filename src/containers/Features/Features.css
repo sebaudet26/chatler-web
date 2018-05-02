@@ -75,7 +75,8 @@
       color: #ffffff; }
   .feature-ux .img-wrapper img {
     width: 375px;
-    top: -125px; }
+    top: -100px;
+    transform: rotate(-10deg); }
 
 .feature-commerce {
   background: #232C63;

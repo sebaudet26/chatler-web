@@ -18,7 +18,7 @@ export default ({ childProps }) =>
     <Route path={process.env.PUBLIC_URL + '/features'} exact component={AsyncFeatures} />
     <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
     <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
-    <Route path={process.env.PUBLIC_URL + '/privacy-policy'} exact component={AsyncPrivacy} />
+    <Route path={process.env.PUBLIC_URL + '/privacy'} exact component={AsyncPrivacy} />
     <Route path={process.env.PUBLIC_URL + '/terms'} exact component={AsyncTerms} />
     <Route component={AsyncNotFound} />
   </Switch>

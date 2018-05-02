@@ -20,28 +20,32 @@ footer {
 
     &-title {
       color: $grey-2;
-      font-size: 18px;
+      font-size: 14px;
+      text-transform: uppercase;
       font-weight: 600;
       margin-bottom: 15px !important;
     }
   }
 
   .brand {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 
     &-logo {
       path {
         fill: $main-color;
       }
     }
-
-    a:hover {
+    a {
       color: $main-color;
+
+      &:hover {
+        color: $main-color;
+      }
     }
   }
 
   a {
-    color: $dark-main;
+    color: $black;
     font-weight: 600;
 
     &:hover {
