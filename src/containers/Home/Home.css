@@ -20,11 +20,6 @@
 
 .home-chatbot {
   overflow-y: hidden; }
-  .home-chatbot .row {
-    flex-flow: row;
-    flex-wrap: wrap; }
-  .home-chatbot .body-text {
-    max-width: 500px; }
   .home-chatbot .img-wrapper img {
     width: 375px;
     top: -50px;

@@ -8,7 +8,7 @@ import './Features.css';
 //Img and Icons
 import FrictionIcon from '../../lib/icons/frictionless.svg';
 import IntuitiveIcon from '../../lib/icons/intuitive.svg';
-import ChatUx from '../../lib/img/chat_ux.png';
+import ChatUx from '../../lib/img/chat_ux_w.png';
 import VarietyIcon from '../../lib/icons/variety.svg';
 import AddCart from '../../lib/img/Add_to_cart.png';
 import ProductGroup from '../../lib/img/Product_group.png';

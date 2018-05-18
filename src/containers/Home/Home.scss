@@ -27,15 +27,6 @@
 .home-chatbot {
   overflow-y: hidden;
 
-  .row {
-    flex-flow: row;
-    flex-wrap: wrap;
-  }
-
-  .body-text {
-    max-width: 500px;
-  }
-
   .img-wrapper img {
     width: 375px;
     top: -50px;
