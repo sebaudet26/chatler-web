@@ -36,17 +36,12 @@
     max-width: 500px;
   }
 
-  .phone {
-    margin-right: 100px;
-
-    video {
-      width: 300px;
-      display: block;
-      top: -5px;
-      position: relative;
-      border-radius: 8px;
-      box-shadow: $shadow;
-    }
+  .img-wrapper img {
+    width: 375px;
+    top: -50px;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
   }
 }
 

@@ -7,31 +7,15 @@ import Request from '../../components/Request/';
 
 //Img and Icons
 import StadiumImg from '../../lib/img/stadium.svg';
+import ChatUX from '../../lib/img/chat_ux_w.png';
 import Cloud1Img from '../../lib/img/cloud-1.svg';
 import Cloud2Img from '../../lib/img/cloud-2.svg';
 import LightIcon from '../../lib/icons/lightning.svg';
 import ManageIcon from '../../lib/icons/gears.svg';
 import OrderManager from '../../lib/img/order_manager.png';
 import ChartIcon from '../../lib/icons/pie-chart.svg';
-import Video from '../../lib/img/demo-video.mp4';
 
 class Home extends Component {
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll(e) {
-    if(window.scrollY > 450 && window.scrollY < 800){
-      document.getElementById("scrollVid").play();
-    } else {
-      document.getElementById("scrollVid").pause();
-    }
-  }
 
   render() {
     const { t } = this.props;
@@ -62,17 +46,13 @@ class Home extends Component {
         </section>
         <section className="home-chatbot body-section">
           <div className="container">
-            <div className="row flex flex-center">
-              <div className="col-sm-6 col-md-5">
-                <div className="img-wrapper">
-                  <div className="phone">
-                    <video id="scrollVid">
-                      <source src={Video} />
-                    </video>
-                  </div>
+            <div className="row flex">
+              <div className="col-sm-6">
+                <div className="img-wrapper hidden-xs">
+                  <img alt="" src={ChatUX}/>
                 </div>
               </div>
-              <div className="col-sm-6 col-md-7">
+              <div className="col-sm-6">
                 <div className="img-icon blue">
                   <img alt="" src={LightIcon}/>
                 </div>

@@ -25,15 +25,12 @@
     flex-wrap: wrap; }
   .home-chatbot .body-text {
     max-width: 500px; }
-  .home-chatbot .phone {
-    margin-right: 100px; }
-    .home-chatbot .phone video {
-      width: 300px;
-      display: block;
-      top: -5px;
-      position: relative;
-      border-radius: 8px;
-      box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15); }
+  .home-chatbot .img-wrapper img {
+    width: 375px;
+    top: -50px;
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg); }
 
 .home-manager {
   background: #232C63;
