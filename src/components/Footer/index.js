@@ -40,6 +40,7 @@ class Footer extends Component {
               <div className="col-sm-3 col-xs-4">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.resources}</li>
+                  <li><Link to='/faq'>{t.footer.faq}</Link></li>
                   <li><Link to='/privacy'>{t.footer.privacy}</Link></li>
                   <li><Link to='/terms'>{t.footer.terms}</Link></li>
                 </ul>

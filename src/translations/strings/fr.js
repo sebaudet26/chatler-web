@@ -92,6 +92,7 @@ export default {
   footer: {
     pages: 'Contenu',
     resources: 'Ressources',
+    faq: 'FAQ',
     privacy: 'Politique de confidentialité',
     terms: 'Conditions d\'utilisation',
     social: 'Médias Sociaux',

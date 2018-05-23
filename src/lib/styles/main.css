@@ -171,6 +171,9 @@ section {
   .img-icon img {
     margin: auto; }
 
+.light-theme h2 {
+  color: #3D5AFE; }
+
 .light-theme h3 {
   font-weight: 600; }
 

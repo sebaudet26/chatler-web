@@ -92,9 +92,22 @@ export default {
   footer: {
     pages: 'Contents',
     resources: 'Resources',
+    faq: 'FAQ',
     privacy: 'Privacy Policy',
     terms: 'Terms of Service',
     social: 'Social',
+  },
+  faq: {
+    title: 'Frequently Asked Questions',
+    h1: 'Users',
+    s1: 'I sent my order to the wrong location. What do I do?',
+    p1: 'No problem! Call us at 1-819-446-4564 or send us a message at contact@chatler.io with your first and last name accompanied with your seat number. We will make sure you have your order delivered.',
+    s2: 'I made a mistake with my order. How do I change it?',
+    p2: 'Unfortunately, it is not possible to modify an order after having paid. Call us as soon as possible at 819-446-4564 to cancel it and we will make sure to have you refunded. You will be able to start an order immediately after.',
+    s3: 'How do I qualify for a refund?',
+    p3: 'You may obtain a refund if a) we cannot fulfill your order or b)you order alcohol and you are under the age limit.',
+    s4: 'You guys rock. How do I spread the love?',
+    p4: 'You can leave a review and a like on Facebook, send us a message at contact@chatler.io, or ask your favorite sports team for our service.',
   },
   privacy: {
     title: 'Privacy Policy',

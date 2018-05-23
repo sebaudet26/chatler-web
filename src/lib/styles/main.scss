@@ -250,6 +250,10 @@ section {
 }
 
 .light-theme {
+  h2 {
+    color: $main-color;
+  }
+
   h3 {
     font-weight: 600;
   }

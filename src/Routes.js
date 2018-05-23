@@ -6,6 +6,7 @@ const AsyncHome = asyncComponent(() => import("./containers/Home/"));
 const AsyncFeatures = asyncComponent(() => import("./containers/Features/"));
 const AsyncCompany = asyncComponent(() => import("./containers/Company/"));
 const AsyncContact = asyncComponent(() => import("./containers/Contact/"));
+const AsyncFAQ = asyncComponent(() => import("./containers/Faq/"));
 const AsyncPrivacy = asyncComponent(() => import("./containers/Privacy/"));
 const AsyncTerms = asyncComponent(() => import("./containers/Terms/"));
 const AsyncNotFound = asyncComponent(() => import("./containers/NotFound/"));
@@ -19,6 +20,7 @@ export default ({ childProps }) =>
     <Route path={process.env.PUBLIC_URL + '/company'} exact component={AsyncCompany} />
     <Route path={process.env.PUBLIC_URL + '/contact'} exact component={AsyncContact} />
     <Route path={process.env.PUBLIC_URL + '/privacy'} exact component={AsyncPrivacy} />
+    <Route path={process.env.PUBLIC_URL + '/faq'} exact component={AsyncFAQ} />
     <Route path={process.env.PUBLIC_URL + '/terms'} exact component={AsyncTerms} />
     <Route component={AsyncNotFound} />
   </Switch>
