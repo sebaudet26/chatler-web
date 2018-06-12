@@ -12,6 +12,12 @@ export default {
       learnMore: 'or learn more',
     },
     body: {
+      stats: {
+        subtitle0: 'Conversion Rate',
+        subtitle1: 'F&B Sales Volume Increase',
+        subtitle2: 'Avg. Orders per Customer',
+        subtitle3: 'Avg. Delivery Time',
+      },
       title0: 'Engage your fans in a way that directly impacts your bottom line.',
       title1: 'Seamless experience for fans',
       p1: 'No more missing home runs because you were busy getting a beer for your friends. No more waiting in lines. With a frictionless experience, fans can get their food, drinks and merchandise delivered right to their seats. It’s also way better than an app. Nothing to download, no account to create and no seat location to enter, it’s like having your personal waiter!',

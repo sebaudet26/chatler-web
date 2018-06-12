@@ -77,22 +77,13 @@ ul {
   align-items: center;
   color: #ffffff;
   position: relative;
+  background: #3D5AFE;
   min-height: 400px; }
   .intro-block {
     position: relative;
     margin-bottom: 0px; }
   .intro-block.center-section {
     margin-top: 75px; }
-  .intro::before {
-    width: 110%;
-    left: -5%;
-    height: 100%;
-    background: #3D5AFE;
-    position: absolute;
-    top: 0;
-    content: '';
-    border-radius: 0 0 50% 50% / 25%;
-    overflow-x: hidden; }
   .intro .btn {
     margin-top: 15px; }
   .intro h1, .intro h2, .intro h3, .intro p {

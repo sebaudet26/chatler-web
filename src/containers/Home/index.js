@@ -6,6 +6,8 @@ import './Home.css';
 import Request from '../../components/Request/';
 
 //Img and Icons
+import WCCLLogo from '../../lib/img/wccl_logo.png';
+import PicklesLogo from '../../lib/img/pickles.png';
 import StadiumImg from '../../lib/img/stadium.svg';
 import ChatUX from '../../lib/img/chat_ux_w.png';
 import Cloud1Img from '../../lib/img/cloud-1.svg';
@@ -40,6 +42,34 @@ class Home extends Component {
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="home-stats">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-6 col-sm-3">
+                <div className="home-stats-title">45<span className="home-stats-ind">%</span></div>
+                <div className="home-stats-subtitle">{t.home.body.stats.subtitle0}</div>
+              </div>
+              <div className="col-xs-6 col-sm-3">
+                <div className="home-stats-title">10.2<span className="home-stats-ind">%</span></div>
+                <div className="home-stats-subtitle">{t.home.body.stats.subtitle1}</div>
+              </div>
+              <div className="col-xs-6 col-sm-3">
+                <div className="home-stats-title">2.1</div>
+                <div className="home-stats-subtitle">{t.home.body.stats.subtitle2}</div>
+              </div>
+              <div className="col-xs-6 col-sm-3">
+                <div className="home-stats-title">3<span className="home-stats-ind">MIN</span></div>
+                <div className="home-stats-subtitle">{t.home.body.stats.subtitle3}</div>
+              </div>
+            </div>
+            <div className="row flex">
+              <div className="home-stats-img">
+                <img src={WCCLLogo}/>
+                <img src={PicklesLogo}/>
               </div>
             </div>
           </div>

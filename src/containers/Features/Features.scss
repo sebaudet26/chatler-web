@@ -2,11 +2,7 @@
 
 .intro {
   &-features {
-    //background: $dark-main;
-
-    &:before {
-      background: $dark-main;
-    }
+    background: $dark-main;
   }
 
   .row {

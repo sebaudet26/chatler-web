@@ -24,6 +24,40 @@
   }
 }
 
+.home-stats {
+  background: $grey-5;
+  text-align: center;
+  padding-top: 50px;
+
+  &-title {
+    font-size: 72px;
+    font-weight: 300;
+    color: $black;
+  }
+
+  &-subtitle {
+    font-size: 14px;
+    margin-top: -15px;
+    color: $grey-2;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 20px;
+  }
+
+  &-ind {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &-img {
+    margin: 0px auto 0px auto;
+
+    img {
+      margin: 50px 40px 0 40px;
+    }
+  }
+}
+
 .home-chatbot {
   overflow-y: hidden;
 

@@ -18,6 +18,29 @@
   animation-delay: 2s;
   animation-duration: 1s; }
 
+.home-stats {
+  background: #F6F9FC;
+  text-align: center;
+  padding-top: 50px; }
+  .home-stats-title {
+    font-size: 72px;
+    font-weight: 300;
+    color: #2B313A; }
+  .home-stats-subtitle {
+    font-size: 14px;
+    margin-top: -15px;
+    color: #6F7785;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 20px; }
+  .home-stats-ind {
+    font-size: 18px;
+    font-weight: 400; }
+  .home-stats-img {
+    margin: 0px auto 0px auto; }
+    .home-stats-img img {
+      margin: 50px 40px 0 40px; }
+
 .home-chatbot {
   overflow-y: hidden; }
   .home-chatbot .img-wrapper img {
