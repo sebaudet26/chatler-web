@@ -50,7 +50,7 @@ class Home extends Component {
           <div className="container">
             <div className="row">
               <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">45<span className="home-stats-ind">%</span></div>
+                <div className="home-stats-title">49.5<span className="home-stats-ind">%</span></div>
                 <div className="home-stats-subtitle">{t.home.body.stats.subtitle0}</div>
               </div>
               <div className="col-xs-6 col-sm-3">
@@ -58,7 +58,7 @@ class Home extends Component {
                 <div className="home-stats-subtitle">{t.home.body.stats.subtitle1}</div>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">2.1</div>
+                <div className="home-stats-title">1.71</div>
                 <div className="home-stats-subtitle">{t.home.body.stats.subtitle2}</div>
               </div>
               <div className="col-xs-6 col-sm-3">
@@ -68,8 +68,8 @@ class Home extends Component {
             </div>
             <div className="row flex">
               <div className="home-stats-img">
-                <img src={WCCLLogo}/>
-                <img src={PicklesLogo}/>
+                <img src={WCCLLogo} alt="West Coast Baseball League Chatler"/>
+                <img src={PicklesLogo} alt="Portland Pickles Chatler"/>
               </div>
             </div>
           </div>
