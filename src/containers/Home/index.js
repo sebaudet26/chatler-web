@@ -6,8 +6,7 @@ import './Home.css';
 import Request from '../../components/Request/';
 
 //Img and Icons
-import WCCLLogo from '../../lib/img/wccl_logo.png';
-import PicklesLogo from '../../lib/img/pickles.png';
+import PicklesLogo from '../../lib/img/Pickles_Logo.svg';
 import StadiumImg from '../../lib/img/stadium.svg';
 import ChatUX from '../../lib/img/chat_ux_w.png';
 import Cloud1Img from '../../lib/img/cloud-1.svg';
@@ -34,7 +33,7 @@ class Home extends Component {
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <Link className="btn" to='/contact'>{t.button.demo}</Link>
+                  <Link className="btn green" to='/contact'>{t.button.demo}</Link>
                   <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
@@ -46,30 +45,42 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <section className="home-stats">
+        <section className="home-study">
           <div className="container">
-            <div className="row">
-              <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">49.5<span className="home-stats-ind">%</span></div>
-                <div className="home-stats-subtitle">{t.home.body.stats.subtitle0}</div>
+            <div className="card">
+              <div className="card-header">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <div className="card-header-type">
+                      {t.home.body.study.cardType}
+                    </div>
+                    <h2>{t.home.body.study.cardTitle}</h2>
+                    <Link className="btn white" to='/case-study'>{t.home.body.study.cardBtn}</Link>
+                  </div>
+                  <div className="col-sm-4">
+                    <img className="hidden-xs" alt="" src={PicklesLogo}/>
+                  </div>
+                </div>
               </div>
-              <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">10.2<span className="home-stats-ind">%</span></div>
-                <div className="home-stats-subtitle">{t.home.body.stats.subtitle1}</div>
-              </div>
-              <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">1.71</div>
-                <div className="home-stats-subtitle">{t.home.body.stats.subtitle2}</div>
-              </div>
-              <div className="col-xs-6 col-sm-3">
-                <div className="home-stats-title">3<span className="home-stats-ind">MIN</span></div>
-                <div className="home-stats-subtitle">{t.home.body.stats.subtitle3}</div>
-              </div>
-            </div>
-            <div className="row flex">
-              <div className="home-stats-img">
-                <img src={WCCLLogo} alt="West Coast Baseball League Chatler"/>
-                <img src={PicklesLogo} alt="Portland Pickles Chatler"/>
+              <div className="card-content">
+                <div className="row">
+                  <div className="col-xs-6 col-sm-3">
+                    <div className="home-study-title">49.5<span className="home-study-ind">%</span></div>
+                    <div className="home-study-subtitle">{t.home.body.study.subtitle0}</div>
+                  </div>
+                  <div className="col-xs-6 col-sm-3">
+                    <div className="home-study-title">10.2<span className="home-study-ind">%</span></div>
+                    <div className="home-study-subtitle">{t.home.body.study.subtitle1}</div>
+                  </div>
+                  <div className="col-xs-6 col-sm-3">
+                    <div className="home-study-title">1.71</div>
+                    <div className="home-study-subtitle">{t.home.body.study.subtitle2}</div>
+                  </div>
+                  <div className="col-xs-6 col-sm-3">
+                    <div className="home-study-title">3<span className="home-study-ind">MIN</span></div>
+                    <div className="home-study-subtitle">{t.home.body.study.subtitle3}</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

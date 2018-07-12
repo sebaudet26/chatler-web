@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
-import Logo from '../../lib/img/Logo.js';
+import Logo from '../../lib/img/Chatler_Logo.js';
 import { getTranslations } from '../../redux/selectors/translations';
 import { changeLocale } from '../../redux/actions/app';
-
 
 const onLocaleChange = (action, language, country) => () => action(language, country);
 
@@ -22,7 +21,6 @@ class Footer extends Component {
                 <div className="brand">
                   <Link to='/'>
                     <Logo/>
-                    Chatler
                   </Link>
                 </div>
               </div>
@@ -33,6 +31,7 @@ class Footer extends Component {
                   <li className="footer-list-title">{t.footer.pages}</li>
                   <li><Link to='/'>{t.menu.home}</Link></li>
                   <li><Link to='/features'>{t.menu.features}</Link></li>
+                  <li><Link to='/case-study'>{t.menu.study}</Link></li>
                   <li><Link to='/company'>{t.menu.company}</Link></li>
                   <li><Link to='/contact'>{t.menu.contact}</Link></li>
                 </ul>

@@ -3,15 +3,16 @@ footer {
   padding: 75px 0;
   font-size: 18px;
   color: #2B313A;
-  background: #ffffff; }
+  background: linear-gradient(135deg, #2A346E 0%, #465498 100%); }
   footer .footer-list li {
     margin-bottom: 5px;
     display: flex;
     align-items: center; }
     footer .footer-list li a {
-      cursor: pointer; }
+      cursor: pointer;
+      color: #ffffff; }
   footer .footer-list-title {
-    color: #6F7785;
+    color: #CBD1DB;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -19,18 +20,19 @@ footer {
   footer .brand {
     margin-bottom: 35px; }
     footer .brand-logo path {
-      fill: #3D5AFE; }
+      fill: #ffffff; }
     footer .brand a {
-      color: #3D5AFE; }
+      color: #ffffff; }
       footer .brand a:hover {
-        color: #3D5AFE; }
+        color: #ffffff; }
   footer a {
     color: #2B313A;
     font-weight: 600; }
     footer a:hover {
       color: #434E5D; }
   footer .copyright {
-    text-align: left; }
+    text-align: left;
+    color: #ffffff; }
   footer .divider {
     width: 100%;
     background: #ffffff;

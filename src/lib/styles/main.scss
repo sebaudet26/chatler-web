@@ -105,8 +105,8 @@ ul {
   align-items: center;
   color: $white;
   position: relative;
-  background: $main-color;
-  min-height: 400px;
+  background: $gradient;
+  min-height: 300px;
 
   &-block {
     position: relative;
@@ -133,6 +133,37 @@ ul {
   }
 }
 
+.card {
+  background: $white;
+  border-radius: 6px;
+  box-shadow: $grey-shadow;
+
+  &-header {
+    padding: 50px;
+    border-radius: 6px 6px 0 0;
+
+    h2 {
+      color: $white;
+    }
+
+    &-type {
+      font-size: 14px;
+      color: $white;
+      opacity: 0.5;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+  &-content {
+    padding: 25px 50px;
+  }
+}
+
+.alt-gradient {
+  background: $alt-gradient;
+}
+
 .btn {
   font-size: 16px;
   font-weight: bold;
@@ -152,10 +183,10 @@ ul {
 
   &.white {
     background: $white;
-    color: $main-color;
+    color: $dark-main;
 
     &:hover {
-      color: $main-color;
+      color: $dark-main;
     }
   }
 
@@ -178,6 +209,7 @@ ul {
     color: $white;
     opacity: 1;
     box-shadow: $shadow-2;
+    transform: scale(1.025);
   }
 }
 
@@ -259,7 +291,18 @@ section {
       color: $main-color;
     }
     &-logo path {
-      fill: $main-color;
+      fill: $dark-main;
+    }
+  }
+
+  footer {
+    .brand {
+      a {
+        color: $white;
+      }
+      &-logo path {
+        fill: $white;
+      }
     }
   }
 
@@ -270,12 +313,10 @@ section {
       background: $dark-main;
     }
   }
-  section {
-    padding: 110px 0 45px 0;
+  .body-section:first-child {
+    padding: 110px 0 75px;
   }
 }
-
-
 
 @media (max-width: 992px) {
   .intro {

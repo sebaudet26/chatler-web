@@ -2,17 +2,22 @@ export default {
   menu: {
     home: 'Home',
     features: 'Product',
+    study: 'Case Study',
     company: 'Company',
     contact: 'Contact Us',
   },
   home: {
     intro: {
-      title: 'In-seat delivery with messenger',
+      title: 'In-seat delivery with Messenger',
       subtitle: 'A chatbot that allows fans to easily have their food delivered to their seat without missing any of the action',
       learnMore: 'or learn more',
     },
     body: {
-      stats: {
+      study: {
+        cardType: 'News',
+        cardTitle: 'Launch with the Portland Pickles',
+        cardSubtitle: '',
+        cardBtn: 'View Case Study',
         subtitle0: 'Conversion Rate',
         subtitle1: 'F&B Sales Volume Increase',
         subtitle2: 'Avg. Orders per Customer',
@@ -76,6 +81,18 @@ export default {
       title2: 'Why are we doing this?',
       p2l1: 'Apps are out. Chatbots are in. The app market is over saturated in unengaging apps. Everyone is building an app whether it\'s a movie theatre, a train station, a stadium or an airport. The answer to every problem shouldn\'t be: "Let\'s build an app for that".',
       p2l2: 'That\'s where we come in. Chatbots are perfect for this. There are no apps to download, no accounts to create and no location to enter. Chatbots offer a frictionless experience that most closely ressembles how we interact with the world around us.',
+    },
+  },
+  study: {
+    intro: {
+      title: 'Case Study',
+    },
+    body: {
+      title1: 'Intro',
+      p1p1: 'In the Summer of 2018, the Chatler team contacted the Portland Pickles, a collegiate baseball team, to offer their in-seat delivery software and conduct a trial. We wanted to see what a frictionless ordering experience would bring to the fans and to the venue.',
+      p1p2: 'We even decided as the founders, to do the deliveries ourselves get as much knowledge as possible about the process. The goal was not only to build the best product for the fans, but for the staff as well. Our results were overwhelmingly positive.',
+      title2: 'Generating Additional Revenue',
+      p2: '',
     },
   },
   contact: {
