@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="602px" height="345px" viewBox="0 0 602 345" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="60.8444154%" y1="-213.364844%" x2="60.8444154%" y2="65.7292977%" id="linearGradient-1">
+            <stop stop-color="#E3E7FE" stop-opacity="0.599411232" offset="0%"></stop>
+            <stop stop-color="#3D5AFE" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="385.5" cy="33.5" r="7.5"></circle>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.258823529   0 0 0 0 0.352941176   0 0 0 0 0.960784314  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="497.5" cy="32.5" r="7.5"></circle>
+        <filter x="-50.0%" y="-50.0%" width="200.0%" height="200.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="2.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.129411765   0 0 0 0 0.752941176   0 0 0 0 0.564705882  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="52.8308928%" y1="148.770448%" x2="52.8308928%" y2="-261.773019%" id="linearGradient-6">
+            <stop stop-color="#46E1C3" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#21C090" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Graph" transform="translate(-1.000000, 0.000000)">
+            <path d="M92,267 L570.937821,267" id="Path-4" stroke="#E2E7EC"></path>
+            <rect id="Rectangle-9" fill="#FFFFFF" x="1" y="0" width="602" height="345" rx="6"></rect>
+            <path d="M91,105.474559 L126.986087,135.040281 C140.303358,142.73962 150.329021,148.115259 157.063073,151.167199 C163.797126,154.219139 178.255204,159.939775 200.437307,168.329107 L237.419569,139.282736 L275.726684,135.040281 L311.014839,144.641797 C332.022395,136.72753 345.114948,133.527024 350.292497,135.040281 C358.058819,137.310167 379.221844,170.156537 384.863718,168.329107 C388.624966,167.11082 401.149864,152.617659 422.43841,124.849626 L459.183294,136.901833 L496.437425,133.29883 L532.587851,95.2839039 L569,112.156344 L569,293 L91,293 L91,105.474559 Z" id="Path-5" fill="url(#linearGradient-1)"></path>
+            <text id="CHATLER" font-family="JosefinSans-Bold, Josefin Sans" font-size="12" font-weight="bold" fill="#093162">
+                <tspan x="406" y="37">CHATLER</tspan>
+            </text>
+            <text id="AVERAGE-ORDER-TOTAL" font-family="JosefinSans-Bold, Josefin Sans" font-size="12" font-weight="bold" fill="#232C63">
+                <tspan x="27" y="37">AVERAGE ORDER TOTAL</tspan>
+            </text>
+            <text id="$15.00" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="10" font-weight="500" fill="#6F7785">
+                <tspan x="31.018" y="99">$</tspan>
+                <tspan x="36.688" y="99" font-size="12">15.00</tspan>
+            </text>
+            <text id="$10.00" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="10" font-weight="500" fill="#6F7785">
+                <tspan x="29.77" y="164">$</tspan>
+                <tspan x="35.44" y="164" font-size="12">10.00</tspan>
+            </text>
+            <text id="$5.00" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="10" font-weight="500" fill="#6F7785">
+                <tspan x="35.038" y="229">$</tspan>
+                <tspan x="40.708" y="229" font-size="12">5.00</tspan>
+            </text>
+            <text id="$0.00" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="10" font-weight="500" fill="#6F7785">
+                <tspan x="33.79" y="294">$</tspan>
+                <tspan x="39.46" y="294" font-size="12">0.00</tspan>
+            </text>
+            <text id="TIME" font-family="JosefinSans-SemiBold, Josefin Sans" font-size="10" font-weight="500" fill="#6F7785">
+                <tspan x="319.07" y="320">TIME</tspan>
+            </text>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#3D5AFE" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+            <text id="PICKLES" font-family="JosefinSans-Bold, Josefin Sans" font-size="12" font-weight="bold" fill="#093162">
+                <tspan x="518" y="36">PICKLES</tspan>
+            </text>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="#21C090" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+            <path d="M0.992708534,62.7711096 L602.985558,62.7711096" id="Path-3" stroke="#E2E7EC"></path>
+            <path d="M92,293 L570.937821,293" id="Path-4" stroke="#E2E7EC"></path>
+            <path d="M91,106.190655 C107.736175,121.40814 119.755072,131.26338 127.05669,135.756378 C138.009118,142.495873 190.499305,167.38381 199.479677,167.38381 C208.460049,167.38381 230.055381,143.987783 237.39465,140.749115 C244.73392,137.510447 268.718706,135.756378 276.089112,135.756378 C283.459517,135.756378 306.96395,146.019811 311.446501,145.357893 C315.929052,144.695976 341.013542,132.522601 349.684441,134.014926 C358.35534,135.507251 379.140664,169.045203 384.154031,169.045203 C389.167399,169.045203 417.278644,127.449525 423.088682,125.565722 C428.898719,123.681919 453.760998,137.60134 459.905658,137.617929 C466.050318,137.634518 491.476635,134.014926 496.33769,132.522601 C501.198745,131.030277 524.068279,98.3859893 531.763435,97.3777442 C536.89354,96.7055808 549.618335,101.87048 569.937821,112.87244" id="Path-5" stroke="#3D5AFE" stroke-width="2"></path>
+            <polygon id="Path-6" fill-opacity="0.25" fill="url(#linearGradient-6)" points="91.4683842 143.797672 127.794973 150.430727 163.639342 170.566903 201.872241 211.051578 238.41429 200.119382 274.911196 200.119382 303.019517 191.211667 385.206296 180.450648 421.805802 157.954224 458.446347 165.545203 494.598516 152.147421 531.735646 154.534004 569 174.81502 569 294 91 294"></polygon>
+            <path d="M91,144 C108.599461,145.954403 121.081589,148.299364 128.446384,151.034882 C139.493577,155.138158 155.016405,165.892773 163.052555,171.979954 C171.088706,178.067135 191.909837,205.844126 200.706982,209.15409 C209.504128,212.464054 227.796925,201.971485 238.378623,200.32171 C248.960321,198.671935 265.494599,200.031147 274.297669,198.756185 C283.100738,197.481223 292.525513,193.317087 303.174095,191.413995 C313.822678,189.510903 377.554211,181.577968 385.353092,179.954544 C393.151973,178.331119 415.318528,158.742024 422.310174,158.156551 C429.30182,157.571079 452.614079,166.774643 459.092074,165.126807 C465.57007,163.47897 489.061287,153.259234 495.317244,152.349748 C501.573201,151.440262 525.999414,152.729529 532.563733,154.736331 C536.939946,156.074199 549.397975,162.834538 569.937821,175.017348" id="Path-6" stroke="#21C090" stroke-width="2"></path>
+        </g>
+    </g>
+</svg>

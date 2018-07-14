@@ -32,6 +32,15 @@ export default {
       p3: 'Get to know your fans better. The person attending the event is often not the one who purchased the ticket. Chatler helps venues understand their customers.',
     },
   },
+  stats: {
+    conversion: 'Conversion Rate',
+    retention: 'Retention Rate',
+    salesVolume: 'F&B Sales Volume Increase',
+    orderPerCustomer: 'Avg. Orders Per Customer',
+    orderTotal: 'Order Total Increase per Customer',
+    deliveryTime: 'Avg. Delivery Time',
+    satisfaction: 'Likely to recommend Chatler',
+  },
   features: {
     intro: {
       title: 'Frictionless Mobile Ordering',
@@ -85,14 +94,21 @@ export default {
   },
   study: {
     intro: {
-      title: 'Case Study',
+      title: 'Walker Stadium Launch',
+      subtitle: 'Here\'s our case study from the 2018 Chatler launch at the Walker Stadium in Portland.',
+      btn1: 'Try It Out',
+      btn2: 'View Features',
     },
     body: {
       title1: 'Intro',
       p1p1: 'In the Summer of 2018, the Chatler team contacted the Portland Pickles, a collegiate baseball team, to offer their in-seat delivery software and conduct a trial. We wanted to see what a frictionless ordering experience would bring to the fans and to the venue.',
       p1p2: 'We even decided as the founders, to do the deliveries ourselves get as much knowledge as possible about the process. The goal was not only to build the best product for the fans, but for the staff as well. Our results were overwhelmingly positive.',
       title2: 'Generating Additional Revenue',
-      p2: '',
+      p2: 'We help venues reach their full sales potential. We found that customers often abandoned purchases simply because the concessions lines and because they didn\'t want to miss the game.',
+      title3: 'Reducing concession waiting times',
+      p3: 'We all know that fans don\'t enjoy lines, but the same can be said for concession staff. We help them reduce their charge during the game and serving customers more efficiently.',
+      title4: 'Customer Satisfaction',
+      p4: 'People love us!',
     },
   },
   contact: {

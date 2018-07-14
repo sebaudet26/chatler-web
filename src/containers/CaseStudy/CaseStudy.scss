@@ -1,64 +1,80 @@
 @import '../../lib/styles/variables.scss';
 
 .intro-study {
-  background: $alt-gradient;
+  background: $white;
   min-height: 300px;
-  padding-bottom: 0px;
-
-  img {
-    height: 40px;
-    position: absolute;
-    top: -50px;
-    opacity: 1;
-  }
 
   h1 {
     margin-bottom: 0px;
+    color: $black;
+  }
+
+  h3 {
+    color: $black;
   }
 }
 
 .study {
   &-intro {
+    height: 700px;
+    background: $alt-gradient;
+
     .row.flex {
       align-items: center;
+    }
+
+    h2, p {
+      color: $white;
+    }
+
+    h2 {
+      margin-top: 0px;
+    }
+
+    .stats {
+      &-title, &-subtitle {
+        color: $white;
+      }
+
+      &-title {
+        margin-top: 15px;
+      }
     }
   }
 
   &-sales {
-    background: $gradient;
     overflow-y: hidden;
+    height: 700px;
+
+    .stats {
+      &-title, &-subtitle {
+        text-align: left;
+      }
+
+      &-title {
+        margin-top: 15px;
+      }
+
+      &-subtitle {
+        padding: 0;
+        max-width: 200px;
+      }
+    }
+
+    img {
+      box-shadow: $grey-shadow;
+      border-radius: 6px;
+      width: 100%;
+      min-width: 600px;
+    }
+  }
+
+  &-lines {
+    background: $gradient;
 
     h2, p {
       color: $white;
-
-      .accent {
-        color: $white;
-      }
     }
-  }
-}
-
-.stats {
-  &-title {
-    margin-top: 50px;
-    font-size: 48px;
-    font-weight: 600;
-    color: $dark-main;
-    text-align: center;
-  }
-
-  &-subtitle {
-    font-size: 12px;
-    color: $grey-2;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 0 20px;
-    text-align: center;
-  }
-
-  &-ind {
-    font-size: 18px;
-    font-weight: 400;
   }
 }
 
@@ -66,21 +82,24 @@
   width: 300px;
   height: 300px;
   border-radius: 6px;
-  box-shadow: $grey-shadow;
   position: relative;
-  background-image: url("../../lib/img/Pickles2.jpg");
-  background-size: 100% auto;
+  background: rgba(255,255,255,0.1);
   height: 375px;
-  margin: auto;
+  top: 25px;
+  right: -150px;
 
-  &:before {
+  &:after {
     position: absolute;
     content: '';
-    background: rgba(255,255,255,0.2);
-    top: 0;
-    right: 0;
+    background-image: url("../../lib/img/Pickles2.jpg");
+    box-shadow: $shadow;
+    background-size: 100% auto;
+    top: -50px;
+    left: -125px;
     width: 100%;
     height: 100%;
+    border-radius: 6px;
+    z-index: 0;
   }
 }
 

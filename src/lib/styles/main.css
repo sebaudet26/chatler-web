@@ -14,7 +14,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 700;
-  color: #2B313A; }
+  color: #232C63; }
 
 h3 {
   font-size: 24px;
@@ -71,6 +71,24 @@ ul {
     margin-right: 10px;
     height: 40px; }
 
+.stats-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #232C63;
+  text-align: center; }
+
+.stats-subtitle {
+  font-size: 12px;
+  color: #6F7785;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 20px;
+  text-align: center; }
+
+.stats-ind {
+  font-size: 18px;
+  font-weight: 400; }
+
 .intro {
   padding-top: 90px;
   display: flex;
@@ -83,6 +101,8 @@ ul {
     position: relative;
     margin-bottom: 0px; }
   .intro-block.center-section {
+    margin-top: 75px; }
+  .intro-block.left-section {
     margin-top: 75px; }
   .intro .btn {
     margin-top: 15px; }
@@ -125,7 +145,8 @@ ul {
   padding: 15px 20px;
   border-radius: 6px;
   position: relative;
-  transition: 0.3s; }
+  transition: 0.3s;
+  margin-right: 15px; }
   .btn.blue {
     background: #3D5AFE; }
   .btn.white {
@@ -134,7 +155,6 @@ ul {
     .btn.white:hover {
       color: #232C63; }
   .btn-link {
-    margin-left: 15px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700; }
@@ -159,15 +179,15 @@ section {
 
 .center-section {
   text-align: center;
-  max-width: 800px;
+  max-width: 700px;
   margin: auto; }
   .center-section .img-icon {
     margin: auto; }
 
 .img-icon {
-  height: 45px;
-  width: 45px;
-  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
   margin-bottom: 35px; }
@@ -184,8 +204,11 @@ section {
   .img-icon img {
     margin: auto; }
 
+.light-theme h1:first-child {
+  margin-top: 0px; }
+
 .light-theme h2 {
-  color: #3D5AFE; }
+  color: #232C63; }
 
 .light-theme h3 {
   font-weight: 600; }
@@ -195,9 +218,6 @@ section {
 
 .light-theme footer {
   border-top: solid 1px #E2E7EC; }
-
-.light-theme .brand a {
-  color: #3D5AFE; }
 
 .light-theme .brand-logo path {
   fill: #232C63; }
@@ -212,9 +232,6 @@ section {
   color: #232C63; }
   .light-theme .menu-link::after {
     background: #232C63; }
-
-.light-theme .body-section:first-child {
-  padding: 110px 0 75px; }
 
 @media (max-width: 992px) {
   .intro .mouse {

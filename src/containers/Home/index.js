@@ -65,20 +65,20 @@ class Home extends Component {
               <div className="card-content">
                 <div className="row">
                   <div className="col-xs-6 col-sm-3">
-                    <div className="home-study-title">49.5<span className="home-study-ind">%</span></div>
-                    <div className="home-study-subtitle">{t.home.body.study.subtitle0}</div>
+                    <div className="stats-title">49.5<span className="home-study-ind">%</span></div>
+                    <div className="stats-subtitle">{t.home.body.study.subtitle0}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="home-study-title">10.2<span className="home-study-ind">%</span></div>
-                    <div className="home-study-subtitle">{t.home.body.study.subtitle1}</div>
+                    <div className="stats-title">10.2<span className="home-study-ind">%</span></div>
+                    <div className="stats-subtitle">{t.home.body.study.subtitle1}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="home-study-title">1.71</div>
-                    <div className="home-study-subtitle">{t.home.body.study.subtitle2}</div>
+                    <div className="stats-title">1.71</div>
+                    <div className="stats-subtitle">{t.home.body.study.subtitle2}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="home-study-title">3<span className="home-study-ind">MIN</span></div>
-                    <div className="home-study-subtitle">{t.home.body.study.subtitle3}</div>
+                    <div className="stats-title">3<span className="home-study-ind">MIN</span></div>
+                    <div className="stats-subtitle">{t.home.body.study.subtitle3}</div>
                   </div>
                 </div>
               </div>

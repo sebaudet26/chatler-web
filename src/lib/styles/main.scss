@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: 700;
-  color: $black;
+  color: $dark-main;
 }
 
 h3 {
@@ -99,6 +99,29 @@ ul {
   }
 }
 
+.stats {
+  &-title {
+    font-size: 48px;
+    font-weight: 600;
+    color: $dark-main;
+    text-align: center;
+  }
+
+  &-subtitle {
+    font-size: 12px;
+    color: $grey-2;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  &-ind {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
 .intro {
   padding-top: 90px;
   display: flex;
@@ -114,6 +137,10 @@ ul {
   }
 
   &-block.center-section {
+    margin-top: 75px;
+  }
+
+  &-block.left-section {
     margin-top: 75px;
   }
 
@@ -176,6 +203,7 @@ ul {
   border-radius: 6px;
   position: relative;
   transition: 0.3s;
+  margin-right: 15px;
 
   &.blue {
     background: $main-color;
@@ -191,7 +219,6 @@ ul {
   }
 
   &-link {
-    margin-left: 15px;
     color: $white;
     font-size: 16px;
     font-weight: 700;
@@ -228,7 +255,7 @@ section {
 
 .center-section {
   text-align: center;
-  max-width: 800px;
+  max-width: 700px;
   margin: auto;
 
   .img-icon {
@@ -237,9 +264,9 @@ section {
 }
 
 .img-icon {
-  height: 45px;
-  width: 45px;
-  border-radius: 6px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
   margin-bottom: 35px;
@@ -270,8 +297,13 @@ section {
 }
 
 .light-theme {
+
+  h1:first-child {
+    margin-top: 0px;
+  }
+
   h2 {
-    color: $main-color;
+    color: $dark-main;
   }
 
   h3 {
@@ -287,9 +319,6 @@ section {
   }
 
   .brand {
-    a {
-      color: $main-color;
-    }
     &-logo path {
       fill: $dark-main;
     }
@@ -312,9 +341,6 @@ section {
     &::after {
       background: $dark-main;
     }
-  }
-  .body-section:first-child {
-    padding: 110px 0 75px;
   }
 }
 
