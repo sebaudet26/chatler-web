@@ -1,6 +1,7 @@
 /* Colors */
 .intro-study {
-  background: #ffffff;
+  background: url("../../lib/img/Baseball.png");
+  background-size: 100% auto;
   min-height: 300px; }
   .intro-study h1 {
     margin-bottom: 0px;

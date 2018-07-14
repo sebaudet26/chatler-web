@@ -1,7 +1,8 @@
 @import '../../lib/styles/variables.scss';
 
 .intro-study {
-  background: $white;
+  background: url('../../lib/img/Baseball.png');
+  background-size: 100% auto;
   min-height: 300px;
 
   h1 {
