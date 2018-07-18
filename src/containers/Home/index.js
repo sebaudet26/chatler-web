@@ -13,8 +13,7 @@ import Cloud1Img from '../../lib/img/cloud-1.svg';
 import Cloud2Img from '../../lib/img/cloud-2.svg';
 import LightIcon from '../../lib/icons/lightning.svg';
 import ManageIcon from '../../lib/icons/gears.svg';
-import OrderManager from '../../lib/img/order_manager.png';
-import ChartIcon from '../../lib/icons/pie-chart.svg';
+import OrderManager from '../../lib/img/OrderManager.svg';
 
 class Home extends Component {
 
@@ -65,19 +64,19 @@ class Home extends Component {
               <div className="card-content">
                 <div className="row">
                   <div className="col-xs-6 col-sm-3">
-                    <div className="stats-title">49.5<span className="home-study-ind">%</span></div>
+                    <div className="stats-title">10.2<span className="home-study-ind">%</span></div>
                     <div className="stats-subtitle">{t.home.body.study.subtitle0}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="stats-title">10.2<span className="home-study-ind">%</span></div>
+                    <div className="stats-title">57<span className="home-study-ind">%</span></div>
                     <div className="stats-subtitle">{t.home.body.study.subtitle1}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="stats-title">1.71</div>
+                    <div className="stats-title">44<span className="home-study-ind">%</span></div>
                     <div className="stats-subtitle">{t.home.body.study.subtitle2}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
-                    <div className="stats-title">3<span className="home-study-ind">MIN</span></div>
+                    <div className="stats-title">30.1<span className="home-study-ind">%</span></div>
                     <div className="stats-subtitle">{t.home.body.study.subtitle3}</div>
                   </div>
                 </div>
@@ -121,21 +120,6 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <div className="container">
-          <section>
-            <div className="row">
-              <div className="col-sm-12">
-                <div className="center-section">
-                  <div className="img-icon blue">
-                    <img src={ChartIcon} alt="" />
-                  </div>
-                  <h2>{t.home.body.title3}</h2>
-                  <p>{t.home.body.p3}</p>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
         <Request />
       </div>
     );

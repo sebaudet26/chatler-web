@@ -47,23 +47,6 @@
     font-size: 18px;
     color: #434E5D;
     font-weight: 700; }
-  .feature-ordering .bullet-list {
-    font-size: 18px;
-    line-height: 54px; }
-    .feature-ordering .bullet-list-item {
-      display: flex;
-      align-items: center; }
-    .feature-ordering .bullet-list-point {
-      width: 25px;
-      height: 25px;
-      border-radius: 20px;
-      margin-right: 15px;
-      background: #E2E7EC;
-      font-size: 14px;
-      color: #3D5AFE;
-      font-weight: 700;
-      text-align: center;
-      line-height: 25px; }
 
 .feature-ux {
   background: #3D5AFE;

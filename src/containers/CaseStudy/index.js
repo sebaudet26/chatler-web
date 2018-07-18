@@ -59,7 +59,7 @@ class Company extends Component {
                 <div className="stats-subtitle">{t.stats.deliveryTime}</div>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <div className="stats-title">1.71</div>
+                <div className="stats-title">1.83</div>
                 <div className="stats-subtitle">{t.stats.orderPerCustomer}</div>
               </div>
             </div>
@@ -73,7 +73,7 @@ class Company extends Component {
                 <p>{t.study.body.p2}</p>
                 <div className="row">
                   <div className="col-xs-6 col-sm-4">
-                    <div className="stats-title">10<span className="stats-ind">%</span></div>
+                    <div className="stats-title">10.2<span className="stats-ind">%</span></div>
                     <div className="stats-subtitle">{t.stats.salesVolume}</div>
                   </div>
                   <div className="col-xs-6 col-sm-4">
@@ -88,28 +88,46 @@ class Company extends Component {
             </div>
           </div>
         </section>
-        <section className="body-section study-lines">
+        <section className="study-testimonials">
           <div className="container">
-            <div className="row flex">
-              <div className="col-sm-6">
-                <div className="img-wrapper hidden-xs">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="center-section">
+                  <h2>{t.study.body.title4}</h2>
+                  <p>{t.study.body.p4}</p>
                 </div>
-              </div>
-              <div className="col-sm-6">
-                <h2>{t.study.body.title3}</h2>
-                <p>{t.study.body.p3}</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section>
-          <div className="row">
-            <div className="col-sm-12">
-              <div className="center-section">
-                <div className="img-icon blue">
+                <div className="row">
+                  <div className="col-xs-12 col-sm-6">
+                    <div className="testimonial">
+                      <span className="quote">"</span>
+                      <p>{t.study.body.testimonial1}</p>
+                      <p className="testimonial-author">{t.study.body.author1}</p>
+                    </div>
+                  </div>
+                  <div className="col-xs-12 col-sm-6">
+                    <div className="testimonial">
+                      <span className="quote">"</span>
+                      <p>{t.study.body.testimonial2}</p>
+                      <p className="testimonial-author">{t.study.body.author2}</p>
+                    </div>
+                  </div>
                 </div>
-                <h2>{t.study.body.title4}</h2>
-                <p>{t.study.body.p4}</p>
+                <div className="row">
+                  <div className="col-xs-12 col-sm-6">
+                    <div className="testimonial">
+                      <span className="quote">"</span>
+                      <p>{t.study.body.testimonial3}</p>
+                      <p className="testimonial-author">{t.study.body.author3}</p>
+                    </div>
+                  </div>
+                  <div className="col-xs-12 col-sm-6">
+                    <div className="testimonial">
+                      <span className="quote">"</span>
+                      <p>{t.study.body.testimonial4}</p>
+                      <p className="testimonial-author">{t.study.body.author4}</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

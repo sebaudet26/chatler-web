@@ -124,7 +124,7 @@
 }
 
 .home-manager {
-  background: $dark-main;
+  background: $alt-gradient;
   overflow: hidden;
   height: 700px;
 
@@ -136,6 +136,7 @@
     width: 850px;
     top: -50px;
     left: 50px;
+    box-shadow: $shadow;
   }
 }
 

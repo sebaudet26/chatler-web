@@ -21,11 +21,11 @@
   .study-intro .stats-title, .study-intro .stats-subtitle {
     color: #ffffff; }
   .study-intro .stats-title {
-    margin-top: 15px; }
+    margin-top: 50px; }
 
 .study-sales {
   overflow-y: hidden;
-  height: 700px; }
+  height: 600px; }
   .study-sales .stats-title, .study-sales .stats-subtitle {
     text-align: left; }
   .study-sales .stats-title {
@@ -39,9 +39,9 @@
     width: 100%;
     min-width: 600px; }
 
-.study-lines {
+.study-testimonials {
   background: linear-gradient(135deg, #3D5AFE 0%, #6889FF 100%); }
-  .study-lines h2, .study-lines p {
+  .study-testimonials h2, .study-testimonials p {
     color: #ffffff; }
 
 .delivery-img {

@@ -1,39 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve" width="24px" height="24px">
-<g>
-	<g>
-		<path d="M29.013,89.992c-0.969-0.631,15.768-35.801,15.191-37.343c-0.577-1.541-18.322-7.184-19.189-9.897    c-0.867-2.715,35.037-43.528,35.98-42.741c0.941,0.787-15.646,36.192-15.191,37.342c0.453,1.15,18.641,7.028,19.189,9.898    C65.541,50.121,29.981,90.623,29.013,89.992z" fill="#FFFFFF"/>
-	</g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="26px" viewBox="0 0 11 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>lightning</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lightning" fill-rule="nonzero" fill="#FFFFFF">
+            <path d="M1.10370686,25.9978923 C0.83723,25.8156025 5.43993718,15.6553273 5.28126107,15.2098583 C5.12258497,14.7646782 0.242675843,13.1344697 0.00424917574,12.35071 C-0.234177491,11.5663726 9.63949155,-0.224111088 9.89881836,0.00324565332 C10.1575952,0.230602394 5.59613828,10.4587668 5.72126415,10.7909908 C5.84584002,11.1232147 10.847575,12.8213125 10.9982761,13.6504279 C11.1489771,14.4795434 1.36990873,26.1801821 1.10370686,25.9978923 Z" id="Shape"></path>
+        </g>
+    </g>
 </svg>
