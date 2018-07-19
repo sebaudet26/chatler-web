@@ -17,7 +17,7 @@
 
 .study {
   &-intro {
-    height: 700px;
+    height: 750px;
     background: $alt-gradient;
 
     .row.flex {
@@ -39,6 +39,7 @@
 
       &-title {
         margin-top: 50px;
+        font-size: 64px;
       }
     }
   }
@@ -54,6 +55,7 @@
 
       &-title {
         margin-top: 15px;
+        font-size: 64px;
       }
 
       &-subtitle {
