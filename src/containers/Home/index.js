@@ -64,7 +64,7 @@ class Home extends Component {
               <div className="card-content">
                 <div className="row">
                   <div className="col-xs-6 col-sm-3">
-                    <div className="stats-title">10.2<span className="home-study-ind">%</span></div>
+                    <div className="stats-title">12<span className="home-study-ind">%</span></div>
                     <div className="stats-subtitle">{t.home.body.study.subtitle0}</div>
                   </div>
                   <div className="col-xs-6 col-sm-3">
