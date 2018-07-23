@@ -4,7 +4,8 @@ export default {
     features: 'Notre Produit',
     study: 'Étude de Cas',
     company: 'À Propos',
-    contact: 'Contactez-nous',
+    contact: 'Contact',
+    dashboard: 'Tableau de Bord',
   },
   home: {
     intro: {
@@ -93,9 +94,9 @@ export default {
     body: {
       title1: 'Introduction',
       p1p1: 'Pendant l\'été de 2018, l\'équipe Chatler a contacté les Pickles de Portland, une équipe de la WCL, pour offrir  leur service. Nous voulions voir ce qu\'une expérience sans friction pouvait amener aux fans.',
-      p1p2: 'Nous avons même décider en tant que fondateurs, de fair les livraisons nous-mêmes pour obtenir le plus de connaissances possibles sur l\'industrie et sur la procédure. Le but était non seulement d\'offrir le meilleur produit pour les fans, mais aussi pour les employés. Nos résultats étaient bien au-delà de nos attentes.',
+      p1p2: 'Nous avons même décider en tant que fondateurs, de faire les livraisons nous-mêmes pour obtenir le plus de connaissances possibles sur l\'industrie et sur la procédure. Le but était non seulement d\'offrir le meilleur produit pour les fans, mais aussi pour les employés. Nos résultats étaient bien au-delà de nos attentes.',
       title2: 'Générer un revenu additionnel',
-      p2: 'Nous aidons les amphithéâtres à atteindre leur plein potentiel de ventes. Nous avons déterminer que les partisans abandonnaient bien souvent un achat, simplement parce que les temps d\'attentes étaient trop longs et parce qu\'il ne voulait pas manquer de temps de jeu.',
+      p2: 'Nous aidons les amphithéâtres à atteindre leur plein potentiel de ventes. Nous avons déterminer que les partisans abandonnaient bien souvent un achat, simplement parce que les temps d\'attentes étaient trop longs et parce qu\'ils ne voulaient pas manquer de temps de jeu.',
       title3: 'Reducing concession waiting times',
       p3: 'We all know that fans don\'t enjoy lines, but the same can be said for concession staff. We help them reduce their charge during the game and serving customers more efficiently.',
       title4: 'Améliorer l\'expérience des fans',
@@ -104,7 +105,7 @@ export default {
       author1: '-David Shenson, Pickles Fan',
       testimonial2: 'Traduis de l\'anglais. Fini les files d\'attentes et les frais d\'ATM. Le service de Chatler était très rapide et amical. Dans le futur, c\'est comment toutes les équipes vont fournir le service. Très brilliant!',
       author2: '-John Windus, Reporteur',
-      testimonial3: 'Traduis de l\'anglais. Chatler était incroyable. Ça me permettait de rester engager avec la partie et ceux autour assis autour de moi, sans manquer une opportunité. Je pouvais avoir un brevage livré à moi dès que j\'en avais le besoin. L\'App était facile à utiliser and j\'aime le fait que je n\'avais pas à traîner de l\'argent comptant sur moi.',
+      testimonial3: 'Traduis de l\'anglais. Chatler était incroyable. Ça me permettait de rester engager avec la partie et ceux autour assis autour de moi. Sans manquer une opportunité, je pouvais avoir nourriture et breuvages livrés à moi dès que j\'en avais le besoin. L\'App était facile à utiliser and j\'aime le fait que je n\'avais pas à traîner de l\'argent comptant sur moi.',
       author3: '-Tory McVay, Fan des Pickles',
       testimonial4: 'Traduis de l\'anglais. Nous avons utilisé Chatler à plusieurs occasions au match des Pickles de Portland. L\'app est facile à utiliser et le service est très rapide.',
       author4: '-Yvonne McVay, Fan des Pickles',

@@ -5,6 +5,7 @@ export default {
     study: 'Case Study',
     company: 'Company',
     contact: 'Contact Us',
+    dashboard: 'Dashboard',
   },
   home: {
     intro: {
@@ -104,11 +105,11 @@ export default {
       p1p1: 'In the Summer of 2018, the Chatler team contacted the Portland Pickles, a collegiate baseball team, to offer their in-seat delivery software and conduct a trial. We wanted to see what a frictionless ordering experience would bring to the fans and to the venue.',
       p1p2: 'We even decided as the founders, to do the deliveries ourselves get as much knowledge as possible about the process. The goal was not only to build the best product for the fans, but for the staff as well. Our results were overwhelmingly positive.',
       title2: 'Generating Additional Revenue',
-      p2: 'We help venues reach their full sales potential. We found that customers often abandoned purchases simply because the concessions lines and because they didn\'t want to miss the game.',
+      p2: 'We help venues reach their full sales potential. We found that customers often abandoned purchases simply because the concessions lines were too long and because they didn\'t want to miss the game.',
       title3: 'Reducing concession waiting times',
       p3: 'We all know that fans don\'t enjoy lines, but the same can be said for concession staff. We help them reduce their charge during the game and serving customers more efficiently.',
       title4: 'Improving the fan experience',
-      p4: 'The Pickles\' fans loved Chatler. Theirs response was far more positive than we could have imagined. What we found is that we helped them overcome three common pain points. Nobody likes to wait in line, no one wants to miss precious game time and lastly, if fans can avoid carrying cash or paying ATM fees, they will.',
+      p4: 'The Pickles\' fans loved Chatler. Their response was far more positive than we could have imagined. What we found is that we helped them overcome three common pain points. Nobody likes to wait in line, no one wants to miss precious game time and lastly, if fans can avoid carrying cash or paying ATM fees, they will.',
       testimonial1: 'Chatler kept me tuned into the game and well fed by delivering my food and beverages right to my seat.  Having in-seat service was one of the best additions to the Walker Stadium this year.',
       author1: '-David Shenson, Pickles Fan',
       testimonial2: 'No standing in lines and no need to pay ATM fees for cash lines. Chatler service is fast and friendly. This is how all teams will someday provide top notch customer service. Brilliant!',
