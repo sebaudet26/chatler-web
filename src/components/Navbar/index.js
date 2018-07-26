@@ -25,7 +25,7 @@ class Navbar extends Component {
                 <NavLink activeClassName="active" className='menu-link' to='/features'>{t.menu.features}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/company'>{t.menu.company}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/contact'>{t.menu.contact}</NavLink>
-                <a target="_blank" className='menu-link' href='http://dashboard.chatler.io'>{t.menu.dashboard}</a>
+                <a target="_blank" rel="noopener noreferrer" className='menu-link' href='http://dashboard.chatler.io'>{t.menu.dashboard}</a>
               </div>
               <div className="mobile-menu">
                 <img className="mobile-menu-icon" src={MenuIcon} alt="" onClick={this.burgerToggle} />

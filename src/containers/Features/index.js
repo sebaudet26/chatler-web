@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getTranslations } from '../../redux/selectors/translations';
-import { Link } from 'react-router-dom';
 import Request from '../../components/Request/';
 import './Features.css';
 
