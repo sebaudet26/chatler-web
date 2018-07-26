@@ -1,10 +1,19 @@
 /* Colors */
-.request h2 {
-  color: #2B313A;
-  font-weight: 400; }
-  .request h2 .accent {
-    color: #3D5AFE;
-    font-weight: 700; }
+.request {
+  background: #F6F9FC; }
+  .request h2 {
+    color: #2B313A;
+    font-weight: 400; }
+    .request h2 .accent {
+      color: #3D5AFE;
+      font-weight: 700; }
+
+@media (max-width: 768px) {
+  .request h2 {
+    text-align: center; }
+  .request .btn {
+    margin: auto !important;
+    display: table; } }
 
 @media (min-width: 576px) {
   .request .row {

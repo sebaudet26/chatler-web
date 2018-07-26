@@ -33,10 +33,9 @@
     margin-top: 15px;
     font-size: 64px; }
   .study-sales .stats-subtitle {
-    padding: 0;
-    max-width: 200px; }
+    padding: 0; }
   .study-sales img {
-    box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.15);
+    box-shadow: 0px 2px 25px 0px rgba(50, 50, 50, 0.1);
     border-radius: 6px;
     width: 100%;
     min-width: 600px; }

@@ -24,7 +24,7 @@ class Company extends Component {
                 <img src={PicklesLogo} alt=""/>
                   <h1>{t.study.intro.title}</h1>
                   <h3>{t.study.intro.subtitle}</h3>
-                  <a className="btn blue" target="_blank" rel="noopener noreferrer" href='http://m.me/478723295874005'>{t.study.intro.btn1}</a>
+                  <a className="btn blue" target="_blank" rel="noopener noreferrer" href='http://m.me/621034761581515'>{t.study.intro.btn1}</a>
                   <Link className="btn white" to='/features'>{t.study.intro.btn2}</Link>
                 </div>
               </div>

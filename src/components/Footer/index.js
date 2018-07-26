@@ -26,7 +26,7 @@ class Footer extends Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-3 col-xs-4">
+              <div className="col-sm-3 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.pages}</li>
                   <li><Link to='/'>{t.menu.home}</Link></li>
@@ -37,7 +37,7 @@ class Footer extends Component {
                   <li><a href='http://dashboard.chatler.io'>{t.menu.dashboard}</a></li>
                 </ul>
               </div>
-              <div className="col-sm-3 col-xs-4">
+              <div className="col-sm-3 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.resources}</li>
                   <li><Link to='/faq'>{t.footer.faq}</Link></li>
@@ -45,7 +45,7 @@ class Footer extends Component {
                   <li><Link to='/terms'>{t.footer.terms}</Link></li>
                 </ul>
               </div>
-              <div className="col-sm-3 col-xs-4">
+              <div className="col-sm-3 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.social}</li>
                   <li>
@@ -65,7 +65,7 @@ class Footer extends Component {
                   </li>
                 </ul>
               </div>
-              <div className="col-sm-3 col-xs-12">
+              <div className="col-sm-3 col-xs-6">
                 <ul className="footer-list">
                   <li className="footer-list-title">Language</li>
                   <li><a onClick={onLocaleChange(changeLocale, 'en', 'ca')}>English</a></li>
@@ -76,6 +76,7 @@ class Footer extends Component {
             <div className="divider"></div>
             <div className="row">
               <div className="col-sm-12">
+                <div className="contact-info">contact@chatler.io</div>
                 <div className="copyright">&copy; Chatler {(new Date()).getFullYear()}</div>
               </div>
             </div>

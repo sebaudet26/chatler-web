@@ -111,32 +111,48 @@
   }
 }
 
-.home-chatbot {
+.home-venues {
+  padding-top: 0px;
   overflow-y: hidden;
+  height: 700px;
 
-  .img-wrapper img {
-    width: 375px;
-    top: -50px;
-    -webkit-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
+  .stats-title, .stats-subtitle {
+    text-align: left;
+    padding: 0px;
+    margin-left: 0;
+  }
+
+  img {
+    top: 50px;
   }
 }
 
-.home-manager {
-  background: $alt-gradient;
-  overflow: hidden;
-  height: 700px;
+.home-lines {
+  background: $gradient;
+  height: 600px;
 
-  h2, p {
+  h2,p {
     color: $white;
   }
 
-  .img-wrapper img {
-    width: 850px;
+  img {
     top: -50px;
-    left: 50px;
-    box-shadow: $shadow;
+    right: 0;
+  }
+}
+
+.home-fans {
+  overflow-y: hidden;
+  height: 700px;
+
+  .stats-title, .stats-subtitle {
+    text-align: left;
+    padding: 0px;
+    margin-left: 0;
+  }
+
+  img {
+    top: 25px;
   }
 }
 
@@ -171,4 +187,36 @@
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
   }
+}
+
+@media (max-width: 992px) {
+  .home-study {
+    .card {
+      margin-top: -100px;
+    }
+  }
+
+  .home-venues {
+    img {
+      top: 75px;
+      left: -50px;
+    }
+  }
+
+  .home-lines {
+    img {
+      right: -75px;
+      top: 0px;
+    }
+  }
+
+  .home-fans {
+    img {
+      top: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
 }

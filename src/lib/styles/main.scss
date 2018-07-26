@@ -108,12 +108,15 @@ ul {
   }
 
   &-subtitle {
-    font-size: 12px;
+    height: 40px;
+    font-size: 14px;
     color: $grey-2;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     padding: 0 20px;
     text-align: center;
+    max-width: 200px;
+    margin: auto;
   }
 
   &-ind {
@@ -160,30 +163,60 @@ ul {
   }
 }
 
+.section-type {
+  color: $grey-3;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+
+  &-highlight {
+    color: $white;
+    font-weight: 700;
+  }
+
+  &.dark {
+    color: $grey-2;
+
+    .section-type-highlight {
+      color: $dark-main;
+      font-weight: 700;
+    }
+  }
+}
+
 .card {
   background: $white;
   border-radius: 6px;
   box-shadow: $grey-shadow;
 
   &-header {
-    padding: 50px;
+    padding: 40px;
     border-radius: 6px 6px 0 0;
 
     h2 {
       color: $white;
     }
 
+    h3 {
+      font-weight: 700;
+      color: $white;
+    }
+
     &-type {
       font-size: 14px;
-      color: $white;
-      opacity: 0.5;
-      font-weight: 700;
+      color: $grey-3;
+      font-weight: 600;
       text-transform: uppercase;
+
+      .highlight {
+        color: $white;
+        font-weight: 700;
+      }
     }
   }
 
   &-content {
-    padding: 25px 50px;
+    padding: 25px 40px;
   }
 }
 
@@ -196,7 +229,7 @@ ul {
   font-weight: bold;
   border: none;
   color: $white;
-  background: $alt-color;
+  background: $green-gradient;
   display: inline-flex;
   box-shadow: $shadow;
   padding: 15px 20px;
@@ -206,7 +239,7 @@ ul {
   margin-right: 15px;
 
   &.blue {
-    background: $main-color;
+    background: $gradient;
   }
 
   &.white {
@@ -489,11 +522,29 @@ section {
       }
     }
   }
+
+  .card-content {
+    padding: 25px 20px;
+  }
+
+  .stats-subtitle {
+    margin-bottom: 25px;
+    padding: 0px;
+  }
 }
 
 @media (max-width: 768px) {
+  .stats-title, .stats-subtitle {
+    text-align: center !important;
+    margin: auto !important;
+  }
+
   footer, section {
     padding: 50px 0;
+  }
+
+  .card-header {
+    text-align: center;
   }
 
   .hidden-xs {
@@ -514,9 +565,5 @@ section {
 
   .row.flex {
     display: block !important;
-  }
-
-  .phone {
-    margin: 0 auto 50px auto !important;
   }
 }

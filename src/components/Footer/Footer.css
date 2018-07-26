@@ -30,8 +30,11 @@ footer {
     font-weight: 600; }
     footer a:hover {
       color: #434E5D; }
+  footer .contact-info {
+    position: absolute;
+    color: #ffffff; }
   footer .copyright {
-    text-align: left;
+    text-align: center;
     color: #ffffff; }
   footer .divider {
     width: 100%;

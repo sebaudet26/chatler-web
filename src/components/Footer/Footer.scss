@@ -54,8 +54,13 @@ footer {
     }
   }
 
+  .contact-info {
+    position: absolute;
+    color: $white;
+  }
+
   .copyright {
-    text-align: left;
+    text-align: center;
     color: $white;
   }
 

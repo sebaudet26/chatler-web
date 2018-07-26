@@ -8,12 +8,12 @@ import Request from '../../components/Request/';
 //Img and Icons
 import PicklesLogo from '../../lib/img/Pickles_Logo.svg';
 import StadiumImg from '../../lib/img/stadium.svg';
-import ChatUX from '../../lib/img/chat_ux_w.png';
 import Cloud1Img from '../../lib/img/cloud-1.svg';
 import Cloud2Img from '../../lib/img/cloud-2.svg';
-import LightIcon from '../../lib/icons/lightning.svg';
-import ManageIcon from '../../lib/icons/gears.svg';
-import OrderManager from '../../lib/img/OrderManager.svg';
+import waitingLine from '../../lib/img/waitingLine.svg';
+import salesChannel from '../../lib/img/salesChannel.svg';
+import fanExperience from '../../lib/img/fanExperience.svg';
+
 
 class Home extends Component {
 
@@ -28,15 +28,15 @@ class Home extends Component {
         <section className="intro intro-home">
           <div className="container">
             <div className="row">
-              <div className="col-sm-7 col-md-6">
+              <div className="col-xs-12 col-sm-6 col-md-6">
                 <div className="intro-block">
                   <h1>{t.home.intro.title}</h1>
                   <h3>{t.home.intro.subtitle}</h3>
-                  <Link className="btn green" to='/contact'>{t.button.demo}</Link>
+                  <a className="btn green" target="_blank" rel="noopener noreferrer" href='http://m.me/478723295874005'>{t.button.demo}</a>
                   <Link className="btn-link" to='/features'>{t.home.intro.learnMore}</Link>
                 </div>
               </div>
-              <div className="col-sm-5 col-md-6 hidden-xs">
+              <div className="col-sm-6 col-md-6 hidden-xs">
                 <img className="cloud-1" src={Cloud1Img} alt=""/>
                 <img className="cloud-2" src={Cloud2Img} alt=""/>
                 <img src={StadiumImg} alt="" />
@@ -84,38 +84,55 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <section className="home-chatbot body-section">
+        <section className="home-venues body-section">
           <div className="container">
             <div className="row flex">
-              <div className="col-sm-6">
+              <div className="col-xs-12 col-sm-6">
                 <div className="img-wrapper hidden-xs">
-                  <img alt="" src={ChatUX}/>
+                  <img alt="" src={salesChannel}/>
                 </div>
               </div>
-              <div className="col-sm-6">
-                <div className="img-icon blue">
-                  <img alt="" src={LightIcon}/>
-                </div>
+              <div className="col-xs-12 col-sm-6">
+                <div className="section-type dark">{t.home.body.type}<span className="section-type-highlight">{t.home.body.type1}</span></div>
                 <h2>{t.home.body.title1}</h2>
                 <p>{t.home.body.p1}</p>
+                <div className="stats-title">30.1<span className="home-study-ind">%</span></div>
+                <div className="stats-subtitle">{t.home.body.study.subtitle3}</div>
+
               </div>
             </div>
           </div>
         </section>
-        <section className="home-manager body-section">
+        <section className="home-lines body-section">
           <div className="container">
             <div className="row flex">
-              <div className="col-sm-6">
-                <div className="img-icon blue">
-                  <img alt="" src={ManageIcon}/>
-                </div>
+              <div className="col-xs-12 col-sm-6">
+                <div className="section-type">{t.home.body.type}<span className="section-type-highlight">{t.home.body.type2}</span></div>
                 <h2>{t.home.body.title2}</h2>
                 <p>{t.home.body.p2}</p>
               </div>
-              <div className="col-sm-6">
+              <div className="col-xs-12 col-sm-6">
                 <div className="img-wrapper hidden-xs">
-                  <img alt="" src={OrderManager}/>
+                  <img alt="" src={waitingLine}/>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="home-fans body-section">
+          <div className="container">
+            <div className="row flex">
+              <div className="col-xs-12 col-sm-6">
+                <div className="img-wrapper hidden-xs">
+                  <img alt="" src={fanExperience}/>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6">
+                <div className="section-type dark">{t.home.body.type}<span className="section-type-highlight">{t.home.body.type3}</span></div>
+                <h2>{t.home.body.title3}</h2>
+                <p>{t.home.body.p3}</p>
+                <div className="stats-title">87<span className="home-study-ind"></span></div>
+                <div className="stats-subtitle">NPS Recommendation Score (Industry Avg. 28)</div>
               </div>
             </div>
           </div>

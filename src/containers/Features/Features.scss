@@ -2,7 +2,7 @@
 
 .intro {
   &-features {
-    background: $dark-main;
+    background: $alt-gradient;
   }
 
   .row {
@@ -93,7 +93,7 @@
   }
 
   &-commerce {
-    background: $dark-main;
+    background: $alt-gradient;
     height: 800px;
 
     h2, p {

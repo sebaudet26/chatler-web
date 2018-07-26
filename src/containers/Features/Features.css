@@ -1,6 +1,6 @@
 /* Colors */
 .intro-features {
-  background: #232C63; }
+  background: linear-gradient(135deg, #2A346E 0%, #465498 100%); }
 
 .intro .row {
   position: relative;
@@ -62,7 +62,7 @@
     transform: rotate(-10deg); }
 
 .feature-commerce {
-  background: #232C63;
+  background: linear-gradient(135deg, #2A346E 0%, #465498 100%);
   height: 800px; }
   .feature-commerce h2, .feature-commerce p {
     color: #ffffff; }
