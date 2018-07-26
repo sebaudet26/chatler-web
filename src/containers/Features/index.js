@@ -31,7 +31,7 @@ class Features extends Component {
                 <div className="intro-block center-section">
                   <h1>{t.features.intro.title}</h1>
                   <h3>{t.features.intro.subtitle}</h3>
-                  <Link className="btn blue" to='/contact'>{t.button.demo}</Link>
+                  <a className="btn blue" target="_blank" rel="noopener noreferrer" href='http://m.me/478723295874005'>{t.button.demo}</a>
                   <ul className="intro-list">
                     <li className="intro-list-item">
                       <div className="img-icon blue"><img alt="" src={FrictionIcon}/></div>
