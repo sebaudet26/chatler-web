@@ -93,13 +93,16 @@ ul {
   font-weight: 400; }
 
 .intro {
+  width: 110%;
+  left: -5%;
   padding-top: 90px;
   display: flex;
   align-items: center;
   color: #ffffff;
   position: relative;
   background: linear-gradient(135deg, #3D5AFE 0%, #6889FF 100%);
-  min-height: 300px; }
+  min-height: 300px;
+  border-radius: 0 0 50% 50% / 15%; }
   .intro-block {
     position: relative;
     margin-bottom: 0px; }
