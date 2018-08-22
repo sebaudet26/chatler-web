@@ -47,7 +47,7 @@ class Company extends Component {
             </div>
             <div className="row">
               <div className="col-xs-6 col-sm-3">
-                <div className="stats-title">57<span className="stats-ind">%</span></div>
+                <div className="stats-title">60<span className="stats-ind">%</span></div>
                 <div className="stats-subtitle">{t.stats.conversion}</div>
               </div>
               <div className="col-xs-6 col-sm-3">
@@ -73,7 +73,7 @@ class Company extends Component {
                 <p>{t.study.body.p2}</p>
                 <div className="row">
                   <div className="col-xs-6 col-sm-4">
-                    <div className="stats-title">12<span className="stats-ind">%</span></div>
+                    <div className="stats-title">15<span className="stats-ind">%</span></div>
                     <div className="stats-subtitle">{t.stats.salesVolume}</div>
                   </div>
                   <div className="col-xs-6 col-sm-4">
