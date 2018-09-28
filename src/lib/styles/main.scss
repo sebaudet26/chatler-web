@@ -435,17 +435,7 @@ section {
 
 @media (max-width: 992px) {
   .intro {
-
-    .mouse {
-      display: none !important;
-    }
-
-    &::before {
-      left: 0;
-      width: 100%;
-      border-radius: 0;
-      overflow-x: hidden;
-    }
+    padding: 50px 25px;
   }
 
   footer, section {
@@ -546,6 +536,12 @@ section {
     padding: 50px 0;
   }
 
+  section.intro {
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+  }
+
   .card-header {
     text-align: center;
   }
@@ -564,6 +560,8 @@ section {
 
   .intro {
     text-align: center;
+    width: 120%;
+    left: -10%;
   }
 
   .row.flex {

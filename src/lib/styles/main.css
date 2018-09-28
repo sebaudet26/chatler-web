@@ -300,13 +300,8 @@ section {
     background: #232C63; }
 
 @media (max-width: 992px) {
-  .intro .mouse {
-    display: none !important; }
-  .intro::before {
-    left: 0;
-    width: 100%;
-    border-radius: 0;
-    overflow-x: hidden; }
+  .intro {
+    padding: 50px 25px; }
   footer, section {
     padding: 50px 0; }
   .menu-link {
@@ -359,6 +354,10 @@ section {
     margin: auto !important; }
   footer, section {
     padding: 50px 0; }
+  section.intro {
+    width: 100%;
+    left: 0;
+    border-radius: 0; }
   .card-header {
     text-align: center; }
   .hidden-xs {
@@ -368,6 +367,8 @@ section {
     .body-section .img-icon {
       margin: 25px auto 35px auto; }
   .intro {
-    text-align: center; }
+    text-align: center;
+    width: 120%;
+    left: -10%; }
   .row.flex {
     display: block !important; } }
