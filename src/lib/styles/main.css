@@ -1,30 +1,58 @@
 /* Colors */
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Bold.otf) format("truetype");
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Demi.otf) format("truetype");
+  font-weight: 500; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-DemiIt.otf) format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Regular.otf) format("truetype");
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-It.otf) format("truetype");
+  font-weight: 400;
+  font-style: italic; }
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Avenir Next", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden; }
 
 h1 {
   font-size: 48px;
-  font-weight: 700; }
+  font-weight: bold; }
 
 h2 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 600;
   color: #232C63; }
 
 h3 {
   font-size: 24px;
-  font-weight: 400; }
+  font-weight: 500; }
 
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: #2B313A;
-  line-height: 36px; }
+  color: #434E5D;
+  line-height: 36px;
+  font-weight: 500; }
 
 a {
   text-decoration: none;
@@ -56,24 +84,23 @@ ul {
 .white {
   color: #ffffff; }
 
-.brand {
-  font-size: 20px;
-  font-weight: 600; }
-  .brand-logo {
-    margin-right: 10px; }
-  .brand a {
-    display: flex;
-    align-items: center; }
-    .brand a:hover {
-      opacity: 0.75; }
-  .brand .logo {
-    margin-top: -6px;
-    margin-right: 10px;
-    height: 40px; }
+.brand-logo {
+  margin-right: 10px; }
+
+.brand a {
+  display: flex;
+  align-items: center; }
+  .brand a:hover {
+    opacity: 0.75; }
+
+.brand .logo {
+  margin-top: -6px;
+  margin-right: 10px;
+  height: 40px; }
 
 .stats-title {
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 500;
   color: #232C63;
   text-align: center; }
 
@@ -81,7 +108,7 @@ ul {
   height: 40px;
   font-size: 14px;
   color: #6F7785;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   padding: 0 20px;
   text-align: center;
@@ -123,15 +150,15 @@ ul {
   color: #CBD1DB;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 500; }
   .section-type-highlight {
     color: #ffffff;
-    font-weight: 700; }
+    font-weight: 600; }
   .section-type.dark {
     color: #6F7785; }
     .section-type.dark .section-type-highlight {
       color: #232C63;
-      font-weight: 700; }
+      font-weight: 600; }
 
 .card {
   background: #ffffff;
@@ -152,7 +179,7 @@ ul {
       text-transform: uppercase; }
       .card-header-type .highlight {
         color: #ffffff;
-        font-weight: 700; }
+        font-weight: 600; }
   .card-content {
     padding: 25px 40px; }
 
@@ -161,7 +188,7 @@ ul {
 
 .btn {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   border: none;
   color: #ffffff;
   background: linear-gradient(135deg, #21C090 0%, #46E1C3 100%);
@@ -182,7 +209,7 @@ ul {
   .btn-link {
     color: #ffffff;
     font-size: 16px;
-    font-weight: 700; }
+    font-weight: 600; }
     .btn-link:hover {
       opacity: 0.75; }
     .btn-link:hover {
@@ -229,12 +256,14 @@ section {
     font-size: 12px;
     text-transform: uppercase;
     margin: 25px 0 0 0 !important;
-    font-weight: 700;
+    font-weight: 600;
     color: #6F7785; }
 
 .bullet-list {
   font-size: 18px;
-  line-height: 54px; }
+  line-height: 54px;
+  font-weight: 500;
+  color: #434E5D; }
   .bullet-list-item {
     display: flex;
     align-items: center; }
@@ -246,7 +275,7 @@ section {
     background: #E2E7EC;
     font-size: 14px;
     color: #3D5AFE;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
     line-height: 25px; }
 

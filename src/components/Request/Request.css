@@ -3,10 +3,10 @@
   background: #F6F9FC; }
   .request h2 {
     color: #2B313A;
-    font-weight: 400; }
+    font-weight: 500; }
     .request h2 .accent {
       color: #3D5AFE;
-      font-weight: 700; }
+      font-weight: 600; }
 
 @media (max-width: 768px) {
   .request h2 {
