@@ -1,8 +1,19 @@
 /* Colors */
 @font-face {
   font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Heavy.otf) format("truetype");
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Avenir Next';
   src: url(../fonts/AvenirNext/AvenirNextLTPro-Bold.otf) format("truetype");
   font-weight: 600; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-BoldItalic.otf) format("truetype");
+  font-weight: 600;
+  font-style: italic; }
 
 @font-face {
   font-family: 'Avenir Next';
@@ -17,13 +28,24 @@
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url(../fonts/AvenirNext/AvenirNextLTPro-Regular.otf) format("truetype");
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Medium.otf) format("truetype");
   font-weight: 400; }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url(../fonts/AvenirNext/AvenirNextLTPro-It.otf) format("truetype");
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-MediumItalic.otf) format("truetype");
   font-weight: 400;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-Regular.otf) format("truetype");
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url(../fonts/AvenirNext/AvenirNextLTPro-It.otf) format("truetype");
+  font-weight: 300;
   font-style: italic; }
 
 body {
@@ -36,23 +58,23 @@ body {
 
 h1 {
   font-size: 48px;
-  font-weight: bold; }
+  font-weight: 600; }
 
 h2 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   color: #232C63; }
 
 h3 {
   font-size: 24px;
-  font-weight: 500; }
+  font-weight: 400; }
 
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: #434E5D;
+  color: #2B313A;
   line-height: 36px;
-  font-weight: 500; }
+  font-weight: 400; }
 
 a {
   text-decoration: none;
@@ -89,7 +111,10 @@ ul {
 
 .brand a {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic; }
   .brand a:hover {
     opacity: 0.75; }
 
@@ -262,7 +287,7 @@ section {
 .bullet-list {
   font-size: 18px;
   line-height: 54px;
-  font-weight: 500;
+  font-weight: 400;
   color: #434E5D; }
   .bullet-list-item {
     display: flex;
@@ -299,6 +324,9 @@ section {
   .img-icon img {
     margin: auto; }
 
+.light-theme section {
+  padding: 150px 0 75px 0; }
+
 .light-theme h1:first-child {
   margin-top: 0px; }
 
@@ -314,14 +342,11 @@ section {
 .light-theme footer {
   border-top: solid 1px #E2E7EC; }
 
-.light-theme .brand-logo path {
-  fill: #232C63; }
+.light-theme .brand a {
+  color: #232C63; }
 
 .light-theme footer .brand a {
   color: #ffffff; }
-
-.light-theme footer .brand-logo path {
-  fill: #ffffff; }
 
 .light-theme .menu-link {
   color: #232C63; }

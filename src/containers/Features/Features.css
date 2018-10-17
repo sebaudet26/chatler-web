@@ -25,12 +25,12 @@
     .intro-list-item-title {
       color: #ffffff;
       font-size: 18px;
-      font-weight: 600;
+      font-weight: 500;
       margin-top: 15px; }
     .intro-list-item-subtitle {
       color: #CBD1DB;
       margin-top: 5px;
-      font-weight: 500; }
+      font-weight: 400; }
 
 .features-type {
   color: #ffffff;
@@ -47,7 +47,7 @@
     text-transform: uppercase;
     font-size: 18px;
     color: #434E5D;
-    font-weight: 700; }
+    font-weight: 500; }
 
 .feature-ux {
   background: #3D5AFE;

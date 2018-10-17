@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { NavLink, withRouter } from 'react-router-dom';
 import './Navbar.css';
 import MenuIcon from '../../lib/icons/menu-button.svg';
-import Logo from '../../lib/img/Chatler_Logo.js';
 import { getTranslations } from '../../redux/selectors/translations';
 
 class Navbar extends Component {
@@ -17,14 +16,13 @@ class Navbar extends Component {
             <div className="nav-wrapper">
               <div className="brand">
                 <a href={process.env.PUBLIC_URL + '/'}>
-                  <Logo/>
+                  Chatler
                 </a>
               </div>
               <div className="menu">
                 <NavLink activeClassName="active" className='menu-link' exact to={process.env.PUBLIC_URL + '/'}>{t.menu.home}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/features'>{t.menu.features}</NavLink>
                 <NavLink activeClassName="active" className='menu-link' to='/company'>{t.menu.company}</NavLink>
-                <NavLink activeClassName="active" className='menu-link' to='/contact'>{t.menu.contact}</NavLink>
                 <a target="_blank" rel="noopener noreferrer"className='menu-link' href='http://dashboard.chatler.io'>{t.menu.dashboard}</a>
               </div>
               <div className="mobile-menu">
@@ -33,7 +31,6 @@ class Navbar extends Component {
                   <li><NavLink to='/' exact onClick={this.burgerToggle}>{t.menu.home}</NavLink></li>
                   <li><NavLink to='/features' onClick={this.burgerToggle}>{t.menu.features}</NavLink></li>
                   <li><NavLink to='/company' onClick={this.burgerToggle}>{t.menu.company}</NavLink></li>
-                  <li><NavLink to='/contact' onClick={this.burgerToggle}>{t.menu.contact}</NavLink></li>
                 </ul>
               </div>
             </div>

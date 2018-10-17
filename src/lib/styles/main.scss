@@ -2,8 +2,21 @@
 
 @font-face {
    font-family: 'Avenir Next';
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-Heavy.otf) format('truetype');
+   font-weight: 700;
+}
+
+@font-face {
+   font-family: 'Avenir Next';
    src: url(../fonts/AvenirNext/AvenirNextLTPro-Bold.otf) format('truetype');
    font-weight: 600;
+}
+
+@font-face {
+   font-family: 'Avenir Next';
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-BoldItalic.otf) format('truetype');
+   font-weight: 600;
+   font-style: italic;
 }
 
 @font-face {
@@ -21,14 +34,27 @@
 
 @font-face {
    font-family: 'Avenir Next';
-   src: url(../fonts/AvenirNext/AvenirNextLTPro-Regular.otf) format('truetype');
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-Medium.otf) format('truetype');
    font-weight: 400;
 }
 
 @font-face {
    font-family: 'Avenir Next';
-   src: url(../fonts/AvenirNext/AvenirNextLTPro-It.otf) format('truetype');
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-MediumItalic.otf) format('truetype');
    font-weight: 400;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Avenir Next';
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-Regular.otf) format('truetype');
+   font-weight: 300;
+}
+
+@font-face {
+   font-family: 'Avenir Next';
+   src: url(../fonts/AvenirNext/AvenirNextLTPro-It.otf) format('truetype');
+   font-weight: 300;
    font-style: italic;
 }
 
@@ -44,26 +70,26 @@ body {
 
 h1 {
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 500;
   color: $dark-main;
 }
 
 h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 p {
   font-size: 18px;
   margin: 25px 0;
-  color: $grey-1;
+  color: $black;
   line-height: 36px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
@@ -118,6 +144,9 @@ ul {
   a {
     display: flex;
     align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: italic;
 
     &:hover {
       opacity: 0.75;
@@ -364,7 +393,7 @@ section {
 .bullet-list {
   font-size: 18px;
   line-height: 54px;
-  font-weight: 500;
+  font-weight: 400;
   color: $grey-1;
 
   &-item {
@@ -420,6 +449,9 @@ section {
 }
 
 .light-theme {
+  section {
+    padding: 150px 0 75px 0;
+  }
 
   h1:first-child {
     margin-top: 0px;
@@ -442,8 +474,8 @@ section {
   }
 
   .brand {
-    &-logo path {
-      fill: $dark-main;
+     a {
+      color: $dark-main;
     }
   }
 
@@ -451,9 +483,6 @@ section {
     .brand {
       a {
         color: $white;
-      }
-      &-logo path {
-        fill: $white;
       }
     }
   }
