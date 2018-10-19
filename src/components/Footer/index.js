@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import "./Footer.css";
 import { getTranslations } from '../../redux/selectors/translations';
+import Logo from '../../lib/img/Logo.js';
 import { changeLocale } from '../../redux/actions/app';
 
 const onLocaleChange = (action, language, country) => () => action(language, country);
@@ -19,6 +20,7 @@ class Footer extends Component {
               <div className="col-sm-4 col-xs-12">
                 <div className="brand">
                   <Link to='/'>
+                    <Logo />
                     Chatler
                   </Link>
                 </div>

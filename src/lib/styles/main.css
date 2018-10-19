@@ -119,7 +119,7 @@ ul {
     opacity: 0.75; }
 
 .brand .logo {
-  margin-top: -6px;
+  margin-top: -3px;
   margin-right: 10px;
   height: 40px; }
 
@@ -344,9 +344,17 @@ section {
 
 .light-theme .brand a {
   color: #232C63; }
+  .light-theme .brand a .logo .main {
+    fill: #3D5AFE; }
+  .light-theme .brand a .logo .alt {
+    fill: #3D5AFE; }
 
 .light-theme footer .brand a {
   color: #ffffff; }
+  .light-theme footer .brand a .logo .main {
+    fill: #ffffff; }
+  .light-theme footer .brand a .logo .alt {
+    fill: #ffffff; }
 
 .light-theme .menu-link {
   color: #232C63; }

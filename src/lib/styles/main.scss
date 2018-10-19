@@ -154,7 +154,7 @@ ul {
   }
 
   .logo {
-    margin-top: -6px;
+    margin-top: -3px;
     margin-right: 10px;
     height: 40px;
   }
@@ -476,6 +476,16 @@ section {
   .brand {
      a {
       color: $dark-main;
+
+      .logo {
+        .main {
+          fill: $main-color;
+        }
+
+        .alt {
+          fill: $main-color;
+        }
+      }
     }
   }
 
@@ -483,6 +493,16 @@ section {
     .brand {
       a {
         color: $white;
+
+        .logo {
+          .main {
+            fill: $white;
+          }
+
+          .alt {
+            fill: $white;
+          }
+        }
       }
     }
   }
