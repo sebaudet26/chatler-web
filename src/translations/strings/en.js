@@ -85,7 +85,7 @@ export default {
   },
   company: {
     intro: {
-      title: 'We help venues increase their sales.',
+      title: 'It\'s a butler that chats. Your Chatler.',
       subtitle: 'At Chatler, we make it our mission to remove the barriers between venues and their customers.',
     },
     body: {

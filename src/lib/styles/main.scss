@@ -187,8 +187,6 @@ ul {
 }
 
 .intro {
-  width: 110%;
-  left: -5%;
   padding-top: 90px;
   display: flex;
   align-items: center;
@@ -196,7 +194,6 @@ ul {
   position: relative;
   background: $gradient;
   min-height: 300px;
-  border-radius: 0 0 50% 50% / 15%;
 
   &-block {
     position: relative;

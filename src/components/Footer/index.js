@@ -21,7 +21,6 @@ class Footer extends Component {
                 <div className="brand">
                   <Link to='/'>
                     <Logo />
-                    Chatler
                   </Link>
                 </div>
               </div>
@@ -34,7 +33,6 @@ class Footer extends Component {
                   <li><Link to='/features'>{t.menu.features}</Link></li>
                   <li><Link to='/case-study'>{t.menu.study}</Link></li>
                   <li><Link to='/company'>{t.menu.company}</Link></li>
-                  <li><Link to='/contact'>{t.menu.contact}</Link></li>
                   <li><a target="_blank" rel="noopener noreferrer" href='http://dashboard.chatler.io'>{t.menu.dashboard}</a></li>
                 </ul>
               </div>

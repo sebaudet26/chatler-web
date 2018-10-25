@@ -19,7 +19,6 @@
   animation-duration: 1s; }
 
 .home-study .card {
-  margin-top: -150px;
   z-index: 99;
   position: relative;
   will-change: transform;

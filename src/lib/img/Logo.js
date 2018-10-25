@@ -12,7 +12,7 @@ const Logo = props =>
                 <mask id="mask-2" fill="white">
                     <use xlinkHref="#path-1"></use>
                 </mask>
-                <use className="alt" id="Mask" fill="#FFFFFF" fillRule="nonzero" opacity="0.15" xlinkHref="#path-1"></use>
+                <use className="alt" id="Mask" fill="#FFFFFF" fillRule="nonzero" opacity="0.25" xlinkHref="#path-1"></use>
                 <polygon className="main" fill="#FFFFFF" mask="url(#mask-2)" points="-78 -53 340 -53 246.632687 236.006939 340 525.013878 -78 520"></polygon>
             </g>
         </g>

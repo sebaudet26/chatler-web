@@ -18,7 +18,6 @@ class Navbar extends Component {
               <div className="brand">
                 <a href={process.env.PUBLIC_URL + '/'}>
                   <Logo />
-                  Chatler
                 </a>
               </div>
               <div className="menu">
