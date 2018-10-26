@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Request from '../../components/Request/';
 import { getTranslations } from '../../redux/selectors/translations';
 import './Company.css';
 import RocketIcon from '../../lib/icons/rocket.svg';
@@ -54,7 +53,6 @@ class Company extends Component {
             </div>
           </section>
         </div>
-        <Request />
       </div>
     );
   }

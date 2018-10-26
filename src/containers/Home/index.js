@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { getTranslations } from '../../redux/selectors/translations';
 import { Link } from 'react-router-dom';
 import './Home.css';
-import Request from '../../components/Request/';
 
 //Img and Icons
 import PicklesLogo from '../../lib/img/Pickles_Logo.svg';
@@ -137,7 +136,6 @@ class Home extends Component {
             </div>
           </div>
         </section>
-        <Request />
       </div>
     );
   }

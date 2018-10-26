@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
-import Request from '../../components/Request/';
 import { getTranslations } from '../../redux/selectors/translations';
 import './CaseStudy.css';
 import PicklesLogo from '../../lib/img/Pickles_Blue_Logo.svg';
@@ -132,7 +131,6 @@ class Company extends Component {
             </div>
           </div>
         </section>
-        <Request />
       </div>
     );
   }

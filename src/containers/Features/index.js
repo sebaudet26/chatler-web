@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { getTranslations } from '../../redux/selectors/translations';
-import Request from '../../components/Request/';
 import './Features.css';
 
 //Img and Icons
@@ -159,7 +158,6 @@ class Features extends Component {
             </div>
           </div>
         </section>
-        <Request />
       </div>
     );
   }
