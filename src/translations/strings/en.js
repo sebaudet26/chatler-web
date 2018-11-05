@@ -123,10 +123,6 @@ export default {
       author4: '-Yvonne McVay, Pickles Fan',
     },
   },
-  contact: {
-    title: 'Request a Demo',
-    subtitle: 'Bring Chatler to your venue and score with your fans!',
-  },
   form: {
     email: 'Email',
     fName: 'First Name',
@@ -135,10 +131,6 @@ export default {
   },
   button: {
     demo: 'View Demo',
-  },
-  request: {
-    l1: 'Score with your Fans!',
-    l2: 'Bring Chatler to your venue.',
   },
   footer: {
     pages: 'Contents',

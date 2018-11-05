@@ -123,10 +123,6 @@ export default {
     deliveryTime: 'Temps Moyen de Livraison',
     satisfaction: 'Susceptible de Recommender Chatler',
   },
-  contact: {
-    title: 'Demander un Démo',
-    subtitle: 'Amenez Chatler à votre amphithéâtre et marquez avec vos fans!',
-  },
   form: {
     email: 'Courriel',
     fName: 'Prénom',
@@ -135,10 +131,6 @@ export default {
   },
   button: {
     demo: 'Voir Démo',
-  },
-  request: {
-    l1: 'Marquez avec vos Fans!',
-    l2: 'Déployez Chatler à votre amphithéâtre.',
   },
   footer: {
     pages: 'Contenu',
