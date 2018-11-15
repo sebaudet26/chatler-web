@@ -48,6 +48,11 @@ class Footer extends Component {
                 <ul className="footer-list">
                   <li className="footer-list-title">{t.footer.social}</li>
                   <li>
+                    <a href="https://medium.com/chatler-blog">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
                     <a href="https://www.facebook.com/Chatler-Pickles-621034761581515/">
                       Facebook
                     </a>
