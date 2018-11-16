@@ -33,7 +33,7 @@ class Footer extends Component {
                   <li><Link to='/features'>{t.menu.features}</Link></li>
                   <li><Link to='/case-study'>{t.menu.study}</Link></li>
                   <li><Link to='/company'>{t.menu.company}</Link></li>
-                  <li><a target="_blank" rel="noopener noreferrer" href='http://dashboard.chatler.io'>{t.menu.dashboard}</a></li>
+                  <li><a target="_blank" rel="noopener noreferrer" href='https://dashboard.chatler.io'>{t.menu.dashboard}</a></li>
                 </ul>
               </div>
               <div className="col-sm-3 col-xs-6">
